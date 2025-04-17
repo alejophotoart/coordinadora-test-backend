@@ -1,8 +1,9 @@
 # Prueba Ingreso Coordinadora Backend (RestServer)
 
-@author: Jose Alejandro Calderon Rico
-@corre: alejandronba98@gmail.com
-@telefono: +57 3154709447
+## Autor
+**Jose Alejandro Calderon Rico**
+📧 alejandronba98@gmail.com  
+📱 +57 315 470 9447
 
 Hola a todos, Esta es la prueba backend. Dejare un listado descriptivo donde indique lo que se utilizo para realizarlo
 
@@ -27,4 +28,4 @@ Para continuar con la pruebas del backend, hay ciertas herramientas a tener en c
 2.  Descargar el codigo o hacer `git clone ${link del repositorio}`
 3.  Ir a la carpeta del proyecto y en consola ejecutar `npm instal o npm i`
 4.  Luego para crear las tabla y sus modelos deberas ejecutar `nodemon app`
-5.  *IMPORTANTE* ejecutar el siguiente comando que funciona como seeder para la tabla de roles: `node seeders/seedRoles.js`
+5.  **IMPORTANTE** ejecutar el siguiente comando que funciona como seeder para la tabla de roles: `node seeders/seedRoles.js`
