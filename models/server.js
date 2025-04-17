@@ -5,10 +5,6 @@ const cors = require('cors');
 
 const dbConnection = require('../database/config.db');
 const sequelize = require('../database/sequelize');
-
-// Importar modelos para sincronizacion
-const { User, Role } = require('../models')
-
 class Server {
 
     constructor() {
@@ -31,10 +27,6 @@ class Server {
 
     async connectDB() {
         await dbConnection()
-
-        await sequelize.sync({ alter: true });
-
-        console.log('Tablas sincronizadas');
     }
 
     middlewares() {

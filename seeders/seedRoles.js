@@ -14,11 +14,16 @@ const seedRoles = async() => {
         }
 
         console.log('Roles insertados correctamente');
-        process.exit();
+        
     } catch (error) {
 
         console.error('Error al insertar roles:', error);
         process.exit(1);
+    } finally {
+        
+        await sequelize.close();
+        console.log('Conexión terminada.');
+        process.exit();
     }
 }
 
