@@ -13,7 +13,10 @@ class Server {
         
         this.routePaths = {
             auth:  '/api/auth',
+            orders: '/api/orders',
             users: '/api/users',
+            trails: '/api/trails',
+            carriers: '/api/carriers',
         }
         
         // Conexion a la DB
@@ -41,7 +44,10 @@ class Server {
 
     routes() {
         this.app.use(this.routePaths.auth, require('../routes/auth.routes'));
+        this.app.use(this.routePaths.orders, require('../routes/orders.routes'));
         this.app.use(this.routePaths.users, require('../routes/users.routes'));
+        this.app.use(this.routePaths.trails, require('../routes/trails.routes'));
+        this.app.use(this.routePaths.carriers, require('../routes/carriers.routes'));
     }
 
     listen() {

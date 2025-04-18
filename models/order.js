@@ -42,20 +42,6 @@ const Order = sequelize.define('Order', {
             key: 'id'
         }
     },
-    guideNumber: {
-        type: DataTypes.STRING(11),
-        allowNull: false,
-        unique: true,
-        comment: "Numero de guia"
-    },
-    priceDelivery: {
-        type: DataTypes.DECIMAL(10, 2),
-        allowNull: false
-    },
-    estimatedDate: {
-        type: DataTypes.DATE,
-        allowNull: true
-    },
     originCityId: {
         type: DataTypes.INTEGER,
         allowNull: false,
@@ -72,9 +58,47 @@ const Order = sequelize.define('Order', {
             key: 'id'
         }
     },
+    trailId: {
+        type: DataTypes.INTEGER,
+        allowNull: true,
+        comment: "Id de la ruta asignada",
+        references: {
+            model: 'trails',
+            key: 'id'
+        }
+    },
+    carrierId: {
+        type: DataTypes.INTEGER,
+        allowNull: true,
+        comment: "Id del transportiste asignado",
+        references: {
+            model: 'carriers',
+            key: 'id'
+        }
+    },
+    guideNumber: {
+        type: DataTypes.STRING,
+        allowNull: false,
+        unique: true,
+        comment: "Numero de guia"
+    },
+    priceDelivery: {
+        type: DataTypes.DECIMAL(10, 2),
+        allowNull: true,
+        defaultValue: 0
+    },
+    estimatedDate: {
+        type: DataTypes.STRING,
+        allowNull: true
+    },
     address: {
         type: DataTypes.STRING,
         allowNull: false,
+    },
+    addressDetail: {
+        type: DataTypes.STRING(100),
+        allowNull: true,
+        comment: "Detalles de la direccion ejemplo: Apto 202 Bloque A - Unidad Residencial Las palmas"
     }
 }, {
     tableName: 'orders',

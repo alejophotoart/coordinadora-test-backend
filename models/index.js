@@ -1,15 +1,19 @@
-const City = require('./city')
-const Country = require('./country')
+const Carrier      = require('./carrier')
+const City         = require('./city')
+const Country      = require('./country')
 const DocumentType = require('./document-type')
-const Order = require('./order')
-const OrderItem = require('./order-item')
-const OrderStatus = require('./order-status')
-const Package = require('./package')
-const Recipient = require('./recipient')
-const Role = require('./role')
-const Sender = require('./sender')
-const State = require('./state')
-const User = require('./user')
+const Order        = require('./order')
+const OrderItem    = require('./order-item')
+const OrderStatus  = require('./order-status')
+const Package      = require('./package')
+const Recipient    = require('./recipient')
+const Role         = require('./role')
+const Sender       = require('./sender')
+const State        = require('./state')
+const Trail        = require('./trail')
+const TrailCarrier = require('./trail-carrier')
+const User         = require('./user')
+const Vehicle      = require('./vehicle') 
 
 
 // Relacion con Roles a Users
@@ -38,13 +42,26 @@ State.belongsTo(Country, { foreignKey: 'countryId' });
 // Relacion con states a cities
 City.belongsTo(State, { foreignKey: 'stateId' });
 
-// Relacion con Roles a Users
+// Relacion con document type a Senders
 Sender.belongsTo(DocumentType, { foreignKey: 'documentTypeId' });
+DocumentType.hasMany(Sender, { foreignKey: 'documentTypeId' });
 
 // Relacion con Roles a Users
 Recipient.belongsTo(DocumentType, { foreignKey: 'documentTypeId' });
 
+//Relacion de trails con carriers asignados 
+Trail.belongsToMany(Carrier, {
+    through: 'TrailCarrier',
+    foreignKey: 'trailId',
+    otherKey: 'carrierId',
+    as: 'carriers'
+  });
+
+// Relacion de carrier con vehicle
+Carrier.belongsTo(Vehicle, {foreignKey: 'vehicleId'});
+
 module.exports = {
+    Carrier,
     City,
     Country,
     DocumentType,
@@ -54,6 +71,10 @@ module.exports = {
     Package,
     Recipient,
     Role,
+    Sender,
     State,
+    Trail,
+    TrailCarrier,
     User,
+    Vehicle,
 }

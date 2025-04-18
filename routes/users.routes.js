@@ -19,7 +19,7 @@ router.post('/', [
     check('password', 'El password debe ser mayor a 6 caracteres').isLength({ min: 6 }),
     check('email', 'El correo no es valido').isEmail(),
     check('email').custom( isEmailUsed ),
-    check('roleId').custom( isRoleValid ),
+    // check('roleId').custom( isRoleValid ),
     validateFields
 ], register)
 

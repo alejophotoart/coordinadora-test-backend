@@ -25,17 +25,22 @@ const users = async (req = request, res = response) => {
 const register = async (req = request, res = response) => {
     
     try {
-
         // Agarramos solos los que deseamos ingresar y validar
         const { name, email, password, roleId } = req.body
 
         // Guardar en BD
-        const user = await User.create({
+        const user = User.build({
             name,
             email,
-            password,
-            roleId
+            password
         });
+
+        // Validacion de RoleId
+        if (roleId) {
+            user.roleId = roleId
+        }
+
+        await user.save()
         
         res.status(201).json({
             msg: "Usuario registrado exitosamente! ✅",

@@ -1,5617 +1,1126 @@
 [
-    {
-        "name": "MEDELLÍN"   ,
-        "stateId": 2
-    },
-
-    {
-        "name": "ABEJORRAL"  ,
-        "stateId": 2
-    },
-
-    {
-        "name": "ABRIAQUÍ"   ,
-        "stateId": 2
-    },
-
-    {
-        "name": "ALEJANDRÍA" ,
-        "stateId": 2
-    },
-
-    {
-        "name": "AMAGÁ"  ,
-        "stateId": 2
-    },
-
-    {
-        "name": "AMALFI" ,
-        "stateId": 2
-    },
-
-    {
-        "name": "ANDES"  ,
-        "stateId": 2
-    },
-
-    {
-        "name": "ANGELÓPOLIS",
-        "stateId": 2
-    },
-
-    {
-        "name": "ANGOSTURA"  ,
-        "stateId": 2
-    },
-
-    {
-        "name": "ANORÍ"  ,
-        "stateId": 2
-    },
-
-    {
-        "name": "SANTA FÉ DE ANTIOQUIA",
-        "stateId": 2
-    },
-
-    {
-        "name": "ANZÁ" ,
-        "stateId": 2
-    },
-
-    {
-        "name": "APARTADÓ"   ,
-        "stateId": 2
-    },
-
-    {
-        "name": "ARBOLETES"  ,
-        "stateId": 2
-    },
-
-    {
-        "name": "ARGELIA",
-        "stateId": 2
-    },
-
-    {
-        "name": "ARMENIA",
-        "stateId": 2
-    },
-
-    {
-        "name": "BARBOSA",
-        "stateId": 2
-    },
-
-    {
-        "name": "BELMIRA",
-        "stateId": 2
-    },
-
-    {
-        "name": "BELLO"  ,
-        "stateId": 2
-    },
-
-    {
-        "name": "BETANIA",
-        "stateId": 2
-    },
-
-    {
-        "name": "BETULIA",
-        "stateId": 2
-    },
-
-    {
-        "name": "CIUDAD BOLÍVAR" ,
-        "stateId": 2
-    },
-
-    {
-        "name": "BRICEÑO",
-        "stateId": 2
-    },
-
-    {
-        "name": "BURITICÁ"   ,
-        "stateId": 2
-    },
-
-    {
-        "name": "CÁCERES",
-        "stateId": 2
-    },
-
-    {
-        "name": "CAICEDO",
-        "stateId": 2
-    },
-
-    {
-        "name": "CALDAS" ,
-        "stateId": 2
-    },
-
-    {
-        "name": "CAMPAMENTO" ,
-        "stateId": 2
-    },
-
-    {
-        "name": "CAÑASGORDAS",
-        "stateId": 2
-    },
-
-    {
-        "name": "CARACOLÍ"   ,
-        "stateId": 2
-    },
-
-    {
-        "name": "CARAMANTA"  ,
-        "stateId": 2
-    },
-
-    {
-        "name": "CAREPA" ,
-        "stateId": 2
-    },
-
-    {
-        "name": "EL CARMEN DE VIBORAL" ,
-        "stateId": 2
-    },
-
-    {
-        "name": "CAROLINA"   ,
-        "stateId": 2
-    },
-
-    {
-        "name": "CAUCASIA"   ,
-        "stateId": 2
-    },
-
-    {
-        "name": "CHIGORODÓ"  ,
-        "stateId": 2
-    },
-
-    {
-        "name": "CISNEROS"   ,
-        "stateId": 2
-    },
-
-    {
-        "name": "COCORNÁ",
-        "stateId": 2
-    },
-
-    {
-        "name": "CONCEPCIÓN" ,
-        "stateId": 2
-    },
-
-    {
-        "name": "CONCORDIA"  ,
-        "stateId": 2
-    },
-
-    {
-        "name": "COPACABANA" ,
-        "stateId": 2
-    },
-
-    {
-        "name": "DABEIBA",
-        "stateId": 2
-    },
-
-    {
-        "name": "DONMATÍAS"  ,
-        "stateId": 2
-    },
-
-    {
-        "name": "EBÉJICO",
-        "stateId": 2
-    },
-
-    {
-        "name": "EL BAGRE"   ,
-        "stateId": 2
-    },
-
-    {
-        "name": "ENTRERRÍOS",
-        "stateId": 2
-    },
-
-    {
-        "name": "ENVIGADO"  ,
-        "stateId": 2
-    },
-
-    {
-        "name": "FREDONIA"  ,
-        "stateId": 2
-    },
-
-    {
-        "name": "FRONTINO"  ,
-        "stateId": 2
-    },
-
-    {
-        "name": "GIRALDO"   ,
-        "stateId": 2
-    },
-
-    {
-        "name": "GIRARDOTA" ,
-        "stateId": 2
-    },
-
-    {
-        "name": "GÓMEZ PLATA",
-        "stateId": 2
-    },
-
-    {
-        "name": "GRANADA ",
-        "stateId": 2
-    },
-
-    {
-        "name": "GUADALUPE" ,
-        "stateId": 2
-    },
-
-    {
-        "name": "GUARNE",
-        "stateId": 2
-    },
-
-    {
-        "name": "GUATAPÉ" ,
-        "stateId": 2
-    },
-
-    {
-        "name": "HELICONIA" ,
-        "stateId": 2
-    },
-
-    {
-        "name": "HISPANIA"  ,
-        "stateId": 2
-    },
-
-    {
-        "name": "ITAGÜÍ",
-        "stateId": 2
-    },
-
-    {
-        "name": "ITUANGO" ,
-        "stateId": 2
-    },
-
-    {
-        "name": "JARDÍN",
-        "stateId": 2
-    },
-
-    {
-        "name": "JERICÓ",
-        "stateId": 2
-    },
-
-    {
-        "name": "LA CEJA",
-        "stateId": 2
-    },
-
-    {
-        "name": "LA ESTRELLA",
-        "stateId": 2
-    },
-
-    {
-        "name": "LA PINTADA" ,
-        "stateId": 2
-    },
-
-    {
-        "name": "LA UNIÓN"   ,
-        "stateId": 2
-    },
-
-    {
-        "name": "LIBORINA"   ,
-        "stateId": 2
-    },
-
-    {
-        "name": "MACEO"  ,
-        "stateId": 2
-    },
-
-    {
-        "name": "MARINILLA"  ,
-        "stateId": 2
-    },
-
-    {
-        "name": "MONTEBELLO" ,
-        "stateId": 2
-    },
-
-    {
-        "name": "MURINDÓ",
-        "stateId": 2
-    },
-
-    {
-        "name": "MUTATÁ" ,
-        "stateId": 2
-    },
-
-    {
-        "name": "NARIÑO" ,
-        "stateId": 2
-    },
-
-    {
-        "name": "NECOCLÍ",
-        "stateId": 2
-    },
-
-    {
-        "name": "NECHÍ"  ,
-        "stateId": 2
-    },
-
-    {
-        "name": "OLAYA"  ,
-        "stateId": 2
-    },
-
-    {
-        "name": "PEÑOL"  ,
-        "stateId": 2
-    },
-
-    {
-        "name": "PEQUE"  ,
-        "stateId": 2
-    },
-
-    {
-        "name": "PUEBLORRICO",
-        "stateId": 2
-    },
-
-    {
-        "name": "PUERTO BERRÍO"  ,
-        "stateId": 2
-    },
-
-    {
-        "name": "PUERTO NARE",
-        "stateId": 2
-    },
-
-    {
-        "name": "PUERTO TRIUNFO" ,
-        "stateId": 2
-    },
-
-    {
-        "name": "REMEDIOS"   ,
-        "stateId": 2
-    },
-
-    {
-        "name": "RETIRO" ,
-        "stateId": 2
-    },
-
-    {
-        "name": "RIONEGRO"   ,
-        "stateId": 2
-    },
-
-    {
-        "name": "SABANALARGA",
-        "stateId": 2
-    },
-
-    {
-        "name": "SABANETA"   ,
-        "stateId": 2
-    },
-
-    {
-        "name": "SALGAR" ,
-        "stateId": 2
-    },
-
-    {
-        "name": "SAN ANDRÉS DE CUERQUÍA" ,
-        "stateId": 2
-    },
-
-    {
-        "name": "SAN CARLOS" ,
-        "stateId": 2
-    },
-
-    {
-        "name": "SAN FRANCISCO"  ,
-        "stateId": 2
-    },
-
-    {
-        "name": "SAN JERÓNIMO"   ,
-        "stateId": 2
-    },
-
-    {
-        "name": "SAN JOSÉ DE LA MONTAÑA" ,
-        "stateId": 2
-    },
-
-    {
-        "name": "SAN JUAN DE URABÁ"  ,
-        "stateId": 2
-    },
-
-    {
-        "name": "SAN LUIS"   ,
-        "stateId": 2
-    },
-
-    {
-        "name": "SAN PEDRO DE LOS MILAGROS"  ,
-        "stateId": 2
-    },
-
-    {
-        "name": "SAN PEDRO DE URABÁ" ,
-        "stateId": 2
-    },
-
-    {
-        "name": "SAN RAFAEL" ,
-        "stateId": 2
-    },
-
-    {
-        "name": "SAN ROQUE"  ,
-        "stateId": 2
-    },
-
-    {
-        "name": "SAN VICENTE FERRER" ,
-        "stateId": 2
-    },
-
-    {
-        "name": "SANTA BÁRBARA"  ,
-        "stateId": 2
-    },
-
-    {
-        "name": "SANTA ROSA DE OSOS" ,
-        "stateId": 2
-    },
-
-    {
-        "name": "SANTO DOMINGO"  ,
-        "stateId": 2
-    },
-
-    {
-        "name": "EL SANTUARIO"   ,
-        "stateId": 2
-    },
-
-    {
-        "name": "SEGOVIA",
-        "stateId": 2
-    },
-
-    {
-        "name": "SONSÓN" ,
-        "stateId": 2
-    },
-
-    {
-        "name": "SOPETRÁN"   ,
-        "stateId": 2
-    },
-
-    {
-        "name": "TÁMESIS",
-        "stateId": 2
-    },
-
-    {
-        "name": "TARAZÁ" ,
-        "stateId": 2
-    },
-
-    {
-        "name": "TARSO"  ,
-        "stateId": 2
-    },
-
-    {
-        "name": "TITIRIBÍ"   ,
-        "stateId": 2
-    },
-
-    {
-        "name": "TOLEDO" ,
-        "stateId": 2
-    },
-
-    {
-        "name": "TURBO"  ,
-        "stateId": 2
-    },
-
-    {
-        "name": "URAMITA",
-        "stateId": 2
-    },
-
-    {
-        "name": "URRAO"  ,
-        "stateId": 2
-    },
-
-    {
-        "name": "VALDIVIA"   ,
-        "stateId": 2
-    },
-
-    {
-        "name": "VALPARAÍSO" ,
-        "stateId": 2
-    },
-
-    {
-        "name": "VEGACHÍ",
-        "stateId": 2
-    },
-
-    {
-        "name": "VENECIA",
-        "stateId": 2
-    },
-
-    {
-        "name": "VIGÍA DEL FUERTE"   ,
-        "stateId": 2
-    },
-
-    {
-        "name": "YALÍ"   ,
-        "stateId": 2
-    },
-
-    {
-        "name": "YARUMAL",
-        "stateId": 2
-    },
-
-    {
-        "name": "YOLOMBÓ",
-        "stateId": 2
-    },
-
-    {
-        "name": "YONDÓ"  ,
-        "stateId": 2
-    },
-
-    {
-        "name": "ZARAGOZA"   ,
-        "stateId": 2
-    },
-
-    {
-        "name": 	"BARRANQUILLA" ,
-        "stateId": 4
-    },
-
-    {
-        "name": 	"BARANOA"  ,
-        "stateId": 4
-    },
-
-    {
-        "name": 	"CAMPO DE LA CRUZ" ,
-        "stateId": 4
-    },
-
-    {
-        "name": 	"CANDELARIA"   ,
-        "stateId": 4
-    },
-
-    {
-        "name": 	"GALAPA"   ,
-        "stateId": 4
-    },
-
-    {
-        "name": 	"JUAN DE ACOSTA"   ,
-        "stateId": 4
-    },
-
-    {
-        "name": 	"LURUACO"  ,
-        "stateId": 4
-    },
-
-    {
-        "name": 	"MALAMBO"  ,
-        "stateId": 4
-    },
-
-    {
-        "name": 	"MANATÍ"   ,
-        "stateId": 4
-    },
-
-    {
-        "name": 	"PALMAR DE VARELA" ,
-        "stateId": 4
-    },
-
-    {
-        "name": 	"PIOJÓ",
-        "stateId": 4
-    },
-
-    {
-        "name": 	"POLONUEVO",
-        "stateId": 4
-    },
-
-    {
-        "name": 	"PONEDERA" ,
-        "stateId": 4
-    },
-
-    {
-        "name": 	"PUERTO COLOMBIA"  ,
-        "stateId": 4
-    },
-
-    {
-        "name": 	"REPELÓN"  ,
-        "stateId": 4
-    },
-
-    {
-        "name": 	"SABANAGRANDE" ,
-        "stateId": 4
-    },
-
-    {
-        "name": 	"SABANALARGA"  ,
-        "stateId": 4
-    },
-
-    {
-        "name": 	"SANTA LUCÍA"  ,
-        "stateId": 4
-    },
-
-    {
-        "name": 	"SANTO TOMÁS"  ,
-        "stateId": 4
-    },
-
-    {
-        "name": 	"SOLEDAD"  ,
-        "stateId": 4
-    },
-
-    {
-        "name": 	"SUAN" ,
-        "stateId": 4
-    },
-
-    {
-        "name": 	"TUBARÁ"   ,
-        "stateId": 4
-    },
-
-    {
-        "name": 	"USIACURÍ" ,
-        "stateId": 4
-    },
-
-    {
-        "name":  "BOGOTÁ, D.C.",
-        "stateId": 5
-    },
-
-    {
-        "name":  "CARTAGENA DE INDIAS"   ,
-        "stateId": 6
-    },
-
-    {
-        "name":   "ACHÍ",
-        "stateId": 6
-    },
-
-    {
-        "name":   "ALTOS DEL ROSARIO",
-        "stateId": 6
-    },
-
-    {
-        "name":   "ARENAL",
-        "stateId": 6
-    },
-
-    {
-        "name":   "ARJONA",
-        "stateId": 6
-    },
-
-    {
-        "name":   "ARROYOHONDO",
-        "stateId": 6
-    },
-
-    {
-        "name":   "BARRANCO DE LOBA",
-        "stateId": 6
-    },
-
-    {
-        "name":   "CALAMAR",
-        "stateId": 6
-    },
-
-    {
-        "name":   "CANTAGALLO",
-        "stateId": 6
-    },
-
-    {
-        "name":   "CICUCO",
-        "stateId": 6
-    },
-
-    {
-        "name":   "CÓRDOBA",
-        "stateId": 6
-    },
-
-    {
-        "name":   "CLEMENCIA",
-        "stateId": 6
-    },
-
-    {
-        "name":   "EL CARMEN DE BOLÍVAR",
-        "stateId": 6
-    },
-
-    {
-        "name":   "EL GUAMO",
-        "stateId": 6
-    },
-
-    {
-        "name":   "EL PEÑÓN",
-        "stateId": 6
-    },
-
-    {
-        "name":   "HATILLO DE LOBA",
-        "stateId": 6
-    },
-
-    {
-        "name":   "MAGANGUÉ",
-        "stateId": 6
-    },
-
-    {
-        "name":   "MAHATES",
-        "stateId": 6
-    },
-
-    {
-        "name":   "MARGARITA",
-        "stateId": 6
-    },
-
-    {
-        "name":   "MARÍA LA BAJA",
-        "stateId": 6
-    },
-
-    {
-        "name":   "MONTECRISTO",
-        "stateId": 6
-    },
-
-    {
-        "name":   "MOMPÓS",
-        "stateId": 6
-    },
-
-    {
-        "name":   "MORALES",
-        "stateId": 6
-    },
-
-    {
-        "name":   "NOROSÍ",
-        "stateId": 6
-    },
-
-    {
-        "name":   "PINILLOS",
-        "stateId": 6
-    },
-
-    {
-        "name":   "REGIDOR",
-        "stateId": 6
-    },
-
-    {
-        "name":   "RÍO VIEJO",
-        "stateId": 6
-    },
-
-    {
-        "name":   "SAN CRISTÓBAL",
-        "stateId": 6
-    },
-
-    {
-        "name":   "SAN ESTANISLAO",
-        "stateId": 6
-    },
-
-    {
-        "name":   "SAN FERNANDO",
-        "stateId": 6
-    },
-
-    {
-        "name":   "SAN JACINTO",
-        "stateId": 6
-    },
-
-    {
-        "name":   "SAN JACINTO DEL CAUCA",
-        "stateId": 6
-    },
-
-    {
-        "name":   "SAN JUAN NEPOMUCENO",
-        "stateId": 6
-    },
-
-    {
-        "name":   "SAN MARTÍN DE LOBA",
-        "stateId": 6
-    },
-
-    {
-        "name":   "SAN PABLO",
-        "stateId": 6
-    },
-
-    {
-        "name":   "SANTA CATALINA",
-        "stateId": 6
-    },
-
-    {
-        "name":   "SANTA ROSA",
-        "stateId": 6
-    },
-
-    {
-        "name":   "SANTA ROSA DEL SUR",
-        "stateId": 6
-    },
-
-    {
-        "name":   "SIMITÍ",
-        "stateId": 6
-    },
-
-    {
-        "name":   "SOPLAVIENTO",
-        "stateId": 6
-    },
-
-    {
-        "name":   "TALAIGUA NUEVO",
-        "stateId": 6
-    },
-
-    {
-        "name":   "TIQUISIO",
-        "stateId": 6
-    },
-
-    {
-        "name":   "TURBACO",
-        "stateId": 6
-    },
-
-    {
-        "name":   "TURBANÁ",
-        "stateId": 6
-    },
-
-    {
-        "name":   "VILLANUEVA",
-        "stateId": 6
-    },
-
-    {
-        "name":   "ZAMBRANO",
-        "stateId": 6
-    },
-
-    {
-        "name":   "TUNJA",
-        "stateId": 7
-    },
-
-    {
-        "name":   "ALMEIDA",
-        "stateId": 7
-    },
-
-    {
-        "name":   "AQUITANIA",
-        "stateId": 7
-    },
-
-    {
-        "name":   "ARCABUCO",
-        "stateId": 7
-    },
-
-    {
-        "name":   "BELÉN",
-        "stateId": 7
-    },
-
-    {
-        "name":   "BERBEO",
-        "stateId": 7
-    },
-
-    {
-        "name":   "BETÉITIVA",
-        "stateId": 7
-    },
-
-    {
-        "name":   "BOAVITA",
-        "stateId": 7
-    },
-
-    {
-        "name":   "BOYACÁ",
-        "stateId": 7
-    },
-
-    {
-        "name":   "BRICEÑO",
-        "stateId": 7
-    },
-
-    {
-        "name":   "BUENAVISTA",
-        "stateId": 7
-    },
-
-    {
-        "name":   "BUSBANZÁ",
-        "stateId": 7
-    },
-
-    {
-        "name":   "CALDAS",
-        "stateId": 7
-    },
-
-    {
-        "name":   "CAMPOHERMOSO",
-        "stateId": 7
-    },
-
-    {
-        "name":   "CERINZA",
-        "stateId": 7
-    },
-
-    {
-        "name":   "CHINAVITA",
-        "stateId": 7
-    },
-
-    {
-        "name":   "CHIQUINQUIRÁ",
-        "stateId": 7
-    },
-
-    {
-        "name":   "CHISCAS",
-        "stateId": 7
-    },
-
-    {
-        "name":   "CHITA",
-        "stateId": 7
-    },
-
-    {
-        "name":   "CHITARAQUE",
-        "stateId": 7
-    },
-
-    {
-        "name":   "CHIVATÁ",
-        "stateId": 7
-    },
-
-    {
-        "name":   "CIÉNEGA",
-        "stateId": 7
-    },
-
-    {
-        "name":   "CÓMBITA",
-        "stateId": 7
-    },
-
-    {
-        "name":   "COPER",
-        "stateId": 7
-    },
-
-    {
-        "name":   "CORRALES",
-        "stateId": 7
-    },
-
-    {
-        "name":   "COVARACHÍA",
-        "stateId": 7
-    },
-
-    {
-        "name":   "CUBARÁ",
-        "stateId": 7
-    },
-
-    {
-        "name":   "CUCAITA",
-        "stateId": 7
-    },
-
-    {
-        "name":   "CUÍTIVA",
-        "stateId": 7
-    },
-
-    {
-        "name":   "CHÍQUIZA",
-        "stateId": 7
-    },
-
-    {
-        "name":   "CHIVOR",
-        "stateId": 7
-    },
-
-    {
-        "name":   "DUITAMA",
-        "stateId": 7
-    },
-
-    {
-        "name":   "EL COCUY",
-        "stateId": 7
-    },
-
-    {
-        "name":   "EL ESPINO",
-        "stateId": 7
-    },
-
-    {
-        "name":   "FIRAVITOBA",
-        "stateId": 7
-    },
-
-    {
-        "name":   "FLORESTA",
-        "stateId": 7
-    },
-
-    {
-        "name":   "GACHANTIVÁ"   ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "GÁMEZA"  ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "GARAGOA" ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "GUACAMAYAS"  ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "GUATEQUE",
-        "stateId": 7
-    },
-
-    {
-        "name":  "GUAYATÁ" ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "GÜICÁN DE LA SIERRA" ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "IZA" ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "JENESANO",
-        "stateId": 7
-    },
-
-    {
-        "name":  "JERICÓ"  ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "LABRANZAGRANDE"  ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "LA CAPILLA"  ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "LA VICTORIA" ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "LA UVITA",
-        "stateId": 7
-    },
-
-    {
-        "name":  "VILLA DE LEYVA"  ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "MACANAL" ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "MARIPÍ"  ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "MIRAFLORES"  ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "MONGUA"  ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "MONGUÍ"  ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "MONIQUIRÁ"   ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "MOTAVITA",
-        "stateId": 7
-    },
-
-    {
-        "name":  "MUZO",
-        "stateId": 7
-    },
-
-    {
-        "name":  "NOBSA"   ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "NUEVO COLÓN" ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "OICATÁ"  ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "OTANCHE" ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "PACHAVITA"   ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "PÁEZ",
-        "stateId": 7
-    },
-
-    {
-        "name":  "PAIPA"   ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "PAJARITO",
-        "stateId": 7
-    },
-
-    {
-        "name":  "PANQUEBA",
-        "stateId": 7
-    },
-
-    {
-        "name":  "PAUNA"   ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "PAYA",
-        "stateId": 7
-    },
-
-    {
-        "name":  "PAZ DE RÍO"  ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "PESCA"   ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "PISBA"   ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "PUERTO BOYACÁ"   ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "QUÍPAMA" ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "RAMIRIQUÍ"   ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "RÁQUIRA" ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "RONDÓN"  ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "SABOYÁ"  ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "SÁCHICA" ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "SAMACÁ"  ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "SAN EDUARDO" ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "SAN JOSÉ DE PARE",
-        "stateId": 7
-    },
-
-    {
-        "name":  "SAN LUIS DE GACENO"  ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "SAN MATEO"   ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "SAN MIGUEL DE SEMA"  ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "SAN PABLO DE BORBUR" ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "SANTANA" ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "SANTA MARÍA" ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "SANTA ROSA DE VITERBO"   ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "SANTA SOFÍA" ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "SATIVANORTE" ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "SATIVASUR"   ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "SIACHOQUE"   ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "SOATÁ"   ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "SOCOTÁ"  ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "SOCHA"   ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "SOGAMOSO",
-        "stateId": 7
-    },
-
-    {
-        "name":  "SOMONDOCO"   ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "SORA",
-        "stateId": 7
-    },
-
-    {
-        "name":  "SOTAQUIRÁ"   ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "SORACÁ"  ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "SUSACÓN" ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "SUTAMARCHÁN" ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "SUTATENZA"   ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "TASCO"   ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "TENZA"   ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "TIBANÁ"  ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "TIBASOSA",
-        "stateId": 7
-    },
-
-    {
-        "name":  "TINJACÁ" ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "TIPACOQUE"   ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "TOCA",
-        "stateId": 7
-    },
-
-    {
-        "name":  "TOGÜÍ"   ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "TÓPAGA"  ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "TOTA",
-        "stateId": 7
-    },
-
-    {
-        "name":  "TUNUNGUÁ",
-        "stateId": 7
-    },
-
-    {
-        "name":  "TURMEQUÉ",
-        "stateId": 7
-    },
-
-    {
-        "name":  "TUTA",
-        "stateId": 7
-    },
-
-    {
-        "name":  "TUTAZÁ"  ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "ÚMBITA"  ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "VENTAQUEMADA",
-        "stateId": 7
-    },
-
-    {
-        "name":  "VIRACACHÁ"   ,
-        "stateId": 7
-    },
-
-    {
-        "name":  "ZETAQUIRA"   ,
-        "stateId": 7
-    },
-
-    {
-        "name": 	"MANIZALES",
-        "stateId": 8
-    },
-
-    {
-        "name": 	"AGUADAS"  ,
-        "stateId": 8
-    },
-
-    {
-        "name": 	"ANSERMA"  ,
-        "stateId": 8
-    },
-
-    {
-        "name": 	"ARANZAZU" ,
-        "stateId": 8
-    },
-
-    {
-        "name": 	"BELALCÁZAR"   ,
-        "stateId": 8
-    },
-
-    {
-        "name": 	"CHINCHINÁ",
-        "stateId": 8
-    },
-
-    {
-        "name": 	"FILADELFIA"   ,
-        "stateId": 8
-    },
-
-    {
-        "name": 	"LA DORADA",
-        "stateId": 8
-    },
-
-    {
-        "name": 	"LA MERCED",
-        "stateId": 8
-    },
-
-    {
-        "name": 	"MANZANARES"   ,
-        "stateId": 8
-    },
-
-    {
-        "name": 	"MARMATO"  ,
-        "stateId": 8
-    },
-
-    {
-        "name": 	"MARQUETALIA"  ,
-        "stateId": 8
-    },
-
-    {
-        "name": 	"MARULANDA",
-        "stateId": 8
-    },
-
-    {
-        "name": 	"NEIRA",
-        "stateId": 8
-    },
-
-    {
-        "name": 	"NORCASIA" ,
-        "stateId": 8
-    },
-
-    {
-        "name":  "CALDAS"   ,
-        "stateId": 8
-    },
-
-    {
-        "name": 	"PÁCORA"   ,
-        "stateId": 8
-    },
-
-    {
-        "name": 	"PALESTINA",
-        "stateId": 8
-    },
-
-    {
-        "name": 	"PENSILVANIA"  ,
-        "stateId": 8
-    },
-
-    {
-        "name": 	"RIOSUCIO" ,
-        "stateId": 8
-    },
-
-    {
-        "name": 	"RISARALDA",
-        "stateId": 8
-    },
-
-    {
-        "name": 	"SALAMINA" ,
-        "stateId": 8
-    },
-
-    {
-        "name": 	"SAMANÁ"   ,
-        "stateId": 8
-    },
-
-    {
-        "name": 	"SAN JOSÉ" ,
-        "stateId": 8
-    },
-
-    {
-        "name": 	"SUPÍA",
-        "stateId": 8
-    },
-
-    {
-        "name": 	"VICTORIA" ,
-        "stateId": 8
-    },
-
-    {
-        "name": 	"VILLAMARÍA"   ,
-        "stateId": 8
-    },
-
-    {
-        "name": 	"VITERBO"  ,
-        "stateId": 8
-    },
-
-    {
-        "name": 	"FLORENCIA",
-        "stateId": 9
-    },
-
-    {
-        "name": 	"ALBANIA"  ,
-        "stateId": 9
-    },
-
-    {
-        "name": 	"BELÉN DE LOS ANDAQUÍES"   ,
-        "stateId": 9
-    },
-
-    {
-        "name": 	"CARTAGENA DEL CHAIRÁ" ,
-        "stateId": 9
-    },
-
-    {
-        "name": 	"CURILLO"  ,
-        "stateId": 9
-    },
-
-    {
-        "name": 	"EL DONCELLO"  ,
-        "stateId": 9
-    },
-
-    {
-        "name": 	"EL PAUJÍL",
-        "stateId": 9
-    },
-
-    {
-        "name": 	"LA MONTAÑITA" ,
-        "stateId": 9
-    },
-
-    {
-        "name": 	"MILÁN",
-        "stateId": 9
-    },
-
-    {
-        "name": 	"MORELIA"  ,
-        "stateId": 9
-    },
-
-    {
-        "name": 	"PUERTO RICO"  ,
-        "stateId": 9
-    },
-
-    {
-        "name": 	"SAN JOSÉ DEL FRAGUA"  ,
-        "stateId": 9
-    },
-
-    {
-        "name": 	"SAN VICENTE DEL CAGUÁN"   ,
-        "stateId": 9
-    },
-
-    {
-        "name": 	"SOLANO"   ,
-        "stateId": 9
-    },
-
-    {
-        "name": 	"SOLITA"   ,
-        "stateId": 9
-    },
-
-    {
-        "name": 	"VALPARAÍSO"   ,
-        "stateId": 9
-    },
-
-    {
-        "name": 	"POPAYÁN"  ,
-        "stateId": 11
-    },
-
-    {
-        "name": 	"ALMAGUER" ,
-        "stateId": 11
-    },
-
-    {
-        "name": 	"ARGELIA"  ,
-        "stateId": 11
-    },
-
-    {
-        "name": 	"BALBOA"   ,
-        "stateId": 11
-    },
-
-    {
-        "name": 	"BOLÍVAR"  ,
-        "stateId": 11
-    },
-
-    {
-        "name": 	"BUENOS AIRES" ,
-        "stateId": 11
-    },
-
-    {
-        "name": 	"CAJIBÍO"  ,
-        "stateId": 11
-    },
-
-    {
-        "name": 	"CALDONO"  ,
-        "stateId": 11
-    },
-
-    {
-        "name": 	"CALOTO"   ,
-        "stateId": 11
-    },
-
-    {
-        "name": 	"CORINTO"  ,
-        "stateId": 11
-    },
-
-    {
-        "name": 	"EL TAMBO" ,
-        "stateId": 11
-    },
-
-    {
-        "name": 	"FLORENCIA",
-        "stateId": 11
-    },
-
-    {
-        "name": 	"GUACHENÉ" ,
-        "stateId": 11
-    },
-
-    {
-        "name": 	"GUAPÍ",
-        "stateId": 11
-    },
-
-    {
-        "name": 	"INZÁ" ,
-        "stateId": 11
-    },
-
-    {
-        "name": 	"JAMBALÓ"  ,
-        "stateId": 11
-    },
-
-    {
-        "name": 	"LA SIERRA",
-        "stateId": 11
-    },
-
-    {
-        "name": 	"LA VEGA"  ,
-        "stateId": 11
-    },
-
-    {
-        "name": 	"LÓPEZ DE MICAY"   ,
-        "stateId": 11
-    },
-
-    {
-        "name": 	"MERCADERES"   ,
-        "stateId": 11
-    },
-
-    {
-        "name": 	"MIRANDA"  ,
-        "stateId": 11
-    },
-
-    {
-        "name": 	"MORALES"  ,
-        "stateId": 11
-    },
-
-    {
-        "name": 	"PADILLA"  ,
-        "stateId": 11
-    },
-
-    {
-        "name": 	"PÁEZ" ,
-        "stateId": 11
-    },
-
-    {
-        "name": 	"PATÍA",
-        "stateId": 11
-    },
-
-    {
-        "name": 	"PIAMONTE" ,
-        "stateId": 11
-    },
-
-    {
-        "name": 	"PIENDAMÓ – TUNÍA" ,
-        "stateId": 11
-    },
-
-    {
-        "name": 	"PUERTO TEJADA",
-        "stateId": 11
-    },
-
-    {
-        "name": 	"PURACÉ"   ,
-        "stateId": 11
-    },
-
-    {
-        "name": 	"ROSAS",
-        "stateId": 11
-    },
-
-    {
-        "name": 	"SAN SEBASTIÁN",
-        "stateId": 11
-    },
-
-    {
-        "name": 	"SANTANDER DE QUILICHAO"   ,
-        "stateId": 11
-    },
-
-    {
-        "name": 	"SANTA ROSA"   ,
-        "stateId": 11
-    },
-
-    {
-        "name": 	"SILVIA"   ,
-        "stateId": 11
-    },
-
-    {
-        "name": 	"SOTARA"   ,
-        "stateId": 11
-    },
-
-    {
-        "name": 	"SUÁREZ"   ,
-        "stateId": 11
-    },
-
-    {
-        "name": 	"SUCRE",
-        "stateId": 11
-    },
-
-    {
-        "name": 	"TIMBÍO"   ,
-        "stateId": 11
-    },
-
-    {
-        "name": 	"TIMBIQUÍ" ,
-        "stateId": 11
-    },
-
-    {
-        "name": 	"TORIBÍO"  ,
-        "stateId": 11
-    },
-
-    {
-        "name": 	"TOTORÓ"   ,
-        "stateId": 11
-    },
-
-    {
-        "name": 	"VILLA RICA"   ,
-        "stateId": 11
-    },
-
-    {
-        "name": 	"VALLEDUPAR"   ,
-        "stateId": 12
-    },
-
-    {
-        "name": 	"AGUACHICA",
-        "stateId": 12
-    },
-
-    {
-        "name": 	"AGUSTÍN CODAZZI"  ,
-        "stateId": 12
-    },
-
-    {
-        "name": 	"ASTREA"   ,
-        "stateId": 12
-    },
-
-    {
-        "name": 	"BECERRIL" ,
-        "stateId": 12
-    },
-
-    {
-        "name": 	"BOSCONIA" ,
-        "stateId": 12
-    },
-
-    {
-        "name": 	"CHIMICHAGUA"  ,
-        "stateId": 12
-    },
-
-    {
-        "name": 	"CHIRIGUANÁ"   ,
-        "stateId": 12
-    },
-
-    {
-        "name": 	"CURUMANÍ" ,
-        "stateId": 12
-    },
-
-    {
-        "name": 	"EL COPEY" ,
-        "stateId": 12
-    },
-
-    {
-        "name": 	"EL PASO"  ,
-        "stateId": 12
-    },
-
-    {
-        "name": 	"GAMARRA"  ,
-        "stateId": 12
-    },
-
-    {
-        "name": 	"GONZÁLEZ" ,
-        "stateId": 12
-    },
-
-    {
-        "name": 	"LA GLORIA",
-        "stateId": 12
-    },
-
-    {
-        "name": 	"LA JAGUA DE IBIRICO"  ,
-        "stateId": 12
-    },
-
-    {
-        "name": 	"MANAURE BALCÓN DEL CESAR" ,
-        "stateId": 12
-    },
-
-    {
-        "name": 	"PAILITAS" ,
-        "stateId": 12
-    },
-
-    {
-        "name": 	"PELAYA"   ,
-        "stateId": 12
-    },
-
-    {
-        "name": 	"PUEBLO BELLO" ,
-        "stateId": 12
-    },
-
-    {
-        "name": 	"RÍO DE ORO"   ,
-        "stateId": 12
-    },
-
-    {
-        "name": 	"LA PAZ"   ,
-        "stateId": 12
-    },
-
-    {
-        "name": 	"SAN ALBERTO"  ,
-        "stateId": 12
-    },
-
-    {
-        "name": 	"SAN DIEGO",
-        "stateId": 12
-    },
-
-    {
-        "name": 	"SAN MARTÍN"   ,
-        "stateId": 12
-    },
-
-    {
-        "name": 	"TAMALAMEQUE"  ,
-        "stateId": 12
-    },
-
-    {
-        "name": 	"MONTERÍA" ,
-        "stateId": 14
-    },
-
-    {
-        "name": 	"AYAPEL"   ,
-        "stateId": 14
-    },
-
-    {
-        "name": 	"BUENAVISTA"   ,
-        "stateId": 14
-    },
-
-    {
-        "name": 	"CANALETE" ,
-        "stateId": 14
-    },
-
-    {
-        "name": 	"CERETÉ"   ,
-        "stateId": 14
-    },
-
-    {
-        "name": 	"CHIMÁ",
-        "stateId": 14
-    },
-
-    {
-        "name": 	"CHINÚ",
-        "stateId": 14
-    },
-
-    {
-        "name": 	"CIÉNAGA DE ORO"   ,
-        "stateId": 14
-    },
-
-    {
-        "name": 	"COTORRA"  ,
-        "stateId": 14
-    },
-
-    {
-        "name": 	"LA APARTADA"  ,
-        "stateId": 14
-    },
-
-    {
-        "name": 	"LORICA"   ,
-        "stateId": 14
-    },
-
-    {
-        "name": 	"LOS CÓRDOBAS" ,
-        "stateId": 14
-    },
-
-    {
-        "name": 	"MOMIL",
-        "stateId": 14
-    },
-
-    {
-        "name": 	"MONTELÍBANO"  ,
-        "stateId": 14
-    },
-
-    {
-        "name": 	"MOÑITOS"  ,
-        "stateId": 14
-    },
-
-    {
-        "name": 	"PLANETA RICA" ,
-        "stateId": 14
-    },
-
-    {
-        "name": 	"PUEBLO NUEVO" ,
-        "stateId": 14
-    },
-
-    {
-        "name": 	"PUERTO ESCONDIDO" ,
-        "stateId": 14
-    },
-
-    {
-        "name": 	"PUERTO LIBERTADOR",
-        "stateId": 14
-    },
-
-    {
-        "name": 	"PURÍSIMA DE LA CONCEPCIÓN",
-        "stateId": 14
-    },
-
-    {
-        "name": 	"SAHAGÚN"  ,
-        "stateId": 14
-    },
-
-    {
-        "name": 	"SAN ANDRÉS DE SOTAVENTO"  ,
-        "stateId": 14
-    },
-
-    {
-        "name": 	"SAN ANTERO"   ,
-        "stateId": 14
-    },
-
-    {
-        "name": 	"SAN BERNARDO DEL VIENTO"  ,
-        "stateId": 14
-    },
-
-    {
-        "name": 	"SAN CARLOS"   ,
-        "stateId": 14
-    },
-
-    {
-        "name": 	"SAN JOSÉ DE URÉ"  ,
-        "stateId": 14
-    },
-
-    {
-        "name": 	"SAN PELAYO"   ,
-        "stateId": 14
-    },
-
-    {
-        "name": 	"TIERRALTA",
-        "stateId": 14
-    },
-
-    {
-        "name": 	"TUCHÍN"   ,
-        "stateId": 14
-    },
-
-    {
-        "name": 	"VALENCIA" ,
-        "stateId": 14
-    },
-
-    {
-        "name": 	"AGUA DE DIOS" ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"ALBÁN",
-        "stateId": 33
-    },
-
-    {
-        "name": 	"ANAPOIMA" ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"ANOLAIMA" ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"ARBELÁEZ" ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"BELTRÁN"  ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"BITUIMA"  ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"BOJACÁ"   ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"CABRERA"  ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"CACHIPAY" ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"CAJICÁ"   ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"CAPARRAPÍ",
-        "stateId": 33
-    },
-
-    {
-        "name": 	"CÁQUEZA"  ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"CARMEN DE CARUPA" ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"CHAGUANÍ" ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"CHÍA" ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"CHIPAQUE" ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"CHOACHÍ"  ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"CHOCONTÁ" ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"COGUA",
-        "stateId": 33
-    },
-
-    {
-        "name": 	"COTA" ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"CUCUNUBÁ" ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"EL COLEGIO"   ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"EL PEÑÓN" ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"EL ROSAL" ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"FACATATIVÁ"   ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"FÓMEQUE"  ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"FOSCA",
-        "stateId": 33
-    },
-
-    {
-        "name": 	"FUNZA",
-        "stateId": 33
-    },
-
-    {
-        "name": 	"FÚQUENE"  ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"FUSAGASUGÁ"   ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"GACHALÁ"  ,
-        "stateId": 33
-    },
-
-    {
-        "name":   "GACHANCIPÁ"   ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"GACHETÁ"  ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"GAMA" ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"GIRARDOT" ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"GRANADA"  ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"GUACHETÁ" ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"GUADUAS"  ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"GUASCA"   ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"GUATAQUÍ" ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"GUATAVITA",
-        "stateId": 33
-    },
-
-    {
-        "name": 	"GUAYABAL DE SÍQUIMA"  ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"GUAYABETAL"   ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"GUTIÉRREZ",
-        "stateId": 33
-    },
-
-    {
-        "name": 	"JERUSALÉN",
-        "stateId": 33
-    },
-
-    {
-        "name": 	"JUNÍN",
-        "stateId": 33
-    },
-
-    {
-        "name": 	"LA CALERA",
-        "stateId": 33
-    },
-
-    {
-        "name": 	"LA MESA"  ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"LA PALMA" ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"LA PEÑA"  ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"LA VEGA"  ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"LENGUAZAQUE"  ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"MACHETÁ"  ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"MADRID"   ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"MANTA",
-        "stateId": 33
-    },
-
-    {
-        "name": 	"MEDINA"   ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"MOSQUERA" ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"NARIÑO"   ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"NEMOCÓN"  ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"NILO" ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"NIMAIMA"  ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"NOCAIMA"  ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"VENECIA"  ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"PACHO",
-        "stateId": 33
-    },
-
-    {
-        "name": 	"PAIME",
-        "stateId": 33
-    },
-
-    {
-        "name": 	"PANDI",
-        "stateId": 33
-    },
-
-    {
-        "name": 	"PARATEBUENO"  ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"PASCA",
-        "stateId": 33
-    },
-
-    {
-        "name": 	"PUERTO SALGAR",
-        "stateId": 33
-    },
-
-    {
-        "name": 	"PULÍ" ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"QUEBRADANEGRA",
-        "stateId": 33
-    },
-
-    {
-        "name": 	"QUETAME"  ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"QUIPILE"  ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"APULO",
-        "stateId": 33
-    },
-
-    {
-        "name": 	"RICAURTE" ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"SAN ANTONIO DEL TEQUENDAMA"   ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"SAN BERNARDO" ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"SAN CAYETANO" ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"SAN FRANCISCO",
-        "stateId": 33
-    },
-
-    {
-        "name": 	"SAN JUAN DE RIOSECO"  ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"SASAIMA"  ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"SESQUILÉ" ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"SIBATÉ"   ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"SILVANIA" ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"SIMIJACA" ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"SOACHA"   ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"SOPÓ" ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"SUBACHOQUE"   ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"SUESCA"   ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"SUPATÁ"   ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"SUSA" ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"SUTATAUSA",
-        "stateId": 33
-    },
-
-    {
-        "name": 	"TABIO",
-        "stateId": 33
-    },
-
-    {
-        "name": 	"TAUSA",
-        "stateId": 33
-    },
-
-    {
-        "name": 	"TENA" ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"TENJO",
-        "stateId": 33
-    },
-
-    {
-        "name": 	"TIBACUY"  ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"TIBIRITA" ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"TOCAIMA"  ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"TOCANCIPÁ",
-        "stateId": 33
-    },
-
-    {
-        "name": 	"TOPAIPÍ"  ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"UBALÁ",
-        "stateId": 33
-    },
-
-    {
-        "name": 	"UBAQUE"   ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"VILLA DE SAN DIEGO DE UBATÉ"  ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"UNE"  ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"ÚTICA",
-        "stateId": 33
-    },
-
-    {
-        "name": 	"VERGARA"  ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"VIANÍ",
-        "stateId": 33
-    },
-
-    {
-        "name": 	"VILLAGÓMEZ"   ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"VILLAPINZÓN"  ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"VILLETA"  ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"VIOTÁ",
-        "stateId": 33
-    },
-
-    {
-        "name": 	"YACOPÍ"   ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"ZIPACÓN"  ,
-        "stateId": 33
-    },
-
-    {
-        "name": 	"ZIPAQUIRÁ",
-        "stateId": 33
-    },
-
-    {
-        "name": 	"QUIBDÓ"   ,
-        "stateId": 13
-    },
-
-    {
-        "name": 	"ACANDÍ"   ,
-        "stateId": 13
-    },
-
-    {
-        "name": 	"ALTO BAUDÓ"   ,
-        "stateId": 13
-    },
-
-    {
-        "name": 	"ATRATO"   ,
-        "stateId": 13
-    },
-
-    {
-        "name": 	"BAGADÓ"   ,
-        "stateId": 13
-    },
-
-    {
-        "name": 	"BAHÍA SOLANO" ,
-        "stateId": 13
-    },
-
-    {
-        "name": 	"BAJO BAUDÓ"   ,
-        "stateId": 13
-    },
-
-    {
-        "name": 	"BOJAYÁ"   ,
-        "stateId": 13
-    },
-
-    {
-        "name": 	"EL CANTÓN DEL SAN PABLO"  ,
-        "stateId": 13
-    },
-
-    {
-        "name": 	"CARMEN DEL DARIÉN",
-        "stateId": 13
-    },
-
-    {
-        "name": 	"CÉRTEGUI" ,
-        "stateId": 13
-    },
-
-    {
-        "name": 	"CONDOTO"  ,
-        "stateId": 13
-    },
-
-    {
-        "name": 	"EL CARMEN DE ATRATO"  ,
-        "stateId": 13
-    },
-
-    {
-        "name": 	"EL LITORAL DEL SAN JUAN"  ,
-        "stateId": 13
-    },
-
-    {
-        "name": 	"ISTMINA"  ,
-        "stateId": 13
-    },
-
-    {
-        "name": 	"JURADÓ"   ,
-        "stateId": 13
-    },
-
-    {
-        "name": 	"LLORÓ",
-        "stateId": 13
-    },
-
-    {
-        "name": 	"MEDIO ATRATO" ,
-        "stateId": 13
-    },
-
-    {
-        "name": 	"MEDIO BAUDÓ"  ,
-        "stateId": 13
-    },
-
-    {
-        "name": 	"MEDIO SAN JUAN"   ,
-        "stateId": 13
-    },
-
-    {
-        "name": 	"NÓVITA"   ,
-        "stateId": 13
-    },
-
-    {
-        "name": 	"NUQUÍ",
-        "stateId": 13
-    },
-
-    {
-        "name": 	"RÍO IRÓ"  ,
-        "stateId": 13
-    },
-
-    {
-        "name": 	"RÍO QUITO",
-        "stateId": 13
-    },
-
-    {
-        "name": 	"RIOSUCIO" ,
-        "stateId": 13
-    },
-
-    {
-        "name": 	"SAN JOSÉ DEL PALMAR"  ,
-        "stateId": 13
-    },
-
-    {
-        "name": 	"SIPÍ" ,
-        "stateId": 13
-    },
-
-    {
-        "name": 	"TADÓ" ,
-        "stateId": 13
-    },
-
-    {
-        "name": 	"UNGUÍA"   ,
-        "stateId": 13
-    },
-
-    {
-        "name": 	"UNIÓN PANAMERICANA"   ,
-        "stateId": 13
-    },
-
-    {
-        "name": 	"NEIVA",
-        "stateId": 17
-    },
-
-    {
-        "name": 	"ACEVEDO"  ,
-        "stateId": 17
-    },
-
-    {
-        "name": 	"AGRADO"   ,
-        "stateId": 17
-    },
-
-    {
-        "name": 	"AIPE" ,
-        "stateId": 17
-    },
-
-    {
-        "name": 	"ALGECIRAS",
-        "stateId": 17
-    },
-
-    {
-        "name": 	"ALTAMIRA" ,
-        "stateId": 17
-    },
-
-    {
-        "name": 	"BARAYA"   ,
-        "stateId": 17
-    },
-
-    {
-        "name": 	"CAMPOALEGRE"  ,
-        "stateId": 17
-    },
-
-    {
-        "name": 	"COLOMBIA" ,
-        "stateId": 17
-    },
-
-    {
-        "name": 	"ELÍAS",
-        "stateId": 17
-    },
-
-    {
-        "name": 	"GARZÓN"   ,
-        "stateId": 17
-    },
-
-    {
-        "name": 	"GIGANTE"  ,
-        "stateId": 17
-    },
-
-    {
-        "name": 	"GUADALUPE",
-        "stateId": 17
-    },
-
-    {
-        "name": 	"HOBO" ,
-        "stateId": 17
-    },
-
-    {
-        "name": 	"ÍQUIRA"   ,
-        "stateId": 17
-    },
-
-    {
-        "name": 	"ISNOS",
-        "stateId": 17
-    },
-
-    {
-        "name": 	"LA ARGENTINA" ,
-        "stateId": 17
-    },
-
-    {
-        "name": 	"LA PLATA" ,
-        "stateId": 17
-    },
-
-    {
-        "name": 	"NÁTAGA"   ,
-        "stateId": 17
-    },
-
-    {
-        "name": 	"OPORAPA"  ,
-        "stateId": 17
-    },
-
-    {
-        "name": 	"PAICOL"   ,
-        "stateId": 17
-    },
-
-    {
-        "name": 	"PALERMO"  ,
-        "stateId": 17
-    },
-
-    {
-        "name": 	"PALESTINA",
-        "stateId": 17
-    },
-
-    {
-        "name": 	"PITAL",
-        "stateId": 17
-    },
-
-    {
-        "name": 	"PITALITO" ,
-        "stateId": 17
-    },
-
-    {
-        "name": 	"RIVERA"   ,
-        "stateId": 17
-    },
-
-    {
-        "name": 	"SALADOBLANCO" ,
-        "stateId": 17
-    },
-
-    {
-        "name": 	"SAN AGUSTÍN"  ,
-        "stateId": 17
-    },
-
-    {
-        "name": 	"SANTA MARÍA"  ,
-        "stateId": 17
-    },
-
-    {
-        "name": 	"SUAZA",
-        "stateId": 17
-    },
-
-    {
-        "name": 	"TARQUI"   ,
-        "stateId": 17
-    },
-
-    {
-        "name": 	"TESALIA"  ,
-        "stateId": 17
-    },
-
-    {
-        "name": 	"TELLO",
-        "stateId": 17
-    },
-
-    {
-        "name": 	"TERUEL"   ,
-        "stateId": 17
-    },
-
-    {
-        "name": 	"TIMANÁ"   ,
-        "stateId": 17
-    },
-
-    {
-        "name": 	"VILLAVIEJA"   ,
-        "stateId": 17
-    },
-
-    {
-        "name": 	"YAGUARÁ"  ,
-        "stateId": 17
-    },
-
-    {
-        "name": 	"RIOHACHA" ,
-        "stateId": 18
-    },
-
-    {
-        "name": 	"ALBANIA"  ,
-        "stateId": 18
-    },
-
-    {
-        "name": 	"BARRANCAS",
-        "stateId": 18
-    },
-
-    {
-        "name": 	"DIBULLA"  ,
-        "stateId": 18
-    },
-
-    {
-        "name": 	"DISTRACCIÓN"  ,
-        "stateId": 18
-    },
-
-    {
-        "name": 	"EL MOLINO",
-        "stateId": 18
-    },
-
-    {
-        "name": 	"FONSECA"  ,
-        "stateId": 18
-    },
-
-    {
-        "name": 	"HATONUEVO",
-        "stateId": 18
-    },
-
-    {
-        "name": 	"LA JAGUA DEL PILAR"   ,
-        "stateId": 18
-    },
-
-    {
-        "name": 	"MAICAO"   ,
-        "stateId": 18
-    },
-
-    {
-        "name": 	"MANAURE"  ,
-        "stateId": 18
-    },
-
-    {
-        "name": 	"SAN JUAN DEL CESAR"   ,
-        "stateId": 18
-    },
-
-    {
-        "name": 	"URIBIA"   ,
-        "stateId": 18
-    },
-
-    {
-        "name": 	"URUMITA"  ,
-        "stateId": 18
-    },
-
-    {
-        "name": 	"VILLANUEVA"   ,
-        "stateId": 18
-    },
-
-    {
-        "name": 	"SANTA MARTA"  ,
-        "stateId": 19
-    },
-
-    {
-        "name": 	"ALGARROBO",
-        "stateId": 19
-    },
-
-    {
-        "name": 	"ARACATACA",
-        "stateId": 19
-    },
-
-    {
-        "name": 	"ARIGUANÍ" ,
-        "stateId": 19
-    },
-
-    {
-        "name": 	"CERRO DE SAN ANTONIO" ,
-        "stateId": 19
-    },
-
-    {
-        "name": 	"CHIVOLO"  ,
-        "stateId": 19
-    },
-
-    {
-        "name": 	"CIÉNAGA"  ,
-        "stateId": 19
-    },
-
-    {
-        "name": 	"CONCORDIA",
-        "stateId": 19
-    },
-
-    {
-        "name": 	"EL BANCO" ,
-        "stateId": 19
-    },
-
-    {
-        "name": 	"EL PIÑÓN" ,
-        "stateId": 19
-    },
-
-    {
-        "name": 	"EL RETÉN" ,
-        "stateId": 19
-    },
-
-    {
-        "name": 	"FUNDACIÓN",
-        "stateId": 19
-    },
-
-    {
-        "name": 	"GUAMAL"   ,
-        "stateId": 19
-    },
-
-    {
-        "name": 	"NUEVA GRANADA",
-        "stateId": 19
-    },
-
-    {
-        "name": 	"PEDRAZA"  ,
-        "stateId": 19
-    },
-
-    {
-        "name": 	"PIJIÑO DEL CARMEN",
-        "stateId": 19
-    },
-
-    {
-        "name": 	"PIVIJAY"  ,
-        "stateId": 19
-    },
-
-    {
-        "name": 	"PLATO",
-        "stateId": 19
-    },
-
-    {
-        "name": 	"PUEBLOVIEJO"  ,
-        "stateId": 19
-    },
-
-    {
-        "name":  "REMOLINO" ,
-        "stateId": 19
-    },
-
-    {
-        "name":  "SABANAS DE SAN ÁNGEL" ,
-        "stateId": 19
-    },
-
-    {
-        "name":  "SALAMINA" ,
-        "stateId": 19
-    },
-
-    {
-        "name":  "SAN SEBASTIÁN DE BUENAVISTA"  ,
-        "stateId": 19
-    },
-
-    {
-        "name":  "SAN ZENÓN",
-        "stateId": 19
-    },
-
-    {
-        "name":  "SANTA ANA",
-        "stateId": 19
-    },
-
-    {
-        "name":  "SANTA BÁRBARA DE PINTO"   ,
-        "stateId": 19
-    },
-
-    {
-        "name":  "SITIONUEVO"   ,
-        "stateId": 19
-    },
-
-    {
-        "name":  "TENERIFE" ,
-        "stateId": 19
-    },
-
-    {
-        "name":  "ZAPAYÁN"  ,
-        "stateId": 19
-    },
-
-    {
-        "name":  "ZONA BANANERA",
-        "stateId": 19
-    },
-
-    {
-        "name":  "VILLAVICENCIO",
-        "stateId": 20
-    },
-
-    {
-        "name":  "ACACÍAS"  ,
-        "stateId": 20
-    },
-
-    {
-        "name":  "BARRANCA DE UPÍA" ,
-        "stateId": 20
-    },
-
-    {
-        "name":  "CABUYARO" ,
-        "stateId": 20
-    },
-
-    {
-        "name":  "CASTILLA LA NUEVA",
-        "stateId": 20
-    },
-
-    {
-        "name":  "CUBARRAL" ,
-        "stateId": 20
-    },
-
-    {
-        "name":  "CUMARAL"  ,
-        "stateId": 20
-    },
-
-    {
-        "name":  "EL CALVARIO"  ,
-        "stateId": 20
-    },
-
-    {
-        "name":  "EL CASTILLO"  ,
-        "stateId": 20
-    },
-
-    {
-        "name":  "EL DORADO",
-        "stateId": 20
-    },
-
-    {
-        "name":  "FUENTEDEORO"  ,
-        "stateId": 20
-    },
-
-    {
-        "name":  "GRANADA"  ,
-        "stateId": 20
-    },
-
-    {
-        "name":  "GUAMAL"   ,
-        "stateId": 20
-    },
-
-    {
-        "name":  "MAPIRIPÁN",
-        "stateId": 20
-    },
-
-    {
-        "name":  "MESETAS"  ,
-        "stateId": 20
-    },
-
-    {
-        "name":  "LA MACARENA"  ,
-        "stateId": 20
-    },
-
-    {
-        "name":  "URIBE",
-        "stateId": 20
-    },
-
-    {
-        "name":  "LEJANÍAS" ,
-        "stateId": 20
-    },
-
-    {
-        "name":  "PUERTO CONCORDIA" ,
-        "stateId": 20
-    },
-
-    {
-        "name":  "PUERTO GAITÁN",
-        "stateId": 20
-    },
-
-    {
-        "name":  "PUERTO LÓPEZ" ,
-        "stateId": 20
-    },
-
-    {
-        "name":  "PUERTO LLERAS",
-        "stateId": 20
-    },
-
-    {
-        "name":  "PUERTO RICO"  ,
-        "stateId": 20
-    },
-
-    {
-        "name":  "RESTREPO" ,
-        "stateId": 20
-    },
-
-    {
-        "name":  "SAN CARLOS DE GUAROA" ,
-        "stateId": 20
-    },
-
-    {
-        "name":  "SAN JUAN DE ARAMA",
-        "stateId": 20
-    },
-
-    {
-        "name":  "SAN JUANITO"  ,
-        "stateId": 20
-    },
-
-    {
-        "name":  "SAN MARTÍN"   ,
-        "stateId": 20
-    },
-
-    {
-        "name":  "VISTAHERMOSA" ,
-        "stateId": 20
-    },
-
-    {
-        "name":  "PASTO" ,
-        "stateId": 21
-    },
-
-    {
-        "name":  "ALBÁN" ,
-        "stateId": 21
-    },
-
-    {
-        "name":  "ALDANA",
-        "stateId": 21
-    },
-
-    {
-        "name":  "ANCUYÁ",
-        "stateId": 21
-    },
-
-    {
-        "name": 	"ARBOLEDA"  ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"BARBACOAS" ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"BELÉN" ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"BUESACO"   ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"COLÓN" ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"CONSACÁ"   ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"CONTADERO" ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"CÓRDOBA"   ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"CUASPÚD"   ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"CUMBAL",
-        "stateId": 21
-    },
-
-    {
-        "name": 	"CUMBITARA" ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"CHACHAGÜÍ" ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"CHARCO"   ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"PEÑOL",
-        "stateId": 21
-    },
-
-    {
-        "name": 	"ROSARIO"  ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"TABLÓN DE GÓMEZ"  ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"TAMBO",
-        "stateId": 21
-    },
-
-    {
-        "name": 	"TUNES" ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"GUACHUCAL" ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"GUAITARILLA"   ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"GUALMATÁN" ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"ILES"  ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"IMUÉS" ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"IPIALES"   ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"LA CRUZ"  ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"LA FLORIDA"   ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"LA LLANADA"   ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"LA TOLA"  ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"LA UNIÓN" ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"LEIVA" ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"LINARES"   ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"LOS ANDES" ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"MAGÜÍ" ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"MALLAMA"   ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"MOSQUERA"  ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"NARIÑO",
-        "stateId": 21
-    },
-
-    {
-        "name": 	"OLAYA HERRERA" ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"OSPINA",
-        "stateId": 21
-    },
-
-    {
-        "name": 	"FRANCISCO PIZARRO" ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"POLICARPA" ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"POTOSÍ",
-        "stateId": 21
-    },
-
-    {
-        "name": 	"PROVIDENCIA"   ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"PUERRES"   ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"PUPIALES"  ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"RICAURTE"  ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"ROBERTO PAYÁN" ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"SAMANIEGO" ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"SANDONÁ"   ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"SAN BERNARDO" ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"SAN LORENZO"  ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"SAN PABLO",
-        "stateId": 21
-    },
-
-    {
-        "name": 	"SAN PEDRO DE CARTAGO" ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"SANTA BÁRBARA",
-        "stateId": 21
-    },
-
-    {
-        "name": 	"SANTACRUZ" ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"SAPUYES"   ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"SAMINANGO" ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"SANGUA",
-        "stateId": 21
-    },
-
-    {
-        "name": 	"SAN ANDRÉS DE TUMACO" ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"TÚQUERRES" ,
-        "stateId": 21
-    },
-
-    {
-        "name": 	"YACUANQUER",
-        "stateId": 21
-    },
-
-    {
-        "name":  "CÚCUTA"   ,
-        "stateId": 22
-    },
-
-    {
-        "name":  "ÁBREGO"   ,
-        "stateId": 22
-    },
-
-    {
-        "name":  "ARBOLEDAS",
-        "stateId": 22
-    },
-
-    {
-        "name":  "BOCHALEMA",
-        "stateId": 22
-    },
-
-    {
-        "name":  "BUCARASICA"   ,
-        "stateId": 22
-    },
-
-    {
-        "name":  "CÁCOTA"   ,
-        "stateId": 22
-    },
-
-    {
-        "name":  "CÁCHIRA"  ,
-        "stateId": 22
-    },
-
-    {
-        "name":  "CHINÁCOTA",
-        "stateId": 22
-    },
-
-    {
-        "name":  "CHITAGÁ"  ,
-        "stateId": 22
-    },
-
-    {
-        "name":  "CONVENCIÓN"   ,
-        "stateId": 22
-    },
-
-    {
-        "name":  "CUCUTILLA",
-        "stateId": 22
-    },
-
-    {
-        "name":  "DURANIA"  ,
-        "stateId": 22
-    },
-
-    {
-        "name":  "EL CARMEN",
-        "stateId": 22
-    },
-
-    {
-        "name":  "EL TARRA" ,
-        "stateId": 22
-    },
-
-    {
-        "name":  "EL ZULIA" ,
-        "stateId": 22
-    },
-
-    {
-        "name":  "GRAMALOTE",
-        "stateId": 22
-    },
-
-    {
-        "name":  "HACARÍ"   ,
-        "stateId": 22
-    },
-
-    {
-        "name":  "HERRÁN"   ,
-        "stateId": 22
-    },
-
-    {
-        "name":  "LABATECA" ,
-        "stateId": 22
-    },
-
-    {
-        "name":  "LA ESPERANZA" ,
-        "stateId": 22
-    },
-
-    {
-        "name":  "LA PLAYA" ,
-        "stateId": 22
-    },
-
-    {
-        "name":  "LOS PATIOS"   ,
-        "stateId": 22
-    },
-
-    {
-        "name":  "LOURDES"  ,
-        "stateId": 22
-    },
-
-    {
-        "name":  "MUTISCUA" ,
-        "stateId": 22
-    },
-
-    {
-        "name":  "OCAÑA",
-        "stateId": 22
-    },
-
-    {
-        "name":  "PAMPLONA" ,
-        "stateId": 22
-    },
-
-    {
-        "name":  "PAMPLONITA"   ,
-        "stateId": 22
-    },
-
-    {
-        "name":  "PUERTO SANTANDER" ,
-        "stateId": 22
-    },
-
-    {
-        "name":  "RAGONVALIA"   ,
-        "stateId": 22
-    },
-
-    {
-        "name":  "SALAZAR"  ,
-        "stateId": 22
-    },
-
-    {
-        "name":  "SAN CALIXTO"  ,
-        "stateId": 22
-    },
-
-    {
-        "name":  "SAN CAYETANO" ,
-        "stateId": 22
-    },
-
-    {
-        "name":  "SANTIAGO" ,
-        "stateId": 22
-    },
-
-    {
-        "name":  "SARDINATA",
-        "stateId": 22
-    },
-
-    {
-        "name":  "SILOS",
-        "stateId": 22
-    },
-
-    {
-        "name":  "TEORAMA"  ,
-        "stateId": 22
-    },
-
-    {
-        "name":  "TIBÚ" ,
-        "stateId": 22
-    },
-
-    {
-        "name":  "TOLEDO"   ,
-        "stateId": 22
-    },
-
-    {
-        "name":  "VILLA CARO"   ,
-        "stateId": 22
-    },
-
-    {
-        "name":  "VILLA DEL ROSARIO",
-        "stateId": 22
-    },
-
-    {
-        "name":  "ARMENIA"  ,
-        "stateId": 24
-    },
-
-    {
-        "name":  "BUENAVISTA"   ,
-        "stateId": 24
-    },
-
-    {
-        "name":  "CALARCÁ"  ,
-        "stateId": 24
-    },
-
-    {
-        "name":  "CIRCASIA" ,
-        "stateId": 24
-    },
-
-    {
-        "name": 	"CÓRDOBA"  ,
-        "stateId": 24
-    },
-
-    {
-        "name": 	"FILANDIA" ,
-        "stateId": 24
-    },
-
-    {
-        "name": 	"GÉNOVA"   ,
-        "stateId": 24
-    },
-
-    {
-        "name": 	"LA TEBAIDA"   ,
-        "stateId": 24
-    },
-
-    {
-        "name": 	"MONTENEGRO"   ,
-        "stateId": 24
-    },
-
-    {
-        "name": 	"PIJAO",
-        "stateId": 24
-    },
-
-    {
-        "name": 	"QUIMBAYA" ,
-        "stateId": 24
-    },
-
-    {
-        "name": 	"SALENTO"  ,
-        "stateId": 24
-    },
-
-    {
-        "name": 	"PEREIRA"  ,
-        "stateId": 25
-    },
-
-    {
-        "name": 	"APÍA" ,
-        "stateId": 25
-    },
-
-    {
-        "name": 	"BALBOA"   ,
-        "stateId": 25
-    },
-
-    {
-        "name": 	"BELÉN DE UMBRÍA"  ,
-        "stateId": 25
-    },
-
-    {
-        "name": 	"DOSQUEBRADAS" ,
-        "stateId": 25
-    },
-
-    {
-        "name": 	"GUÁTICA"  ,
-        "stateId": 25
-    },
-
-    {
-        "name": 	"LA CELIA" ,
-        "stateId": 25
-    },
-
-    {
-        "name": 	"LA VIRGINIA"  ,
-        "stateId": 25
-    },
-
-    {
-        "name": 	"MARSELLA" ,
-        "stateId": 25
-    },
-
-    {
-        "name": 	"MISTRATÓ" ,
-        "stateId": 25
-    },
-
-    {
-        "name": 	"PUEBLO RICO"  ,
-        "stateId": 25
-    },
-
-    {
-        "name": 	"QUINCHÍA" ,
-        "stateId": 25
-    },
-
-    {
-        "name": 	"SANTA ROSA DE CABAL"  ,
-        "stateId": 25
-    },
-
-    {
-        "name": 	"SANTUARIO",
-        "stateId": 25
-    },
-
-    {
-        "name": 	"BUCARAMANGA"  ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"AGUADA"   ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"ALBANIA"  ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"ARATOCA"  ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"BARBOSA"  ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"BARICHARA",
-        "stateId": 27
-    },
-
-    {
-        "name": 	"BARRANCABERMEJA"  ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"BETULIA"  ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"BOLÍVAR"  ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"CABRERA"  ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"CALIFORNIA"   ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"CAPITANEJO"   ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"CARCASÍ"  ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"CEPITÁ"   ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"CERRITO"  ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"CHARALÁ"  ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"CHARTA"   ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"CHIMA",
-        "stateId": 27
-    },
-
-    {
-        "name": 	"CHIPATÁ"  ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"CIMITARRA",
-        "stateId": 27
-    },
-
-    {
-        "name": 	"CONCEPCIÓN"   ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"CONFINES" ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"CONTRATACIÓN" ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"COROMORO" ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"CURITÍ"   ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"EL CARMEN DE CHUCURÍ" ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"EL GUACAMAYO" ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"EL PEÑÓN" ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"EL PLAYÓN",
-        "stateId": 27
-    },
-
-    {
-        "name": 	"ENCINO"   ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"ENCISO"   ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"FLORIÁN"  ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"FLORIDABLANCA",
-        "stateId": 27
-    },
-
-    {
-        "name": 	"GALÁN",
-        "stateId": 27
-    },
-
-    {
-        "name": 	"GÁMBITA"  ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"GIRÓN",
-        "stateId": 27
-    },
-
-    {
-        "name": 	"GUACA",
-        "stateId": 27
-    },
-
-    {
-        "name": 	"GUADALUPE",
-        "stateId": 27
-    },
-
-    {
-        "name": 	"GUAPOTÁ"  ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"GUAVATÁ"  ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"GÜEPSA"   ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"HATO" ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"JESÚS MARÍA"  ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"JORDÁN"   ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"LA BELLEZA"   ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"LANDÁZURI",
-        "stateId": 27
-    },
-
-    {
-        "name": 	"LA PAZ"   ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"LEBRIJA"  ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"LOS SANTOS"   ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"MACARAVITA"   ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"MÁLAGA"   ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"MATANZA"  ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"MOGOTES"  ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"MOLAGAVITA"   ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"OCAMONTE" ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"OIBA" ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"ONZAGA"   ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"PALMAR"   ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"PALMAS DEL SOCORRO"   ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"PÁRAMO"   ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"PIEDECUESTA"  ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"PINCHOTE" ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"PUENTE NACIONAL"  ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"PUERTO PARRA" ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"PUERTO WILCHES"   ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"RIONEGRO" ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"SABANA DE TORRES" ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"SAN ANDRÉS"   ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"SAN BENITO"   ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"SAN GIL"  ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"SAN JOAQUÍN"  ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"SAN JOSÉ DE MIRANDA"  ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"SAN MIGUEL"   ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"SAN VICENTE DE CHUCURÍ"   ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"SANTA BÁRBARA",
-        "stateId": 27
-    },
-
-    {
-        "name": 	"SANTA HELENA DEL OPÓN",
-        "stateId": 27
-    },
-
-    {
-        "name": 	"SIMACOTA" ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"SOCORRO"  ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"SUAITA"   ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"SUCRE",
-        "stateId": 27
-    },
-
-    {
-        "name": 	"SURATÁ"   ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"TONA" ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"VALLE DE SAN JOSÉ",
-        "stateId": 27
-    },
-
-    {
-        "name": 	"VÉLEZ",
-        "stateId": 27
-    },
-
-    {
-        "name": 	"VETAS",
-        "stateId": 27
-    },
-
-    {
-        "name": 	"VILLANUEVA"   ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"ZAPATOCA" ,
-        "stateId": 27
-    },
-
-    {
-        "name": 	"SINCELEJO",
-        "stateId": 28
-    },
-
-    {
-        "name": 	"BUENAVISTA"   ,
-        "stateId": 28
-    },
-
-    {
-        "name": 	"CAIMITO"  ,
-        "stateId": 28
-    },
-
-    {
-        "name": 	"COLOSÓ"   ,
-        "stateId": 28
-    },
-
-    {
-        "name": 	"COROZAL"  ,
-        "stateId": 28
-    },
-
-    {
-        "name": 	"COVEÑAS"  ,
-        "stateId": 28
-    },
-
-    {
-        "name": 	"CHALÁN"   ,
-        "stateId": 28
-    },
-
-    {
-        "name": 	"EL ROBLE" ,
-        "stateId": 28
-    },
-
-    {
-        "name": 	"GALERAS"  ,
-        "stateId": 28
-    },
-
-    {
-        "name": 	"GUARANDA" ,
-        "stateId": 28
-    },
-
-    {
-        "name": 	"LA UNIÓN" ,
-        "stateId": 28
-    },
-
-    {
-        "name": 	"LOS PALMITOS" ,
-        "stateId": 28
-    },
-
-    {
-        "name": 	"MAJAGUAL" ,
-        "stateId": 28
-    },
-
-    {
-        "name": 	"MORROA"   ,
-        "stateId": 28
-    },
-
-    {
-        "name": 	"OVEJAS"   ,
-        "stateId": 28
-    },
-
-    {
-        "name": 	"PALMITO"  ,
-        "stateId": 28
-    },
-
-    {
-        "name": 	"SAMPUÉS"  ,
-        "stateId": 28
-    },
-
-    {
-        "name": 	"SAN BENITO ABAD"  ,
-        "stateId": 28
-    },
-
-    {
-        "name": 	"SAN JUAN DE BETULIA"  ,
-        "stateId": 28
-    },
-
-    {
-        "name": 	"SAN MARCOS"   ,
-        "stateId": 28
-    },
-
-    {
-        "name": 	"SAN ONOFRE"   ,
-        "stateId": 28
-    },
-
-    {
-        "name": 	"SAN PEDRO",
-        "stateId": 28
-    },
-
-    {
-        "name": 	"SAN LUIS DE SINCÉ",
-        "stateId": 28
-    },
-
-    {
-        "name": 	"SUCRE",
-        "stateId": 28
-    },
-
-    {
-        "name": 	"SANTIAGO DE TOLÚ" ,
-        "stateId": 28
-    },
-
-    {
-        "name": 	"TOLÚ VIEJO"   ,
-        "stateId": 28
-    },
-
-    {
-        "name": 	"IBAGUÉ"   ,
-        "stateId": 29
-    },
-
-    {
-        "name": 	"ALPUJARRA",
-        "stateId": 29
-    },
-
-    {
-        "name": 	"ALVARADO" ,
-        "stateId": 29
-    },
-
-    {
-        "name": 	"AMBALEMA" ,
-        "stateId": 29
-    },
-
-    {
-        "name": 	"ANZOÁTEGUI"   ,
-        "stateId": 29
-    },
-
-    {
-        "name": 	"ARMERO"   ,
-        "stateId": 29
-    },
-
-    {
-        "name": 	"ATACO",
-        "stateId": 29
-    },
-
-    {
-        "name": 	"CAJAMARCA",
-        "stateId": 29
-    },
-
-    {
-        "name": 	"CARMEN DE APICALÁ",
-        "stateId": 29
-    },
-
-    {
-        "name": 	"CASABIANCA"   ,
-        "stateId": 29
-    },
-
-    {
-        "name": 	"CHAPARRAL",
-        "stateId": 29
-    },
-
-    {
-        "name": 	"COELLO"   ,
-        "stateId": 29
-    },
-
-    {
-        "name": "COYAIMA"  ,
-        "stateId": 29
-    },
-
-    {
-        "name": "CUNDAY"   ,
-        "stateId": 29
-    },
-
-    {
-        "name": "DOLORES"  ,
-        "stateId": 29
-    },
-
-    {
-        "name": "ESPINAL"  ,
-        "stateId": 29
-    },
-
-    {
-        "name": "FALAN",
-        "stateId": 29
-    },
-
-    {
-        "name": "FLANDES"  ,
-        "stateId": 29
-    },
-
-    {
-        "name": "FRESNO"   ,
-        "stateId": 29
-    },
-
-    {
-        "name": "GUAMO",
-        "stateId": 29
-    },
-
-    {
-        "name": "HERVEO"   ,
-        "stateId": 29
-    },
-
-    {
-        "name": "HONDA",
-        "stateId": 29
-    },
-
-    {
-        "name": "ICONONZO" ,
-        "stateId": 29
-    },
-
-    {
-        "name": "LÉRIDA"   ,
-        "stateId": 29
-    },
-
-    {
-        "name": "LÍBANO"   ,
-        "stateId": 29
-    },
-
-    {
-        "name": "SAN SEBASTIÁN DE MARIQUITA"   ,
-        "stateId": 29
-    },
-
-    {
-        "name": "MELGAR"   ,
-        "stateId": 29
-    },
-
-    {
-        "name": "MURILLO"  ,
-        "stateId": 29
-    },
-
-    {
-        "name": "NATAGAIMA",
-        "stateId": 29
-    },
-
-    {
-        "name": "ORTEGA"   ,
-        "stateId": 29
-    },
-
-    {
-        "name": "PALOCABILDO"  ,
-        "stateId": 29
-    },
-
-    {
-        "name": "PIEDRAS"  ,
-        "stateId": 29
-    },
-
-    {
-        "name": "PLANADAS" ,
-        "stateId": 29
-    },
-
-    {
-        "name": "PRADO",
-        "stateId": 29
-    },
-
-    {
-        "name": "PURIFICACIÓN" ,
-        "stateId": 29
-    },
-
-    {
-        "name": "RIOBLANCO",
-        "stateId": 29
-    },
-
-    {
-        "name": "RONCESVALLES" ,
-        "stateId": 29
-    },
-
-    {
-        "name": "ROVIRA"   ,
-        "stateId": 29
-    },
-
-    {
-        "name": "SALDAÑA"  ,
-        "stateId": 29
-    },
-
-    {
-        "name": "SAN ANTONIO"  ,
-        "stateId": 29
-    },
-
-    {
-        "name": "SAN LUIS" ,
-        "stateId": 29
-    },
-
-    {
-        "name": "SANTA ISABEL" ,
-        "stateId": 29
-    },
-
-    {
-        "name": "SUÁREZ"   ,
-        "stateId": 29
-    },
-
-    {
-        "name": "VALLE DE SAN JUAN",
-        "stateId": 29
-    },
-
-    {
-        "name": "VENADILLO",
-        "stateId": 29
-    },
-
-    {
-        "name": "VILLAHERMOSA" ,
-        "stateId": 29
-    },
-
-    {
-        "name": "VILLARRICA"   ,
-        "stateId": 29
-    },
-
-    {
-        "name": "CALI" ,
-        "stateId": 30
-    },
-
-    {
-        "name": "ALCALÁ"   ,
-        "stateId": 30
-    },
-
-    {
-        "name": "ANDALUCÍA",
-        "stateId": 30
-    },
-
-    {
-        "name": "ANSERMANUEVO" ,
-        "stateId": 30
-    },
-
-    {
-        "name": "ARGELIA"  ,
-        "stateId": 30
-    },
-
-    {
-        "name": "BOLÍVAR"  ,
-        "stateId": 30
-    },
-
-    {
-        "name": "BUENAVENTURA" ,
-        "stateId": 30
-    },
-
-    {
-        "name": "GUADALAJARA DE BUGA"  ,
-        "stateId": 30
-    },
-
-    {
-        "name": "BUGALAGRANDE" ,
-        "stateId": 30
-    },
-
-    {
-        "name": "CAICEDONIA"   ,
-        "stateId": 30
-    },
-
-    {
-        "name": "CALIMA"   ,
-        "stateId": 30
-    },
-
-    {
-        "name": "CANDELARIA"   ,
-        "stateId": 30
-    },
-
-    {
-        "name": "CARTAGO"  ,
-        "stateId": 30
-    },
-
-    {
-        "name": "DAGUA",
-        "stateId": 30
-    },
-
-    {
-        "name": "EL ÁGUILA",
-        "stateId": 30
-    },
-
-    {
-        "name": "EL CAIRO" ,
-        "stateId": 30
-    },
-
-    {
-        "name": "EL CERRITO"   ,
-        "stateId": 30
-    },
-
-    {
-        "name": "EL DOVIO" ,
-        "stateId": 30
-    },
-
-    {
-        "name": "FLORIDA"  ,
-        "stateId": 30
-    },
-
-    {
-        "name": "GINEBRA"  ,
-        "stateId": 30
-    },
-
-    {
-        "name": "GUACARÍ"  ,
-        "stateId": 30
-    },
-
-    {
-        "name": "JAMUNDÍ"  ,
-        "stateId": 30
-    },
-
-    {
-        "name": "LA CUMBRE",
-        "stateId": 30
-    },
-
-    {
-        "name": "LA UNIÓN" ,
-        "stateId": 30
-    },
-
-    {
-        "name": "LA VICTORIA"  ,
-        "stateId": 30
-    },
-
-    {
-        "name": "OBANDO"   ,
-        "stateId": 30
-    },
-
-    {
-        "name": "PALMIRA"  ,
-        "stateId": 30
-    },
-
-    {
-        "name": "PRADERA"  ,
-        "stateId": 30
-    },
-
-    {
-        "name": "RESTREPO" ,
-        "stateId": 30
-    },
-
-    {
-        "name": "RIOFRÍO"  ,
-        "stateId": 30
-    },
-
-    {
-        "name": "ROLDANILLO"   ,
-        "stateId": 30
-    },
-
-    {
-        "name": "SAN PEDRO",
-        "stateId": 30
-    },
-
-    {
-        "name": "SEVILLA"  ,
-        "stateId": 30
-    },
-
-    {
-        "name": "TORO" ,
-        "stateId": 30
-    },
-
-    {
-        "name": "TRUJILLO" ,
-        "stateId": 30
-    },
-
-    {
-        "name": "TULUÁ",
-        "stateId": 30
-    },
-
-    {
-        "name": "ULLOA",
-        "stateId": 30
-    },
-
-    {
-        "name": "VERSALLES",
-        "stateId": 30
-    },
-
-    {
-        "name": "VIJES",
-        "stateId": 30
-    },
-
-    {
-        "name": "YOTOCO"   ,
-        "stateId": 30
-    },
-
-    {
-        "name": "YUMBO",
-        "stateId": 30
-    },
-
-    {
-        "name": "ZARZAL"   ,
-        "stateId": 30
-    },
-
-    {
-        "name": "ARAUCA"   ,
-        "stateId": 3
-    },
-
-    {
-        "name": "ARAUQUITA",
-        "stateId": 3
-    },
-
-    {
-        "name": "CRAVO NORTE"  ,
-        "stateId": 3
-    },
-
-    {
-        "name": "FORTUL"   ,
-        "stateId": 3
-    },
-
-    {
-        "name": "PUERTO RONDÓN",
-        "stateId": 3
-    },
-
-    {
-        "name": "SARAVENA" ,
-        "stateId": 3
-    },
-
-    {
-        "name": "TAME" ,
-        "stateId": 3
-    },
-
-    {
-        "name": "YOPAL",
-        "stateId": 10
-    },
-
-    {
-        "name": "AGUAZUL"  ,
-        "stateId": 10
-    },
-
-    {
-        "name": "CHÁMEZA"  ,
-        "stateId": 10
-    },
-
-    {
-        "name": "HATO COROZAL" ,
-        "stateId": 10
-    },
-
-    {
-        "name": "LA SALINA",
-        "stateId": 10
-    },
-
-    {
-        "name": "MANÍ" ,
-        "stateId": 10
-    },
-
-    {
-        "name": "MONTERREY",
-        "stateId": 10
-    },
-
-    {
-        "name": "NUNCHÍA"  ,
-        "stateId": 10
-    },
-
-    {
-        "name": "OROCUÉ"   ,
-        "stateId": 10
-    },
-
-    {
-        "name": "PAZ DE ARIPORO"   ,
-        "stateId": 10
-    },
-
-    {
-        "name": "PORE" ,
-        "stateId": 10
-    },
-
-    {
-        "name": "RECETOR"  ,
-        "stateId": 10
-    },
-
-    {
-        "name": "SABANALARGA"  ,
-        "stateId": 10
-    },
-
-    {
-        "name": "SÁCAMA"   ,
-        "stateId": 10
-    },
-
-    {
-        "name": "SAN LUIS DE PALENQUE" ,
-        "stateId": 10
-    },
-
-    {
-        "name": "TÁMARA"   ,
-        "stateId": 10
-    },
-
-    {
-        "name": "TAURAMENA",
-        "stateId": 10
-    },
-
-    {
-        "name": "TRINIDAD" ,
-        "stateId": 10
-    },
-
-    {
-        "name": "VILLANUEVA"   ,
-        "stateId": 10
-    },
-
-    {
-        "name": "MOCOA",
-        "stateId": 23
-    },
-
-    {
-        "name": "COLÓN",
-        "stateId": 23
-    },
-
-    {
-        "name": "ORITO",
-        "stateId": 23
-    },
-
-    {
-        "name": "PUERTO ASÍS"  ,
-        "stateId": 23
-    },
-
-    {
-        "name": "PUERTO CAICEDO"   ,
-        "stateId": 23
-    },
-
-    {
-        "name": "PUERTO GUZMÁN",
-        "stateId": 23
-    },
-
-    {
-        "name": "PUERTO LEGUÍZAMO" ,
-        "stateId": 23
-    },
-
-    {
-        "name": "SIBUNDOY" ,
-        "stateId": 23
-    },
-
-    {
-        "name": "SAN FRANCISCO",
-        "stateId": 23
-    },
-
-    {
-        "name": "SAN MIGUEL"   ,
-        "stateId": 23
-    },
-
-    {
-        "name": "SANTIAGO" ,
-        "stateId": 23
-    },
-
-    {
-        "name": "VALLE DEL GUAMUEZ",
-        "stateId": 23
-    },
-
-    {
-        "name": "VILLAGARZÓN"  ,
-        "stateId": 23
-    },
-
-    {
-        "name": "SAN ANDRÉS"   ,
-        "stateId": 26
-    },
-
-    {
-        "name": "PROVIDENCIA"  ,
-        "stateId": 26
-    },
-
-    {
-        "name": "LETICIA"  ,
-        "stateId": 1
-    },
-
-    {
-        "name": "EL ENCANTO"   ,
-        "stateId": 1
-    },
-
-    {
-        "name": "LA CHORRERA"  ,
-        "stateId": 1
-    },
-
-    {
-        "name": "LA PEDRERA"   ,
-        "stateId": 1
-    },
-
-    {
-        "name": "LA VICTORIA"  ,
-        "stateId": 1
-    },
-
-    {
-        "name": "MIRITÍ – PARANÁ"  ,
-        "stateId": 1
-    },
-
-    {
-        "name": "PUERTO ALEGRÍA"   ,
-        "stateId": 1
-    },
-
-    {
-        "name": "PUERTO ARICA" ,
-        "stateId": 1
-    },
-
-    {
-        "name": "PUERTO NARIÑO",
-        "stateId": 1
-    },
-
-    {
-        "name": "PUERTO SANTANDER" ,
-        "stateId": 1
-    },
-
-    {
-        "name": "TARAPACÁ" ,
-        "stateId": 1
-    },
-
-    {
-        "name": "INÍRIDA"  ,
-        "stateId": 15
-    },
-
-    {
-        "name": "BARRANCO MINAS"   ,
-        "stateId": 15
-    },
-
-    {
-        "name": "MAPIRIPANA"   ,
-        "stateId": 15
-    },
-
-    {
-        "name": "SAN FELIPE"   ,
-        "stateId": 15
-    },
-
-    {
-        "name": "PUERTO COLOMBIA"  ,
-        "stateId": 15
-    },
-
-    {
-        "name": "LA GUADALUPE" ,
-        "stateId": 15
-    },
-
-    {
-        "name": "CACAHUAL" ,
-        "stateId": 15
-    },
-
-    {
-        "name": "PANA PANA",
-        "stateId": 15
-    },
-
-    {
-        "name": "MORICHAL" ,
-        "stateId": 15
-    },
-
-    {
-        "name": "SAN JOSÉ DEL GUAVIARE",
-        "stateId": 16
-    },
-
-    {
-        "name": "CALAMAR"  ,
-        "stateId": 16
-    },
-
-    {
-        "name": "EL RETORNO"   ,
-        "stateId": 16
-    },
-
-    {
-        "name": "MIRAFLORES"   ,
-        "stateId": 16
-    },
-
-    {
-        "name": "MITÚ" ,
-        "stateId": 31
-    },
-
-    {
-        "name": "CARURÚ"   ,
-        "stateId": 31
-    },
-
-    {
-        "name": "PACOA",
-        "stateId": 31
-    },
-
-    {
-        "name": "TARAIRA"  ,
-        "stateId": 31
-    },
-
-    {
-        "name": "PAPUNAHUA",
-        "stateId": 31
-    },
-
-    {
-        "name": "YAVARATÉ" ,
-        "stateId": 31
-    },
-
-    {
-        "name": "PUERTO CARREÑO"   ,
-        "stateId": 32
-    },
-
-    {
-        "name": "LA PRIMAVERA" ,
-        "stateId": 32
-    },
-
-    {
-        "name": "SANTA ROSALÍA",
-        "stateId": 32
-    },
-
-    {
-        "name": "CUMARIBO" ,
-        "stateId": 32
-    }
+    { "name": "MEDELLÍN", "stateId": 2 },
+    { "name": "ABEJORRAL","stateId": 2 },
+    { "name": "ABRIAQUÍ", "stateId": 2 },
+    { "name": "ALEJANDRÍA","stateId": 2 },
+    { "name": "AMAGÁ","stateId": 2 },
+    { "name": "AMALFI","stateId": 2 },
+    { "name": "ANDES","stateId": 2 },
+    { "name": "ANGELÓPOLIS","stateId": 2 },
+    { "name": "ANGOSTURA","stateId": 2 },
+    { "name": "ANORÍ","stateId": 2 },
+    { "name": "SANTA FÉ DE ANTIOQUIA","stateId": 2 },
+    { "name": "ANZÁ","stateId": 2 },
+    { "name": "APARTADÓ", "stateId": 2 },
+    { "name": "ARBOLETES","stateId": 2 },
+    { "name": "ARGELIA","stateId": 2 },
+    { "name": "ARMENIA","stateId": 2 },
+    { "name": "BARBOSA","stateId": 2 },
+    { "name": "BELMIRA","stateId": 2 },
+    { "name": "BELLO","stateId": 2 },
+    { "name": "BETANIA","stateId": 2 },
+    { "name": "BETULIA","stateId": 2 },
+    { "name": "CIUDAD BOLÍVAR","stateId": 2 },
+    { "name": "BRICEÑO","stateId": 2 },
+    { "name": "BURITICÁ", "stateId": 2 },
+    { "name": "CÁCERES","stateId": 2 },
+    { "name": "CAICEDO","stateId": 2 },
+    { "name": "CALDAS","stateId": 2 },
+    { "name": "CAMPAMENTO","stateId": 2 },
+    { "name": "CAÑASGORDAS","stateId": 2 },
+    { "name": "CARACOLÍ", "stateId": 2 },
+    { "name": "CARAMANTA","stateId": 2 },
+    { "name": "CAREPA","stateId": 2 },
+    { "name": "EL CARMEN DE VIBORAL","stateId": 2 },
+    { "name": "CAROLINA", "stateId": 2 },
+    { "name": "CAUCASIA", "stateId": 2 },
+    { "name": "CHIGORODÓ","stateId": 2 },
+    { "name": "CISNEROS", "stateId": 2 },
+    { "name": "COCORNÁ","stateId": 2 },
+    { "name": "CONCEPCIÓN","stateId": 2 },
+    { "name": "CONCORDIA","stateId": 2 },
+    { "name": "COPACABANA","stateId": 2 },
+    { "name": "DABEIBA","stateId": 2 },
+    { "name": "DONMATÍAS","stateId": 2 },
+    { "name": "EBÉJICO","stateId": 2 },
+    { "name": "EL BAGRE", "stateId": 2 },
+    { "name": "ENTRERRÍOS","stateId": 2 },
+    { "name": "ENVIGADO","stateId": 2 },
+    { "name": "FREDONIA","stateId": 2 },
+    { "name": "FRONTINO","stateId": 2 },
+    { "name": "GIRALDO", "stateId": 2 },
+    { "name": "GIRARDOTA","stateId": 2 },
+    { "name": "GÓMEZ PLATA","stateId": 2 },
+    { "name": "GRANADA ","stateId": 2 },
+    { "name": "GUADALUPE","stateId": 2 },
+    { "name": "GUARNE","stateId": 2 },
+    { "name": "GUATAPÉ","stateId": 2 },
+    { "name": "HELICONIA","stateId": 2 },
+    { "name": "HISPANIA","stateId": 2 },
+    { "name": "ITAGÜÍ","stateId": 2 },
+    { "name": "ITUANGO","stateId": 2 },
+    { "name": "JARDÍN","stateId": 2 },
+    { "name": "JERICÓ","stateId": 2 },
+    { "name": "LA CEJA","stateId": 2 },
+    { "name": "LA ESTRELLA","stateId": 2 },
+    { "name": "LA PINTADA","stateId": 2 },
+    { "name": "LA UNIÓN", "stateId": 2 },
+    { "name": "LIBORINA", "stateId": 2 },
+    { "name": "MACEO","stateId": 2 },
+    { "name": "MARINILLA","stateId": 2 },
+    { "name": "MONTEBELLO","stateId": 2 },
+    { "name": "MURINDÓ","stateId": 2 },
+    { "name": "MUTATÁ","stateId": 2 },
+    { "name": "NARIÑO","stateId": 2 },
+    { "name": "NECOCLÍ","stateId": 2 },
+    { "name": "NECHÍ","stateId": 2 },
+    { "name": "OLAYA","stateId": 2 },
+    { "name": "PEÑOL","stateId": 2 },
+    { "name": "PEQUE","stateId": 2 },
+    { "name": "PUEBLORRICO","stateId": 2 },
+    { "name": "PUERTO BERRÍO","stateId": 2 },
+    { "name": "PUERTO NARE","stateId": 2 },
+    { "name": "PUERTO TRIUNFO","stateId": 2 },
+    { "name": "REMEDIOS", "stateId": 2 },
+    { "name": "RETIRO","stateId": 2 },
+    { "name": "RIONEGRO", "stateId": 2 },
+    { "name": "SABANALARGA","stateId": 2 },
+    { "name": "SABANETA", "stateId": 2 },
+    { "name": "SALGAR","stateId": 2 },
+    { "name": "SAN ANDRÉS DE CUERQUÍA","stateId": 2 },
+    { "name": "SAN CARLOS","stateId": 2 },
+    { "name": "SAN FRANCISCO","stateId": 2 },
+    { "name": "SAN JERÓNIMO", "stateId": 2 },
+    { "name": "SAN JOSÉ DE LA MONTAÑA","stateId": 2 },
+    { "name": "SAN JUAN DE URABÁ","stateId": 2 },
+    { "name": "SAN LUIS", "stateId": 2 },
+    { "name": "SAN PEDRO DE LOS MILAGROS","stateId": 2 },
+    { "name": "SAN PEDRO DE URABÁ","stateId": 2 },
+    { "name": "SAN RAFAEL","stateId": 2 },
+    { "name": "SAN ROQUE","stateId": 2 },
+    { "name": "SAN VICENTE FERRER","stateId": 2 },
+    { "name": "SANTA BÁRBARA","stateId": 2 },
+    { "name": "SANTA ROSA DE OSOS","stateId": 2 },
+    { "name": "SANTO DOMINGO","stateId": 2 },
+    { "name": "EL SANTUARIO", "stateId": 2 },
+    { "name": "SEGOVIA","stateId": 2 },
+    { "name": "SONSÓN","stateId": 2 },
+    { "name": "SOPETRÁN", "stateId": 2 },
+    { "name": "TÁMESIS","stateId": 2 },
+    { "name": "TARAZÁ","stateId": 2 },
+    { "name": "TARSO","stateId": 2 },
+    { "name": "TITIRIBÍ", "stateId": 2 },
+    { "name": "TOLEDO","stateId": 2 },
+    { "name": "TURBO","stateId": 2 },
+    { "name": "URAMITA","stateId": 2 },
+    { "name": "URRAO","stateId": 2 },
+    { "name": "VALDIVIA", "stateId": 2 },
+    { "name": "VALPARAÍSO","stateId": 2 },
+    { "name": "VEGACHÍ","stateId": 2 },
+    { "name": "VENECIA","stateId": 2 },
+    { "name": "VIGÍA DEL FUERTE", "stateId": 2 },
+    { "name": "YALÍ", "stateId": 2 },
+    { "name": "YARUMAL","stateId": 2 },
+    { "name": "YOLOMBÓ","stateId": 2 },
+    { "name": "YONDÓ","stateId": 2 },
+    { "name": "ZARAGOZA", "stateId": 2 },
+    { "name": "BARRANQUILLA","stateId": 4 },
+    { "name": "BARANOA","stateId": 4 },
+    { "name": "CAMPO DE LA CRUZ","stateId": 4 },
+    { "name": "CANDELARIA", "stateId": 4 },
+    { "name": "GALAPA", "stateId": 4 },
+    { "name": "JUAN DE ACOSTA", "stateId": 4 },
+    { "name": "LURUACO","stateId": 4 },
+    { "name": "MALAMBO","stateId": 4 },
+    { "name": "MANATÍ", "stateId": 4 },
+    { "name": "PALMAR DE VARELA","stateId": 4 },
+    { "name": "PIOJÓ","stateId": 4 },
+    { "name": "POLONUEVO","stateId": 4 },
+    { "name": "PONEDERA","stateId": 4 },
+    { "name": "PUERTO COLOMBIA","stateId": 4 },
+    { "name": "REPELÓN","stateId": 4 },
+    { "name": "SABANAGRANDE","stateId": 4 },
+    { "name": "SABANALARGA","stateId": 4 },
+    { "name": "SANTA LUCÍA","stateId": 4 },
+    { "name": "SANTO TOMÁS","stateId": 4 },
+    { "name": "SOLEDAD","stateId": 4 },
+    { "name": "SUAN","stateId": 4 },
+    { "name": "TUBARÁ", "stateId": 4 },
+    { "name": "USIACURÍ","stateId": 4 },
+    { "name": "BOGOTÁ, D.C.","stateId": 5 },
+    { "name": "CARTAGENA DE INDIAS", "stateId": 6 },
+    { "name": "ACHÍ","stateId": 6 },
+    { "name": "ALTOS DEL ROSARIO","stateId": 6 },
+    { "name": "ARENAL","stateId": 6 },
+    { "name": "ARJONA","stateId": 6 },
+    { "name": "ARROYOHONDO","stateId": 6 },
+    { "name": "BARRANCO DE LOBA","stateId": 6 },
+    { "name": "CALAMAR","stateId": 6 },
+    { "name": "CANTAGALLO","stateId": 6 },
+    { "name": "CICUCO","stateId": 6 },
+    { "name": "CÓRDOBA","stateId": 6 },
+    { "name": "CLEMENCIA","stateId": 6 },
+    { "name": "EL CARMEN DE BOLÍVAR","stateId": 6 },
+    { "name": "EL GUAMO","stateId": 6 },
+    { "name": "EL PEÑÓN","stateId": 6 },
+    { "name": "HATILLO DE LOBA","stateId": 6 },
+    { "name": "MAGANGUÉ","stateId": 6 },
+    { "name": "MAHATES","stateId": 6 },
+    { "name": "MARGARITA","stateId": 6 },
+    { "name": "MARÍA LA BAJA","stateId": 6 },
+    { "name": "MONTECRISTO","stateId": 6 },
+    { "name": "MOMPÓS","stateId": 6 },
+    { "name": "MORALES","stateId": 6 },
+    { "name": "NOROSÍ","stateId": 6 },
+    { "name": "PINILLOS","stateId": 6 },
+    { "name": "REGIDOR","stateId": 6 },
+    { "name": "RÍO VIEJO","stateId": 6 },
+    { "name": "SAN CRISTÓBAL","stateId": 6 },
+    { "name": "SAN ESTANISLAO","stateId": 6 },
+    { "name": "SAN FERNANDO","stateId": 6 },
+    { "name": "SAN JACINTO","stateId": 6 },
+    { "name": "SAN JACINTO DEL CAUCA","stateId": 6 },
+    { "name": "SAN JUAN NEPOMUCENO","stateId": 6 },
+    { "name": "SAN MARTÍN DE LOBA","stateId": 6 },
+    { "name": "SAN PABLO","stateId": 6 },
+    { "name": "SANTA CATALINA","stateId": 6 },
+    { "name": "SANTA ROSA","stateId": 6 },
+    { "name": "SANTA ROSA DEL SUR","stateId": 6 },
+    { "name": "SIMITÍ","stateId": 6 },
+    { "name": "SOPLAVIENTO","stateId": 6 },
+    { "name": "TALAIGUA NUEVO","stateId": 6 },
+    { "name": "TIQUISIO","stateId": 6 },
+    { "name": "TURBACO","stateId": 6 },
+    { "name": "TURBANÁ","stateId": 6 },
+    { "name": "VILLANUEVA","stateId": 6 },
+    { "name": "ZAMBRANO","stateId": 6 },
+    { "name": "TUNJA","stateId": 7 },
+    { "name": "ALMEIDA","stateId": 7 },
+    { "name": "AQUITANIA","stateId": 7 },
+    { "name": "ARCABUCO","stateId": 7 },
+    { "name": "BELÉN","stateId": 7 },
+    { "name": "BERBEO","stateId": 7 },
+    { "name": "BETÉITIVA","stateId": 7 },
+    { "name": "BOAVITA","stateId": 7 },
+    { "name": "BOYACÁ","stateId": 7 },
+    { "name": "BRICEÑO","stateId": 7 },
+    { "name": "BUENAVISTA","stateId": 7 },
+    { "name": "BUSBANZÁ","stateId": 7 },
+    { "name": "CALDAS","stateId": 7 },
+    { "name": "CAMPOHERMOSO","stateId": 7 },
+    { "name": "CERINZA","stateId": 7 },
+    { "name": "CHINAVITA","stateId": 7 },
+    { "name": "CHIQUINQUIRÁ","stateId": 7 },
+    { "name": "CHISCAS","stateId": 7 },
+    { "name": "CHITA","stateId": 7 },
+    { "name": "CHITARAQUE","stateId": 7 },
+    { "name": "CHIVATÁ","stateId": 7 },
+    { "name": "CIÉNEGA","stateId": 7 },
+    { "name": "CÓMBITA","stateId": 7 },
+    { "name": "COPER","stateId": 7 },
+    { "name": "CORRALES","stateId": 7 },
+    { "name": "COVARACHÍA","stateId": 7 },
+    { "name": "CUBARÁ","stateId": 7 },
+    { "name": "CUCAITA","stateId": 7 },
+    { "name": "CUÍTIVA","stateId": 7 },
+    { "name": "CHÍQUIZA","stateId": 7 },
+    { "name": "CHIVOR","stateId": 7 },
+    { "name": "DUITAMA","stateId": 7 },
+    { "name": "EL COCUY","stateId": 7 },
+    { "name": "EL ESPINO","stateId": 7 },
+    { "name": "FIRAVITOBA","stateId": 7 },
+    { "name": "FLORESTA","stateId": 7 },
+    { "name": "GACHANTIVÁ", "stateId": 7 },
+    { "name": "GÁMEZA","stateId": 7 },
+    { "name": "GARAGOA","stateId": 7 },
+    { "name": "GUACAMAYAS","stateId": 7 },
+    { "name": "GUATEQUE","stateId": 7 },
+    { "name": "GUAYATÁ","stateId": 7 },
+    { "name": "GÜICÁN DE LA SIERRA","stateId": 7 },
+    { "name": "IZA","stateId": 7 },
+    { "name": "JENESANO","stateId": 7 },
+    { "name": "JERICÓ","stateId": 7 },
+    { "name": "LABRANZAGRANDE","stateId": 7 },
+    { "name": "LA CAPILLA","stateId": 7 },
+    { "name": "LA VICTORIA","stateId": 7 },
+    { "name": "LA UVITA","stateId": 7 },
+    { "name": "VILLA DE LEYVA","stateId": 7 },
+    { "name": "MACANAL","stateId": 7 },
+    { "name": "MARIPÍ","stateId": 7 },
+    { "name": "MIRAFLORES","stateId": 7 },
+    { "name": "MONGUA","stateId": 7 },
+    { "name": "MONGUÍ","stateId": 7 },
+    { "name": "MONIQUIRÁ", "stateId": 7 },
+    { "name": "MOTAVITA","stateId": 7 },
+    { "name": "MUZO","stateId": 7 },
+    { "name": "NOBSA", "stateId": 7 },
+    { "name": "NUEVO COLÓN","stateId": 7 },
+    { "name": "OICATÁ","stateId": 7 },
+    { "name": "OTANCHE","stateId": 7 },
+    { "name": "PACHAVITA", "stateId": 7 },
+    { "name": "PÁEZ","stateId": 7 },
+    { "name": "PAIPA", "stateId": 7 },
+    { "name": "PAJARITO","stateId": 7 },
+    { "name": "PANQUEBA","stateId": 7 },
+    { "name": "PAUNA", "stateId": 7 },
+    { "name": "PAYA","stateId": 7 },
+    { "name": "PAZ DE RÍO","stateId": 7 },
+    { "name": "PESCA", "stateId": 7 },
+    { "name": "PISBA", "stateId": 7 },
+    { "name": "PUERTO BOYACÁ", "stateId": 7 },
+    { "name": "QUÍPAMA","stateId": 7 },
+    { "name": "RAMIRIQUÍ", "stateId": 7 },
+    { "name": "RÁQUIRA","stateId": 7 },
+    { "name": "RONDÓN","stateId": 7 },
+    { "name": "SABOYÁ","stateId": 7 },
+    { "name": "SÁCHICA","stateId": 7 },
+    { "name": "SAMACÁ","stateId": 7 },
+    { "name": "SAN EDUARDO","stateId": 7 },
+    { "name": "SAN JOSÉ DE PARE","stateId": 7 },
+    { "name": "SAN LUIS DE GACENO","stateId": 7 },
+    { "name": "SAN MATEO", "stateId": 7 },
+    { "name": "SAN MIGUEL DE SEMA","stateId": 7 },
+    { "name": "SAN PABLO DE BORBUR","stateId": 7 },
+    { "name": "SANTANA","stateId": 7 },
+    { "name": "SANTA MARÍA","stateId": 7 },
+    { "name": "SANTA ROSA DE VITERBO", "stateId": 7 },
+    { "name": "SANTA SOFÍA","stateId": 7 },
+    { "name": "SATIVANORTE","stateId": 7 },
+    { "name": "SATIVASUR", "stateId": 7 },
+    { "name": "SIACHOQUE", "stateId": 7 },
+    { "name": "SOATÁ", "stateId": 7 },
+    { "name": "SOCOTÁ","stateId": 7 },
+    { "name": "SOCHA", "stateId": 7 },
+    { "name": "SOGAMOSO","stateId": 7 },
+    { "name": "SOMONDOCO", "stateId": 7 },
+    { "name": "SORA","stateId": 7 },
+    { "name": "SOTAQUIRÁ", "stateId": 7 },
+    { "name": "SORACÁ","stateId": 7 },
+    { "name": "SUSACÓN","stateId": 7 },
+    { "name": "SUTAMARCHÁN","stateId": 7 },
+    { "name": "SUTATENZA", "stateId": 7 },
+    { "name": "TASCO", "stateId": 7 },
+    { "name": "TENZA", "stateId": 7 },
+    { "name": "TIBANÁ","stateId": 7 },
+    { "name": "TIBASOSA","stateId": 7 },
+    { "name": "TINJACÁ","stateId": 7 },
+    { "name": "TIPACOQUE", "stateId": 7 },
+    { "name": "TOCA","stateId": 7 },
+    { "name": "TOGÜÍ", "stateId": 7 },
+    { "name": "TÓPAGA","stateId": 7 },
+    { "name": "TOTA","stateId": 7 },
+    { "name": "TUNUNGUÁ","stateId": 7 },
+    { "name": "TURMEQUÉ","stateId": 7 },
+    { "name": "TUTA","stateId": 7 },
+    { "name": "TUTAZÁ","stateId": 7 },
+    { "name": "ÚMBITA","stateId": 7 },
+    { "name": "VENTAQUEMADA","stateId": 7 },
+    { "name": "VIRACACHÁ", "stateId": 7 },
+    { "name": "ZETAQUIRA", "stateId": 7 },
+    { "name": "MANIZALES","stateId": 8 },
+    { "name": "AGUADAS","stateId": 8 },
+    { "name": "ANSERMA","stateId": 8 },
+    { "name": "ARANZAZU","stateId": 8 },
+    { "name": "BELALCÁZAR", "stateId": 8 },
+    { "name": "CHINCHINÁ","stateId": 8 },
+    { "name": "FILADELFIA", "stateId": 8 },
+    { "name": "LA DORADA","stateId": 8 },
+    { "name": "LA MERCED","stateId": 8 },
+    { "name": "MANZANARES", "stateId": 8 },
+    { "name": "MARMATO","stateId": 8 },
+    { "name": "MARQUETALIA","stateId": 8 },
+    { "name": "MARULANDA","stateId": 8 },
+    { "name": "NEIRA","stateId": 8 },
+    { "name": "NORCASIA","stateId": 8 },
+    { "name": "CALDAS", "stateId": 8 },
+    { "name": "PÁCORA", "stateId": 8 },
+    { "name": "PALESTINA","stateId": 8 },
+    { "name": "PENSILVANIA","stateId": 8 },
+    { "name": "RIOSUCIO","stateId": 8 },
+    { "name": "RISARALDA","stateId": 8 },
+    { "name": "SALAMINA","stateId": 8 },
+    { "name": "SAMANÁ", "stateId": 8 },
+    { "name": "SAN JOSÉ","stateId": 8 },
+    { "name": "SUPÍA","stateId": 8 },
+    { "name": "VICTORIA","stateId": 8 },
+    { "name": "VILLAMARÍA", "stateId": 8 },
+    { "name": "VITERBO","stateId": 8 },
+    { "name": "FLORENCIA","stateId": 9 },
+    { "name": "ALBANIA","stateId": 9 },
+    { "name": "BELÉN DE LOS ANDAQUÍES", "stateId": 9 },
+    { "name": "CARTAGENA DEL CHAIRÁ","stateId": 9 },
+    { "name": "CURILLO","stateId": 9 },
+    { "name": "EL DONCELLO","stateId": 9 },
+    { "name": "EL PAUJÍL","stateId": 9 },
+    { "name": "LA MONTAÑITA","stateId": 9 },
+    { "name": "MILÁN","stateId": 9 },
+    { "name": "MORELIA","stateId": 9 },
+    { "name": "PUERTO RICO","stateId": 9 },
+    { "name": "SAN JOSÉ DEL FRAGUA","stateId": 9 },
+    { "name": "SAN VICENTE DEL CAGUÁN", "stateId": 9 },
+    { "name": "SOLANO", "stateId": 9 },
+    { "name": "SOLITA", "stateId": 9 },
+    { "name": "VALPARAÍSO", "stateId": 9 },
+    { "name": "POPAYÁN","stateId": 11 },
+    { "name": "ALMAGUER","stateId": 11 },
+    { "name": "ARGELIA","stateId": 11 },
+    { "name": "BALBOA", "stateId": 11 },
+    { "name": "BOLÍVAR","stateId": 11 },
+    { "name": "BUENOS AIRES","stateId": 11 },
+    { "name": "CAJIBÍO","stateId": 11 },
+    { "name": "CALDONO","stateId": 11 },
+    { "name": "CALOTO", "stateId": 11 },
+    { "name": "CORINTO","stateId": 11 },
+    { "name": "EL TAMBO","stateId": 11 },
+    { "name": "FLORENCIA","stateId": 11 },
+    { "name": "GUACHENÉ","stateId": 11 },
+    { "name": "GUAPÍ","stateId": 11 },
+    { "name": "INZÁ","stateId": 11 },
+    { "name": "JAMBALÓ","stateId": 11 },
+    { "name": "LA SIERRA","stateId": 11 },
+    { "name": "LA VEGA","stateId": 11 },
+    { "name": "LÓPEZ DE MICAY", "stateId": 11 },
+    { "name": "MERCADERES", "stateId": 11 },
+    { "name": "MIRANDA","stateId": 11 },
+    { "name": "MORALES","stateId": 11 },
+    { "name": "PADILLA","stateId": 11 },
+    { "name": "PÁEZ","stateId": 11 },
+    { "name": "PATÍA","stateId": 11 },
+    { "name": "PIAMONTE","stateId": 11 },
+    { "name": "PIENDAMÓ – TUNÍA","stateId": 11 },
+    { "name": "PUERTO TEJADA","stateId": 11 },
+    { "name": "PURACÉ", "stateId": 11 },
+    { "name": "ROSAS","stateId": 11 },
+    { "name": "SAN SEBASTIÁN","stateId": 11 },
+    { "name": "SANTANDER DE QUILICHAO", "stateId": 11 },
+    { "name": "SANTA ROSA", "stateId": 11 },
+    { "name": "SILVIA", "stateId": 11 },
+    { "name": "SOTARA", "stateId": 11 },
+    { "name": "SUÁREZ", "stateId": 11 },
+    { "name": "SUCRE","stateId": 11 },
+    { "name": "TIMBÍO", "stateId": 11 },
+    { "name": "TIMBIQUÍ","stateId": 11 },
+    { "name": "TORIBÍO","stateId": 11 },
+    { "name": "TOTORÓ", "stateId": 11 },
+    { "name": "VILLA RICA", "stateId": 11 },
+    { "name": "VALLEDUPAR", "stateId": 12 },
+    { "name": "AGUACHICA","stateId": 12 },
+    { "name": "AGUSTÍN CODAZZI","stateId": 12 },
+    { "name": "ASTREA", "stateId": 12 },
+    { "name": "BECERRIL","stateId": 12 },
+    { "name": "BOSCONIA","stateId": 12 },
+    { "name": "CHIMICHAGUA","stateId": 12 },
+    { "name": "CHIRIGUANÁ", "stateId": 12 },
+    { "name": "CURUMANÍ","stateId": 12 },
+    { "name": "EL COPEY","stateId": 12 },
+    { "name": "EL PASO","stateId": 12 },
+    { "name": "GAMARRA","stateId": 12 },
+    { "name": "GONZÁLEZ","stateId": 12 },
+    { "name": "LA GLORIA","stateId": 12 },
+    { "name": "LA JAGUA DE IBIRICO","stateId": 12 },
+    { "name": "MANAURE BALCÓN DEL CESAR","stateId": 12 },
+    { "name": "PAILITAS","stateId": 12 },
+    { "name": "PELAYA", "stateId": 12 },
+    { "name": "PUEBLO BELLO","stateId": 12 },
+    { "name": "RÍO DE ORO", "stateId": 12 },
+    { "name": "LA PAZ", "stateId": 12 },
+    { "name": "SAN ALBERTO","stateId": 12 },
+    { "name": "SAN DIEGO","stateId": 12 },
+    { "name": "SAN MARTÍN", "stateId": 12 },
+    { "name": "TAMALAMEQUE","stateId": 12 },
+    { "name": "MONTERÍA","stateId": 14 },
+    { "name": "AYAPEL", "stateId": 14 },
+    { "name": "BUENAVISTA", "stateId": 14 },
+    { "name": "CANALETE","stateId": 14 },
+    { "name": "CERETÉ", "stateId": 14 },
+    { "name": "CHIMÁ","stateId": 14 },
+    { "name": "CHINÚ","stateId": 14 },
+    { "name": "CIÉNAGA DE ORO", "stateId": 14 },
+    { "name": "COTORRA","stateId": 14 },
+    { "name": "LA APARTADA","stateId": 14 },
+    { "name": "LORICA", "stateId": 14 },
+    { "name": "LOS CÓRDOBAS","stateId": 14 },
+    { "name": "MOMIL","stateId": 14 },
+    { "name": "MONTELÍBANO","stateId": 14 },
+    { "name": "MOÑITOS","stateId": 14 },
+    { "name": "PLANETA RICA","stateId": 14 },
+    { "name": "PUEBLO NUEVO","stateId": 14 },
+    { "name": "PUERTO ESCONDIDO","stateId": 14 },
+    { "name": "PUERTO LIBERTADOR","stateId": 14 },
+    { "name": "PURÍSIMA DE LA CONCEPCIÓN","stateId": 14 },
+    { "name": "SAHAGÚN","stateId": 14 },
+    { "name": "SAN ANDRÉS DE SOTAVENTO","stateId": 14 },
+    { "name": "SAN ANTERO", "stateId": 14 },
+    { "name": "SAN BERNARDO DEL VIENTO","stateId": 14 },
+    { "name": "SAN CARLOS", "stateId": 14 },
+    { "name": "SAN JOSÉ DE URÉ","stateId": 14 },
+    { "name": "SAN PELAYO", "stateId": 14 },
+    { "name": "TIERRALTA","stateId": 14 },
+    { "name": "TUCHÍN", "stateId": 14 },
+    { "name": "VALENCIA","stateId": 14 },
+    { "name": "AGUA DE DIOS","stateId": 33 },
+    { "name": "ALBÁN","stateId": 33 },
+    { "name": "ANAPOIMA","stateId": 33 },
+    { "name": "ANOLAIMA","stateId": 33 },
+    { "name": "ARBELÁEZ","stateId": 33 },
+    { "name": "BELTRÁN","stateId": 33 },
+    { "name": "BITUIMA","stateId": 33 },
+    { "name": "BOJACÁ", "stateId": 33 },
+    { "name": "CABRERA","stateId": 33 },
+    { "name": "CACHIPAY","stateId": 33 },
+    { "name": "CAJICÁ", "stateId": 33 },
+    { "name": "CAPARRAPÍ","stateId": 33 },
+    { "name": "CÁQUEZA","stateId": 33 },
+    { "name": "CARMEN DE CARUPA","stateId": 33 },
+    { "name": "CHAGUANÍ","stateId": 33 },
+    { "name": "CHÍA","stateId": 33 },
+    { "name": "CHIPAQUE","stateId": 33 },
+    { "name": "CHOACHÍ","stateId": 33 },
+    { "name": "CHOCONTÁ","stateId": 33 },
+    { "name": "COGUA","stateId": 33 },
+    { "name": "COTA","stateId": 33 },
+    { "name": "CUCUNUBÁ","stateId": 33 },
+    { "name": "EL COLEGIO", "stateId": 33 },
+    { "name": "EL PEÑÓN","stateId": 33 },
+    { "name": "EL ROSAL","stateId": 33 },
+    { "name": "FACATATIVÁ", "stateId": 33 },
+    { "name": "FÓMEQUE","stateId": 33 },
+    { "name": "FOSCA","stateId": 33 },
+    { "name": "FUNZA","stateId": 33 },
+    { "name": "FÚQUENE","stateId": 33 },
+    { "name": "FUSAGASUGÁ", "stateId": 33 },
+    { "name": "GACHALÁ","stateId": 33 },
+    { "name": "GACHANCIPÁ", "stateId": 33 },
+    { "name": "GACHETÁ","stateId": 33 },
+    { "name": "GAMA","stateId": 33 },
+    { "name": "GIRARDOT","stateId": 33 },
+    { "name": "GRANADA","stateId": 33 },
+    { "name": "GUACHETÁ","stateId": 33 },
+    { "name": "GUADUAS","stateId": 33 },
+    { "name": "GUASCA", "stateId": 33 },
+    { "name": "GUATAQUÍ","stateId": 33 },
+    { "name": "GUATAVITA","stateId": 33 },
+    { "name": "GUAYABAL DE SÍQUIMA","stateId": 33 },
+    { "name": "GUAYABETAL", "stateId": 33 },
+    { "name": "GUTIÉRREZ","stateId": 33 },
+    { "name": "JERUSALÉN","stateId": 33 },
+    { "name": "JUNÍN","stateId": 33 },
+    { "name": "LA CALERA","stateId": 33 },
+    { "name": "LA MESA","stateId": 33 },
+    { "name": "LA PALMA","stateId": 33 },
+    { "name": "LA PEÑA","stateId": 33 },
+    { "name": "LA VEGA","stateId": 33 },
+    { "name": "LENGUAZAQUE","stateId": 33 },
+    { "name": "MACHETÁ","stateId": 33 },
+    { "name": "MADRID", "stateId": 33 },
+    { "name": "MANTA","stateId": 33 },
+    { "name": "MEDINA", "stateId": 33 },
+    { "name": "MOSQUERA","stateId": 33 },
+    { "name": "NARIÑO", "stateId": 33 },
+    { "name": "NEMOCÓN","stateId": 33 },
+    { "name": "NILO","stateId": 33 },
+    { "name": "NIMAIMA","stateId": 33 },
+    { "name": "NOCAIMA","stateId": 33 },
+    { "name": "VENECIA","stateId": 33 },
+    { "name": "PACHO","stateId": 33 },
+    { "name": "PAIME","stateId": 33 },
+    { "name": "PANDI","stateId": 33 },
+    { "name": "PARATEBUENO","stateId": 33 },
+    { "name": "PASCA","stateId": 33 },
+    { "name": "PUERTO SALGAR","stateId": 33 },
+    { "name": "PULÍ","stateId": 33 },
+    { "name": "QUEBRADANEGRA","stateId": 33 },
+    { "name": "QUETAME","stateId": 33 },
+    { "name": "QUIPILE","stateId": 33 },
+    { "name": "APULO","stateId": 33 },
+    { "name": "RICAURTE","stateId": 33 },
+    { "name": "SAN ANTONIO DEL TEQUENDAMA", "stateId": 33 },
+    { "name": "SAN BERNARDO","stateId": 33 },
+    { "name": "SAN CAYETANO","stateId": 33 },
+    { "name": "SAN FRANCISCO","stateId": 33 },
+    { "name": "SAN JUAN DE RIOSECO","stateId": 33 },
+    { "name": "SASAIMA","stateId": 33 },
+    { "name": "SESQUILÉ","stateId": 33 },
+    { "name": "SIBATÉ", "stateId": 33 },
+    { "name": "SILVANIA","stateId": 33 },
+    { "name": "SIMIJACA","stateId": 33 },
+    { "name": "SOACHA", "stateId": 33 },
+    { "name": "SOPÓ","stateId": 33 },
+    { "name": "SUBACHOQUE", "stateId": 33 },
+    { "name": "SUESCA", "stateId": 33 },
+    { "name": "SUPATÁ", "stateId": 33 },
+    { "name": "SUSA","stateId": 33 },
+    { "name": "SUTATAUSA","stateId": 33 },
+    { "name": "TABIO","stateId": 33 },
+    { "name": "TAUSA","stateId": 33 },
+    { "name": "TENA","stateId": 33 },
+    { "name": "TENJO","stateId": 33 },
+    { "name": "TIBACUY","stateId": 33 },
+    { "name": "TIBIRITA","stateId": 33 },
+    { "name": "TOCAIMA","stateId": 33 },
+    { "name": "TOCANCIPÁ","stateId": 33 },
+    { "name": "TOPAIPÍ","stateId": 33 },
+    { "name": "UBALÁ","stateId": 33 },
+    { "name": "UBAQUE", "stateId": 33 },
+    { "name": "VILLA DE SAN DIEGO DE UBATÉ","stateId": 33 },
+    { "name": "UNE","stateId": 33 },
+    { "name": "ÚTICA","stateId": 33 },
+    { "name": "VERGARA","stateId": 33 },
+    { "name": "VIANÍ","stateId": 33 },
+    { "name": "VILLAGÓMEZ", "stateId": 33 },
+    { "name": "VILLAPINZÓN","stateId": 33 },
+    { "name": "VILLETA","stateId": 33 },
+    { "name": "VIOTÁ","stateId": 33 },
+    { "name": "YACOPÍ", "stateId": 33 },
+    { "name": "ZIPACÓN","stateId": 33 },
+    { "name": "ZIPAQUIRÁ","stateId": 33 },
+    { "name": "QUIBDÓ", "stateId": 13 },
+    { "name": "ACANDÍ", "stateId": 13 },
+    { "name": "ALTO BAUDÓ", "stateId": 13 },
+    { "name": "ATRATO", "stateId": 13 },
+    { "name": "BAGADÓ", "stateId": 13 },
+    { "name": "BAHÍA SOLANO","stateId": 13 },
+    { "name": "BAJO BAUDÓ", "stateId": 13 },
+    { "name": "BOJAYÁ", "stateId": 13 },
+    { "name": "EL CANTÓN DEL SAN PABLO","stateId": 13 },
+    { "name": "CARMEN DEL DARIÉN","stateId": 13 },
+    { "name": "CÉRTEGUI","stateId": 13 },
+    { "name": "CONDOTO","stateId": 13 },
+    { "name": "EL CARMEN DE ATRATO","stateId": 13 },
+    { "name": "EL LITORAL DEL SAN JUAN","stateId": 13 },
+    { "name": "ISTMINA","stateId": 13 },
+    { "name": "JURADÓ", "stateId": 13 },
+    { "name": "LLORÓ","stateId": 13 },
+    { "name": "MEDIO ATRATO","stateId": 13 },
+    { "name": "MEDIO BAUDÓ","stateId": 13 },
+    { "name": "MEDIO SAN JUAN", "stateId": 13 },
+    { "name": "NÓVITA", "stateId": 13 },
+    { "name": "NUQUÍ","stateId": 13 },
+    { "name": "RÍO IRÓ","stateId": 13 },
+    { "name": "RÍO QUITO","stateId": 13 },
+    { "name": "RIOSUCIO","stateId": 13 },
+    { "name": "SAN JOSÉ DEL PALMAR","stateId": 13 },
+    { "name": "SIPÍ","stateId": 13 },
+    { "name": "TADÓ","stateId": 13 },
+    { "name": "UNGUÍA", "stateId": 13 },
+    { "name": "UNIÓN PANAMERICANA", "stateId": 13 },
+    { "name": "NEIVA","stateId": 17 },
+    { "name": "ACEVEDO","stateId": 17 },
+    { "name": "AGRADO", "stateId": 17 },
+    { "name": "AIPE","stateId": 17 },
+    { "name": "ALGECIRAS","stateId": 17 },
+    { "name": "ALTAMIRA","stateId": 17 },
+    { "name": "BARAYA", "stateId": 17 },
+    { "name": "CAMPOALEGRE","stateId": 17 },
+    { "name": "COLOMBIA","stateId": 17 },
+    { "name": "ELÍAS","stateId": 17 },
+    { "name": "GARZÓN", "stateId": 17 },
+    { "name": "GIGANTE","stateId": 17 },
+    { "name": "GUADALUPE","stateId": 17 },
+    { "name": "HOBO","stateId": 17 },
+    { "name": "ÍQUIRA", "stateId": 17 },
+    { "name": "ISNOS","stateId": 17 },
+    { "name": "LA ARGENTINA","stateId": 17 },
+    { "name": "LA PLATA","stateId": 17 },
+    { "name": "NÁTAGA", "stateId": 17 },
+    { "name": "OPORAPA","stateId": 17 },
+    { "name": "PAICOL", "stateId": 17 },
+    { "name": "PALERMO","stateId": 17 },
+    { "name": "PALESTINA","stateId": 17 },
+    { "name": "PITAL","stateId": 17 },
+    { "name": "PITALITO","stateId": 17 },
+    { "name": "RIVERA", "stateId": 17 },
+    { "name": "SALADOBLANCO","stateId": 17 },
+    { "name": "SAN AGUSTÍN","stateId": 17 },
+    { "name": "SANTA MARÍA","stateId": 17 },
+    { "name": "SUAZA","stateId": 17 },
+    { "name": "TARQUI", "stateId": 17 },
+    { "name": "TESALIA","stateId": 17 },
+    { "name": "TELLO","stateId": 17 },
+    { "name": "TERUEL", "stateId": 17 },
+    { "name": "TIMANÁ", "stateId": 17 },
+    { "name": "VILLAVIEJA", "stateId": 17 },
+    { "name": "YAGUARÁ","stateId": 17 },
+    { "name": "RIOHACHA","stateId": 18 },
+    { "name": "ALBANIA","stateId": 18 },
+    { "name": "BARRANCAS","stateId": 18 },
+    { "name": "DIBULLA","stateId": 18 },
+    { "name": "DISTRACCIÓN","stateId": 18 },
+    { "name": "EL MOLINO","stateId": 18 },
+    { "name": "FONSECA","stateId": 18 },
+    { "name": "HATONUEVO","stateId": 18 },
+    { "name": "LA JAGUA DEL PILAR", "stateId": 18 },
+    { "name": "MAICAO", "stateId": 18 },
+    { "name": "MANAURE","stateId": 18 },
+    { "name": "SAN JUAN DEL CESAR", "stateId": 18 },
+    { "name": "URIBIA", "stateId": 18 },
+    { "name": "URUMITA","stateId": 18 },
+    { "name": "VILLANUEVA", "stateId": 18 },
+    { "name": "SANTA MARTA","stateId": 19 },
+    { "name": "ALGARROBO","stateId": 19 },
+    { "name": "ARACATACA","stateId": 19 },
+    { "name": "ARIGUANÍ","stateId": 19 },
+    { "name": "CERRO DE SAN ANTONIO","stateId": 19 },
+    { "name": "CHIVOLO","stateId": 19 },
+    { "name": "CIÉNAGA","stateId": 19 },
+    { "name": "CONCORDIA","stateId": 19 },
+    { "name": "EL BANCO","stateId": 19 },
+    { "name": "EL PIÑÓN","stateId": 19 },
+    { "name": "EL RETÉN","stateId": 19 },
+    { "name": "FUNDACIÓN","stateId": 19 },
+    { "name": "GUAMAL", "stateId": 19 },
+    { "name": "NUEVA GRANADA","stateId": 19 },
+    { "name": "PEDRAZA","stateId": 19 },
+    { "name": "PIJIÑO DEL CARMEN","stateId": 19 },
+    { "name": "PIVIJAY","stateId": 19 },
+    { "name": "PLATO","stateId": 19 },
+    { "name": "PUEBLOVIEJO","stateId": 19 },
+    { "name": "REMOLINO","stateId": 19 },
+    { "name": "SABANAS DE SAN ÁNGEL","stateId": 19 },
+    { "name": "SALAMINA","stateId": 19 },
+    { "name": "SAN SEBASTIÁN DE BUENAVISTA","stateId": 19 },
+    { "name": "SAN ZENÓN","stateId": 19 },
+    { "name": "SANTA ANA","stateId": 19 },
+    { "name": "SANTA BÁRBARA DE PINTO", "stateId": 19 },
+    { "name": "SITIONUEVO", "stateId": 19 },
+    { "name": "TENERIFE","stateId": 19 },
+    { "name": "ZAPAYÁN","stateId": 19 },
+    { "name": "ZONA BANANERA","stateId": 19 },
+    { "name": "VILLAVICENCIO","stateId": 20 },
+    { "name": "ACACÍAS","stateId": 20 },
+    { "name": "BARRANCA DE UPÍA","stateId": 20 },
+    { "name": "CABUYARO","stateId": 20 },
+    { "name": "CASTILLA LA NUEVA","stateId": 20 },
+    { "name": "CUBARRAL","stateId": 20 },
+    { "name": "CUMARAL","stateId": 20 },
+    { "name": "EL CALVARIO","stateId": 20 },
+    { "name": "EL CASTILLO","stateId": 20 },
+    { "name": "EL DORADO","stateId": 20 },
+    { "name": "FUENTEDEORO","stateId": 20 },
+    { "name": "GRANADA","stateId": 20 },
+    { "name": "GUAMAL", "stateId": 20 },
+    { "name": "MAPIRIPÁN","stateId": 20 },
+    { "name": "MESETAS","stateId": 20 },
+    { "name": "LA MACARENA","stateId": 20 },
+    { "name": "URIBE","stateId": 20 },
+    { "name": "LEJANÍAS","stateId": 20 },
+    { "name": "PUERTO CONCORDIA","stateId": 20 },
+    { "name": "PUERTO GAITÁN","stateId": 20 },
+    { "name": "PUERTO LÓPEZ","stateId": 20 },
+    { "name": "PUERTO LLERAS","stateId": 20 },
+    { "name": "PUERTO RICO","stateId": 20 },
+    { "name": "RESTREPO","stateId": 20 },
+    { "name": "SAN CARLOS DE GUAROA","stateId": 20 },
+    { "name": "SAN JUAN DE ARAMA","stateId": 20 },
+    { "name": "SAN JUANITO","stateId": 20 },
+    { "name": "SAN MARTÍN", "stateId": 20 },
+    { "name": "VISTAHERMOSA","stateId": 20 },
+    { "name": "PASTO","stateId": 21 },
+    { "name": "ALBÁN","stateId": 21 },
+    { "name": "ALDANA","stateId": 21 },
+    { "name": "ANCUYÁ","stateId": 21 },
+    { "name": "ARBOLEDA","stateId": 21 },
+    { "name": "BARBACOAS","stateId": 21 },
+    { "name": "BELÉN","stateId": 21 },
+    { "name": "BUESACO", "stateId": 21 },
+    { "name": "COLÓN","stateId": 21 },
+    { "name": "CONSACÁ", "stateId": 21 },
+    { "name": "CONTADERO","stateId": 21 },
+    { "name": "CÓRDOBA", "stateId": 21 },
+    { "name": "CUASPÚD", "stateId": 21 },
+    { "name": "CUMBAL","stateId": 21 },
+    { "name": "CUMBITARA","stateId": 21 },
+    { "name": "CHACHAGÜÍ","stateId": 21 },
+    { "name": "CHARCO", "stateId": 21 },
+    { "name": "PEÑOL","stateId": 21 },
+    { "name": "ROSARIO","stateId": 21 },
+    { "name": "TABLÓN DE GÓMEZ","stateId": 21 },
+    { "name": "TAMBO","stateId": 21 },
+    { "name": "TUNES","stateId": 21 },
+    { "name": "GUACHUCAL","stateId": 21 },
+    { "name": "GUAITARILLA", "stateId": 21 },
+    { "name": "GUALMATÁN","stateId": 21 },
+    { "name": "ILES","stateId": 21 },
+    { "name": "IMUÉS","stateId": 21 },
+    { "name": "IPIALES", "stateId": 21 },
+    { "name": "LA CRUZ","stateId": 21 },
+    { "name": "LA FLORIDA", "stateId": 21 },
+    { "name": "LA LLANADA", "stateId": 21 },
+    { "name": "LA TOLA","stateId": 21 },
+    { "name": "LA UNIÓN","stateId": 21 },
+    { "name": "LEIVA","stateId": 21 },
+    { "name": "LINARES", "stateId": 21 },
+    { "name": "LOS ANDES","stateId": 21 },
+    { "name": "MAGÜÍ","stateId": 21 },
+    { "name": "MALLAMA", "stateId": 21 },
+    { "name": "MOSQUERA","stateId": 21 },
+    { "name": "NARIÑO","stateId": 21 },
+    { "name": "OLAYA HERRERA","stateId": 21 },
+    { "name": "OSPINA","stateId": 21 },
+    { "name": "FRANCISCO PIZARRO","stateId": 21 },
+    { "name": "POLICARPA","stateId": 21 },
+    { "name": "POTOSÍ","stateId": 21 },
+    { "name": "PROVIDENCIA", "stateId": 21 },
+    { "name": "PUERRES", "stateId": 21 },
+    { "name": "PUPIALES","stateId": 21 },
+    { "name": "RICAURTE","stateId": 21 },
+    { "name": "ROBERTO PAYÁN","stateId": 21 },
+    { "name": "SAMANIEGO","stateId": 21 },
+    { "name": "SANDONÁ", "stateId": 21 },
+    { "name": "SAN BERNARDO","stateId": 21 },
+    { "name": "SAN LORENZO","stateId": 21 },
+    { "name": "SAN PABLO","stateId": 21 },
+    { "name": "SAN PEDRO DE CARTAGO","stateId": 21 },
+    { "name": "SANTA BÁRBARA","stateId": 21 },
+    { "name": "SANTACRUZ","stateId": 21 },
+    { "name": "SAPUYES", "stateId": 21 },
+    { "name": "SAMINANGO","stateId": 21 },
+    { "name": "SANGUA","stateId": 21 },
+    { "name": "SAN ANDRÉS DE TUMACO","stateId": 21 },
+    { "name": "TÚQUERRES","stateId": 21 },
+    { "name": "YACUANQUER","stateId": 21 },
+    { "name": "CÚCUTA", "stateId": 22 },
+    { "name": "ÁBREGO", "stateId": 22 },
+    { "name": "ARBOLEDAS","stateId": 22 },
+    { "name": "BOCHALEMA","stateId": 22 },
+    { "name": "BUCARASICA", "stateId": 22 },
+    { "name": "CÁCOTA", "stateId": 22 },
+    { "name": "CÁCHIRA","stateId": 22 },
+    { "name": "CHINÁCOTA","stateId": 22 },
+    { "name": "CHITAGÁ","stateId": 22 },
+    { "name": "CONVENCIÓN", "stateId": 22 },
+    { "name": "CUCUTILLA","stateId": 22 },
+    { "name": "DURANIA","stateId": 22 },
+    { "name": "EL CARMEN","stateId": 22 },
+    { "name": "EL TARRA","stateId": 22 },
+    { "name": "EL ZULIA","stateId": 22 },
+    { "name": "GRAMALOTE","stateId": 22 },
+    { "name": "HACARÍ", "stateId": 22 },
+    { "name": "HERRÁN", "stateId": 22 },
+    { "name": "LABATECA","stateId": 22 },
+    { "name": "LA ESPERANZA","stateId": 22 },
+    { "name": "LA PLAYA","stateId": 22 },
+    { "name": "LOS PATIOS", "stateId": 22 },
+    { "name": "LOURDES","stateId": 22 },
+    { "name": "MUTISCUA","stateId": 22 },
+    { "name": "OCAÑA","stateId": 22 },
+    { "name": "PAMPLONA","stateId": 22 },
+    { "name": "PAMPLONITA", "stateId": 22 },
+    { "name": "PUERTO SANTANDER","stateId": 22 },
+    { "name": "RAGONVALIA", "stateId": 22 },
+    { "name": "SALAZAR","stateId": 22 },
+    { "name": "SAN CALIXTO","stateId": 22 },
+    { "name": "SAN CAYETANO","stateId": 22 },
+    { "name": "SANTIAGO","stateId": 22 },
+    { "name": "SARDINATA","stateId": 22 },
+    { "name": "SILOS","stateId": 22 },
+    { "name": "TEORAMA","stateId": 22 },
+    { "name": "TIBÚ","stateId": 22 },
+    { "name": "TOLEDO", "stateId": 22 },
+    { "name": "VILLA CARO", "stateId": 22 },
+    { "name": "VILLA DEL ROSARIO","stateId": 22 },
+    { "name": "ARMENIA","stateId": 24 },
+    { "name": "BUENAVISTA", "stateId": 24 },
+    { "name": "CALARCÁ","stateId": 24 },
+    { "name": "CIRCASIA","stateId": 24 },
+    { "name": "CÓRDOBA","stateId": 24 },
+    { "name": "FILANDIA","stateId": 24 },
+    { "name": "GÉNOVA", "stateId": 24 },
+    { "name": "LA TEBAIDA", "stateId": 24 },
+    { "name": "MONTENEGRO", "stateId": 24 },
+    { "name": "PIJAO","stateId": 24 },
+    { "name": "QUIMBAYA","stateId": 24 },
+    { "name": "SALENTO","stateId": 24 },
+    { "name": "PEREIRA","stateId": 25 },
+    { "name": "APÍA","stateId": 25 },
+    { "name": "BALBOA", "stateId": 25 },
+    { "name": "BELÉN DE UMBRÍA","stateId": 25 },
+    { "name": "DOSQUEBRADAS","stateId": 25 },
+    { "name": "GUÁTICA","stateId": 25 },
+    { "name": "LA CELIA","stateId": 25 },
+    { "name": "LA VIRGINIA","stateId": 25 },
+    { "name": "MARSELLA","stateId": 25 },
+    { "name": "MISTRATÓ","stateId": 25 },
+    { "name": "PUEBLO RICO","stateId": 25 },
+    { "name": "QUINCHÍA","stateId": 25 },
+    { "name": "SANTA ROSA DE CABAL","stateId": 25 },
+    { "name": "SANTUARIO","stateId": 25 },
+    { "name": "BUCARAMANGA","stateId": 27 },
+    { "name": "AGUADA", "stateId": 27 },
+    { "name": "ALBANIA","stateId": 27 },
+    { "name": "ARATOCA","stateId": 27 },
+    { "name": "BARBOSA","stateId": 27 },
+    { "name": "BARICHARA","stateId": 27 },
+    { "name": "BARRANCABERMEJA","stateId": 27 },
+    { "name": "BETULIA","stateId": 27 },
+    { "name": "BOLÍVAR","stateId": 27 },
+    { "name": "CABRERA","stateId": 27 },
+    { "name": "CALIFORNIA", "stateId": 27 },
+    { "name": "CAPITANEJO", "stateId": 27 },
+    { "name": "CARCASÍ","stateId": 27 },
+    { "name": "CEPITÁ", "stateId": 27 },
+    { "name": "CERRITO","stateId": 27 },
+    { "name": "CHARALÁ","stateId": 27 },
+    { "name": "CHARTA", "stateId": 27 },
+    { "name": "CHIMA","stateId": 27 },
+    { "name": "CHIPATÁ","stateId": 27 },
+    { "name": "CIMITARRA","stateId": 27 },
+    { "name": "CONCEPCIÓN", "stateId": 27 },
+    { "name": "CONFINES","stateId": 27 },
+    { "name": "CONTRATACIÓN","stateId": 27 },
+    { "name": "COROMORO","stateId": 27 },
+    { "name": "CURITÍ", "stateId": 27 },
+    { "name": "EL CARMEN DE CHUCURÍ","stateId": 27 },
+    { "name": "EL GUACAMAYO","stateId": 27 },
+    { "name": "EL PEÑÓN","stateId": 27 },
+    { "name": "EL PLAYÓN","stateId": 27 },
+    { "name": "ENCINO", "stateId": 27 },
+    { "name": "ENCISO", "stateId": 27 },
+    { "name": "FLORIÁN","stateId": 27 },
+    { "name": "FLORIDABLANCA","stateId": 27 },
+    { "name": "GALÁN","stateId": 27 },
+    { "name": "GÁMBITA","stateId": 27 },
+    { "name": "GIRÓN","stateId": 27 },
+    { "name": "GUACA","stateId": 27 },
+    { "name": "GUADALUPE","stateId": 27 },
+    { "name": "GUAPOTÁ","stateId": 27 },
+    { "name": "GUAVATÁ","stateId": 27 },
+    { "name": "GÜEPSA", "stateId": 27 },
+    { "name": "HATO","stateId": 27 },
+    { "name": "JESÚS MARÍA","stateId": 27 },
+    { "name": "JORDÁN", "stateId": 27 },
+    { "name": "LA BELLEZA", "stateId": 27 },
+    { "name": "LANDÁZURI","stateId": 27 },
+    { "name": "LA PAZ", "stateId": 27 },
+    { "name": "LEBRIJA","stateId": 27 },
+    { "name": "LOS SANTOS", "stateId": 27 },
+    { "name": "MACARAVITA", "stateId": 27 },
+    { "name": "MÁLAGA", "stateId": 27 },
+    { "name": "MATANZA","stateId": 27 },
+    { "name": "MOGOTES","stateId": 27 },
+    { "name": "MOLAGAVITA", "stateId": 27 },
+    { "name": "OCAMONTE","stateId": 27 },
+    { "name": "OIBA","stateId": 27 },
+    { "name": "ONZAGA", "stateId": 27 },
+    { "name": "PALMAR", "stateId": 27 },
+    { "name": "PALMAS DEL SOCORRO", "stateId": 27 },
+    { "name": "PÁRAMO", "stateId": 27 },
+    { "name": "PIEDECUESTA","stateId": 27 },
+    { "name": "PINCHOTE","stateId": 27 },
+    { "name": "PUENTE NACIONAL","stateId": 27 },
+    { "name": "PUERTO PARRA","stateId": 27 },
+    { "name": "PUERTO WILCHES", "stateId": 27 },
+    { "name": "RIONEGRO","stateId": 27 },
+    { "name": "SABANA DE TORRES","stateId": 27 },
+    { "name": "SAN ANDRÉS", "stateId": 27 },
+    { "name": "SAN BENITO", "stateId": 27 },
+    { "name": "SAN GIL","stateId": 27 },
+    { "name": "SAN JOAQUÍN","stateId": 27 },
+    { "name": "SAN JOSÉ DE MIRANDA","stateId": 27 },
+    { "name": "SAN MIGUEL", "stateId": 27 },
+    { "name": "SAN VICENTE DE CHUCURÍ", "stateId": 27 },
+    { "name": "SANTA BÁRBARA","stateId": 27 },
+    { "name": "SANTA HELENA DEL OPÓN","stateId": 27 },
+    { "name": "SIMACOTA","stateId": 27 },
+    { "name": "SOCORRO","stateId": 27 },
+    { "name": "SUAITA", "stateId": 27 },
+    { "name": "SUCRE","stateId": 27 },
+    { "name": "SURATÁ", "stateId": 27 },
+    { "name": "TONA","stateId": 27 },
+    { "name": "VALLE DE SAN JOSÉ","stateId": 27 },
+    { "name": "VÉLEZ","stateId": 27 },
+    { "name": "VETAS","stateId": 27 },
+    { "name": "VILLANUEVA", "stateId": 27 },
+    { "name": "ZAPATOCA","stateId": 27 },
+    { "name": "SINCELEJO","stateId": 28 },
+    { "name": "BUENAVISTA", "stateId": 28 },
+    { "name": "CAIMITO","stateId": 28 },
+    { "name": "COLOSÓ", "stateId": 28 },
+    { "name": "COROZAL","stateId": 28 },
+    { "name": "COVEÑAS","stateId": 28 },
+    { "name": "CHALÁN", "stateId": 28 },
+    { "name": "EL ROBLE","stateId": 28 },
+    { "name": "GALERAS","stateId": 28 },
+    { "name": "GUARANDA","stateId": 28 },
+    { "name": "LA UNIÓN","stateId": 28 },
+    { "name": "LOS PALMITOS","stateId": 28 },
+    { "name": "MAJAGUAL","stateId": 28 },
+    { "name": "MORROA", "stateId": 28 },
+    { "name": "OVEJAS", "stateId": 28 },
+    { "name": "PALMITO","stateId": 28 },
+    { "name": "SAMPUÉS","stateId": 28 },
+    { "name": "SAN BENITO ABAD","stateId": 28 },
+    { "name": "SAN JUAN DE BETULIA","stateId": 28 },
+    { "name": "SAN MARCOS", "stateId": 28 },
+    { "name": "SAN ONOFRE", "stateId": 28 },
+    { "name": "SAN PEDRO","stateId": 28 },
+    { "name": "SAN LUIS DE SINCÉ","stateId": 28 },
+    { "name": "SUCRE","stateId": 28 },
+    { "name": "SANTIAGO DE TOLÚ","stateId": 28 },
+    { "name": "TOLÚ VIEJO", "stateId": 28 },
+    { "name": "IBAGUÉ", "stateId": 29 },
+    { "name": "ALPUJARRA","stateId": 29 },
+    { "name": "ALVARADO","stateId": 29 },
+    { "name": "AMBALEMA","stateId": 29 },
+    { "name": "ANZOÁTEGUI", "stateId": 29 },
+    { "name": "ARMERO", "stateId": 29 },
+    { "name": "ATACO","stateId": 29 },
+    { "name": "CAJAMARCA","stateId": 29 },
+    { "name": "CARMEN DE APICALÁ","stateId": 29 },
+    { "name": "CASABIANCA", "stateId": 29 },
+    { "name": "CHAPARRAL","stateId": 29 },
+    { "name": "COELLO", "stateId": 29 },
+    { "name": "COYAIMA","stateId": 29 },
+    { "name": "CUNDAY", "stateId": 29 },
+    { "name": "DOLORES","stateId": 29 },
+    { "name": "ESPINAL","stateId": 29 },
+    { "name": "FALAN","stateId": 29 },
+    { "name": "FLANDES","stateId": 29 },
+    { "name": "FRESNO", "stateId": 29 },
+    { "name": "GUAMO","stateId": 29 },
+    { "name": "HERVEO", "stateId": 29 },
+    { "name": "HONDA","stateId": 29 },
+    { "name": "ICONONZO","stateId": 29 },
+    { "name": "LÉRIDA", "stateId": 29 },
+    { "name": "LÍBANO", "stateId": 29 },
+    { "name": "SAN SEBASTIÁN DE MARIQUITA", "stateId": 29 },
+    { "name": "MELGAR", "stateId": 29 },
+    { "name": "MURILLO","stateId": 29 },
+    { "name": "NATAGAIMA","stateId": 29 },
+    { "name": "ORTEGA", "stateId": 29 },
+    { "name": "PALOCABILDO","stateId": 29 },
+    { "name": "PIEDRAS","stateId": 29 },
+    { "name": "PLANADAS","stateId": 29 },
+    { "name": "PRADO","stateId": 29 },
+    { "name": "PURIFICACIÓN","stateId": 29 },
+    { "name": "RIOBLANCO","stateId": 29 },
+    { "name": "RONCESVALLES","stateId": 29 },
+    { "name": "ROVIRA", "stateId": 29 },
+    { "name": "SALDAÑA","stateId": 29 },
+    { "name": "SAN ANTONIO","stateId": 29 },
+    { "name": "SAN LUIS","stateId": 29 },
+    { "name": "SANTA ISABEL","stateId": 29 },
+    { "name": "SUÁREZ", "stateId": 29 },
+    { "name": "VALLE DE SAN JUAN","stateId": 29 },
+    { "name": "VENADILLO","stateId": 29 },
+    { "name": "VILLAHERMOSA","stateId": 29 },
+    { "name": "VILLARRICA", "stateId": 29 },
+    { "name": "CALI","stateId": 30 },
+    { "name": "ALCALÁ", "stateId": 30 },
+    { "name": "ANDALUCÍA","stateId": 30 },
+    { "name": "ANSERMANUEVO","stateId": 30 },
+    { "name": "ARGELIA","stateId": 30 },
+    { "name": "BOLÍVAR","stateId": 30 },
+    { "name": "BUENAVENTURA","stateId": 30 },
+    { "name": "GUADALAJARA DE BUGA","stateId": 30 },
+    { "name": "BUGALAGRANDE","stateId": 30 },
+    { "name": "CAICEDONIA", "stateId": 30 },
+    { "name": "CALIMA", "stateId": 30 },
+    { "name": "CANDELARIA", "stateId": 30 },
+    { "name": "CARTAGO","stateId": 30 },
+    { "name": "DAGUA","stateId": 30 },
+    { "name": "EL ÁGUILA","stateId": 30 },
+    { "name": "EL CAIRO","stateId": 30 },
+    { "name": "EL CERRITO", "stateId": 30 },
+    { "name": "EL DOVIO","stateId": 30 },
+    { "name": "FLORIDA","stateId": 30 },
+    { "name": "GINEBRA","stateId": 30 },
+    { "name": "GUACARÍ","stateId": 30 },
+    { "name": "JAMUNDÍ","stateId": 30 },
+    { "name": "LA CUMBRE","stateId": 30 },
+    { "name": "LA UNIÓN","stateId": 30 },
+    { "name": "LA VICTORIA","stateId": 30 },
+    { "name": "OBANDO", "stateId": 30 },
+    { "name": "PALMIRA","stateId": 30 },
+    { "name": "PRADERA","stateId": 30 },
+    { "name": "RESTREPO","stateId": 30 },
+    { "name": "RIOFRÍO","stateId": 30 },
+    { "name": "ROLDANILLO", "stateId": 30 },
+    { "name": "SAN PEDRO","stateId": 30 },
+    { "name": "SEVILLA","stateId": 30 },
+    { "name": "TORO","stateId": 30 },
+    { "name": "TRUJILLO","stateId": 30 },
+    { "name": "TULUÁ","stateId": 30 },
+    { "name": "ULLOA","stateId": 30 },
+    { "name": "VERSALLES","stateId": 30 },
+    { "name": "VIJES","stateId": 30 },
+    { "name": "YOTOCO", "stateId": 30 },
+    { "name": "YUMBO","stateId": 30 },
+    { "name": "ZARZAL", "stateId": 30 },
+    { "name": "ARAUCA", "stateId": 3 },
+    { "name": "ARAUQUITA","stateId": 3 },
+    { "name": "CRAVO NORTE","stateId": 3 },
+    { "name": "FORTUL", "stateId": 3 },
+    { "name": "PUERTO RONDÓN","stateId": 3 },
+    { "name": "SARAVENA","stateId": 3 },
+    { "name": "TAME","stateId": 3 },
+    { "name": "YOPAL","stateId": 10 },
+    { "name": "AGUAZUL","stateId": 10 },
+    { "name": "CHÁMEZA","stateId": 10 },
+    { "name": "HATO COROZAL","stateId": 10 },
+    { "name": "LA SALINA","stateId": 10 },
+    { "name": "MANÍ","stateId": 10 },
+    { "name": "MONTERREY","stateId": 10 },
+    { "name": "NUNCHÍA","stateId": 10 },
+    { "name": "OROCUÉ", "stateId": 10 },
+    { "name": "PAZ DE ARIPORO", "stateId": 10 },
+    { "name": "PORE","stateId": 10 },
+    { "name": "RECETOR","stateId": 10 },
+    { "name": "SABANALARGA","stateId": 10 },
+    { "name": "SÁCAMA", "stateId": 10 },
+    { "name": "SAN LUIS DE PALENQUE","stateId": 10 },
+    { "name": "TÁMARA", "stateId": 10 },
+    { "name": "TAURAMENA","stateId": 10 },
+    { "name": "TRINIDAD","stateId": 10 },
+    { "name": "VILLANUEVA", "stateId": 10 },
+    { "name": "MOCOA","stateId": 23 },
+    { "name": "COLÓN","stateId": 23 },
+    { "name": "ORITO","stateId": 23 },
+    { "name": "PUERTO ASÍS","stateId": 23 },
+    { "name": "PUERTO CAICEDO", "stateId": 23 },
+    { "name": "PUERTO GUZMÁN","stateId": 23 },
+    { "name": "PUERTO LEGUÍZAMO","stateId": 23 },
+    { "name": "SIBUNDOY","stateId": 23 },
+    { "name": "SAN FRANCISCO","stateId": 23 },
+    { "name": "SAN MIGUEL", "stateId": 23 },
+    { "name": "SANTIAGO","stateId": 23 },
+    { "name": "VALLE DEL GUAMUEZ","stateId": 23 },
+    { "name": "VILLAGARZÓN","stateId": 23 },
+    { "name": "SAN ANDRÉS", "stateId": 26 },
+    { "name": "PROVIDENCIA","stateId": 26 },
+    { "name": "LETICIA","stateId": 1 },
+    { "name": "EL ENCANTO", "stateId": 1 },
+    { "name": "LA CHORRERA","stateId": 1 },
+    { "name": "LA PEDRERA", "stateId": 1 },
+    { "name": "LA VICTORIA","stateId": 1 },
+    { "name": "MIRITÍ – PARANÁ","stateId": 1 },
+    { "name": "PUERTO ALEGRÍA", "stateId": 1 },
+    { "name": "PUERTO ARICA","stateId": 1 },
+    { "name": "PUERTO NARIÑO","stateId": 1 },
+    { "name": "PUERTO SANTANDER","stateId": 1 },
+    { "name": "TARAPACÁ","stateId": 1 },
+    { "name": "INÍRIDA","stateId": 15 },
+    { "name": "BARRANCO MINAS", "stateId": 15 },
+    { "name": "MAPIRIPANA", "stateId": 15 },
+    { "name": "SAN FELIPE", "stateId": 15 },
+    { "name": "PUERTO COLOMBIA","stateId": 15 },
+    { "name": "LA GUADALUPE","stateId": 15 },
+    { "name": "CACAHUAL","stateId": 15 },
+    { "name": "PANA PANA","stateId": 15 },
+    { "name": "MORICHAL","stateId": 15 },
+    { "name": "SAN JOSÉ DEL GUAVIARE","stateId": 16 },
+    { "name": "CALAMAR","stateId": 16 },
+    { "name": "EL RETORNO", "stateId": 16 },
+    { "name": "MIRAFLORES", "stateId": 16 },
+    { "name": "MITÚ","stateId": 31 },
+    { "name": "CARURÚ", "stateId": 31 },
+    { "name": "PACOA","stateId": 31 },
+    { "name": "TARAIRA","stateId": 31 },
+    { "name": "PAPUNAHUA","stateId": 31 },
+    { "name": "YAVARATÉ","stateId": 31 },
+    { "name": "PUERTO CARREÑO", "stateId": 32 },
+    { "name": "LA PRIMAVERA","stateId": 32 },
+    { "name": "SANTA ROSALÍA","stateId": 32 },
+    { "name": "CUMARIBO","stateId": 32 }
 
 ]

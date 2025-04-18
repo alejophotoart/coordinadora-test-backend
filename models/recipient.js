@@ -7,7 +7,7 @@ const Recipient = sequelize.define('Recipient', {
         defaultValue: DataTypes.UUIDV4,
         primaryKey: true,
     },
-    full_name: {
+    fullName: {
         type: DataTypes.STRING(100),
         allowNull: false,
     },
@@ -19,7 +19,7 @@ const Recipient = sequelize.define('Recipient', {
             key: 'id'
         }
     },
-    document_number: {
+    documentNumber: {
         type: DataTypes.STRING(50),
         allowNull: false,
         unique: true,
@@ -27,6 +27,7 @@ const Recipient = sequelize.define('Recipient', {
     phone: {
         type: DataTypes.STRING(20),
         allowNull: false,
+        unique: true,
     }
 }, {
     tableName: 'recipients',

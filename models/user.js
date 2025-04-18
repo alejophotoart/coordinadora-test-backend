@@ -27,6 +27,7 @@ const User = sequelize.define('User', {
     roleId: {
         type: DataTypes.INTEGER,
         allowNull: false,
+        defaultValue: 3,
         references: {
             model: 'roles',
             key: 'id'
@@ -49,7 +50,6 @@ bcrypt(User, options)
 
 // Devolver respuesta perzonalizada de User 
 User.prototype.toJSON = function () {
-
     let { id, password, deletedAt, ...user } = this.get();
     return user;
 };

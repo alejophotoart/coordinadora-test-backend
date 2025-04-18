@@ -15,7 +15,7 @@ const OrderItem = sequelize.define('OrderItem', {
             key: 'id'
         },
     },
-    package_id: {
+    packageId: {
         type: DataTypes.INTEGER,
         allowNull: false,
         references: {

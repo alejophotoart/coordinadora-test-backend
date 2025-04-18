@@ -7,7 +7,7 @@ const Sender = sequelize.define('Sender', {
         defaultValue: DataTypes.UUIDV4,
         primaryKey: true,
     },
-    full_name: {
+    fullName: {
         type: DataTypes.STRING(100),
         allowNull: false,
     },
@@ -19,7 +19,7 @@ const Sender = sequelize.define('Sender', {
             key: 'id'
         }
     },
-    document_number: {
+    documentNumber: {
         type: DataTypes.STRING(50),
         allowNull: false,
         unique: true,
@@ -27,6 +27,7 @@ const Sender = sequelize.define('Sender', {
     phone: {
         type: DataTypes.STRING(20),
         allowNull: false,
+        unique: true,
     }
 }, {
     tableName: 'senders',
@@ -34,5 +35,11 @@ const Sender = sequelize.define('Sender', {
     paranoid: true,
     underscored: true,
 });
+
+// Devolver respuesta perzonalizada de User 
+// Sender.prototype.toJSON = function () {
+//     let { id, deletedAt, ...sender } = this.get();
+//     return sender;
+// };
 
 module.exports = Sender;
