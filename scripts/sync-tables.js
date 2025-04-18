@@ -2,12 +2,12 @@ require('dotenv').config();
 const sequelize = require('../database/sequelize');
 
 // Importar modelos para sincronizacion
-const { User, Role } = require('../models')
+require('../models')
 
-const seedRoles = async() => {
+const syncTables = async() => {
     
     try {
-        await sequelize.sync({ alter: true });
+        await sequelize.sync({ alter: true })
 
         console.log('Tablas sincronizadas');
     } catch (error) {
@@ -22,4 +22,4 @@ const seedRoles = async() => {
     }
 }
 
-seedRoles();
+syncTables();

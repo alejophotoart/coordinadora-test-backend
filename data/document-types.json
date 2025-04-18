@@ -1,0 +1,12 @@
+[
+    { "name": "Registro civil"},
+    { "name": "Tarjeta de identidad"},
+    { "name": "Cédula de ciudadanía"},
+    { "name": "Tarjeta de extranjería"},
+    { "name": "Cédula de extranjería"},
+    { "name": "NIT"},
+    { "name": "Pasaporte"},
+    { "name": "Documento de identificación extranjero"},
+    { "name": "NIT de otro país"},
+    { "name": "NUIP"}
+]

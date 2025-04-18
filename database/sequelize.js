@@ -9,6 +9,7 @@ const sequelize = new Sequelize(
     port: process.env.DB_PORT,
     dialect: 'mysql',
     logging: false,
+    timezone: '-05:00' // Hora Colombia / UTC-5
   }
 );
 

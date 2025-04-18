@@ -1,5 +1,6 @@
 const { DataTypes } = require('sequelize')
 const sequelize = require('../database/sequelize');
+const bcrypt = require('sequelize-bcrypt');
 
 const User = sequelize.define('User', {
     id: {
@@ -37,5 +38,20 @@ const User = sequelize.define('User', {
     paranoid: true,
     underscored: true
 })
+
+// Implementar el bcrypt con sequelize
+const options = {
+    field: 'password',
+    rounds: 15, 
+    compare: 'authenticate',
+}
+bcrypt(User, options)
+
+// Devolver respuesta perzonalizada de User 
+User.prototype.toJSON = function () {
+
+    let { id, password, deletedAt, ...user } = this.get();
+    return user;
+};
 
 module.exports = User

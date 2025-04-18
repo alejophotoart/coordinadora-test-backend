@@ -28,5 +28,12 @@ Para continuar con la pruebas del backend, hay ciertas herramientas a tener en c
 2.  Descargar el codigo o hacer `git clone ${link del repositorio}`
 3.  Ir a la carpeta del proyecto y en consola ejecutar la creacion de las dependencias `npm instal o npm i`
 4.  Luego ejecutar en consola la creacion de las tablas: `node scripts/sync-tables.js`
-5.  **IMPORTANTE** ejecutar el comando para correr los seeder de roles: `node seeders/seedRoles.js`
-6.  Luego para crear las tabla y sus seeders, ejecutar `nodemon app`
+5.  **IMPORTANTE** ejecutar los siguientes comandas para llenar con datos predeterminados las tablas:
+    * `node seeders/cities.js`
+    * `node seeders/countries.js`
+    * `node seeders/document-types.js`
+    * `node seeders/order-status.js`
+    * `node seeders/roles.js`
+    * `node seeders/states.js`
+    
+6.  Luego de crear las tabla y sus seeders, ejecutar `nodemon app`

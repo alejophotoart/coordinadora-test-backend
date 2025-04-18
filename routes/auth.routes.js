@@ -9,7 +9,7 @@ const { login } = require('../controllers/auth.controller');
 
 const router = Router();
 
-router.post('/login', [
+router.post('/', [
     check('email', 'El correo es obligatorio').isEmail(),
     check('password', 'La contraseña es obligatoria').not().isEmpty(),
     validateFields

@@ -1,0 +1,134 @@
+[
+    {
+        "name": "Amazonas",
+        "countryId": 1
+    },
+    {
+        "name": "Antioquia",
+        "countryId": 1
+    },
+    {
+        "name": "Arauca",
+        "countryId": 1
+    },
+    {
+        "name": "Atlantico",
+        "countryId": 1
+    },
+    {
+        "name": "Bogota",
+        "countryId": 1
+    },
+    {
+        "name": "Bolivar",
+        "countryId": 1
+    },
+    {
+        "name": "Boyaca",
+        "countryId": 1
+    },
+    {
+        "name": "Caldas",
+        "countryId": 1
+    },
+    {
+        "name": "Caqueta",
+        "countryId": 1
+    },
+    {
+        "name": "Casanare",
+        "countryId": 1
+    },
+    {
+        "name": "Cauca",
+        "countryId": 1
+    },
+    {
+        "name": "Cesar",
+        "countryId": 1
+    },
+    {
+        "name": "Choco",
+        "countryId": 1
+    },
+    {
+        "name": "Cordoba",
+        "countryId": 1
+    },
+    {
+        "name": "Guainia",
+        "countryId": 1
+    },
+    {
+        "name": "Guaviare",
+        "countryId": 1
+    },
+    {
+        "name": "Huila",
+        "countryId": 1
+    },
+    {
+        "name": "La Guajira",
+        "countryId": 1
+    },
+    {
+        "name": "Magdalena",
+        "countryId": 1
+    },
+    {
+        "name": "Meta",
+        "countryId": 1
+    },
+    {
+        "name": "Nariño",
+        "countryId": 1
+    },
+    {
+        "name": "Norte de Santander",
+        "countryId": 1
+    },
+    {
+        "name": "Putumayo",
+        "countryId": 1
+    },
+    {
+        "name": "Quindio",
+        "countryId": 1
+    },
+    {
+        "name": "Risaralda",
+        "countryId": 1
+    },
+    {
+        "name": "San Andres y Providencia",
+        "countryId": 1
+    },
+    {
+        "name": "Santander",
+        "countryId": 1
+    },
+    {
+        "name": "Sucre",
+        "countryId": 1
+    },
+    {
+        "name": "Tolima",
+        "countryId": 1
+    },
+    {
+        "name": "Valle del Cauca",
+        "countryId": 1
+    },
+    {
+        "name": "Vaupes",
+        "countryId": 1
+    },
+    {
+        "name": "Vichada",
+        "countryId": 1
+    },
+    {
+        "name": "Cundinamarca",
+        "countryId": 1
+    }
+]

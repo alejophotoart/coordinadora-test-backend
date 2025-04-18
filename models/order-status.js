@@ -1,7 +1,7 @@
 const { DataTypes } = require('sequelize')
 const sequelize = require('../database/sequelize')
 
-const Role = sequelize.define('Role', {
+const OrderStatus = sequelize.define('StatusOrder', {
     id: {
         type: DataTypes.INTEGER,
         autoIncrement: true,
@@ -13,8 +13,9 @@ const Role = sequelize.define('Role', {
         unique: true,
     },
 }, {
-    tableName: 'roles',
-    timestamps: false, 
+    tableName: 'order_status',
+    timestamps: true,
+    underscored: true,
 })
 
-module.exports = Role;
+module.exports = OrderStatus;
