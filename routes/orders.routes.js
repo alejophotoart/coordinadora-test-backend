@@ -7,16 +7,22 @@ const validateFields = require('../middlewares/validate-fields');
 // Validar JWT para la creacion de ordenes
 const { validateJwt } = require('../middlewares/validate-jwt');
 
-// Se llama el controlador de las rutas
-const { createOrder } = require('../controllers/orders.controller');
+const { isCityExists, checkTrailToOrdeCities } = require('../helpers/db-validators');
 
-const { isCityExists } = require('../helpers/db-validators');
+// Se llama el controlador de las rutas
+const { createOrder,
+        assignTrailToOrder,
+        getOrderState, 
+        changeStateOrder} = require('../controllers/orders.controller');
 
 const { isPackageValid,
         senderValidation,
         recipientValidation } = require('../helpers/validate-orders');
+const { isAdminRole } = require('../middlewares/validate-role');
 
 const router = Router();
+
+router.get('/:guide', [ validateJwt ], getOrderState)
 
 router.post('/', [
     validateJwt,
@@ -29,5 +35,20 @@ router.post('/', [
     validateFields
     // check('estimatedDate', "Debes enviar una fecha estimada de llegada").not().isEmpty(),
 ], createOrder)
+
+router.put('/assign-trail/:order', [
+    validateJwt,
+    isAdminRole,
+    check('trailId', "La ruta es obligatoria").not().isEmpty(),
+    check('carrierId', "El transportista es obligatorio").not().isEmpty(),
+    check('trailId').custom((trailId, { req }) => checkTrailToOrdeCities(trailId, req)),
+    validateFields
+], assignTrailToOrder)
+
+router.put('/change-state-order/:orderId', [
+    validateJwt,
+    isAdminRole,
+    validateFields
+], changeStateOrder)
 
 module.exports = router
