@@ -3,7 +3,7 @@ const { Trail, TrailCarrier, Carrier } = require("../models");
 
 const createTrail = async(req = request, res = response) => {
 
-    const { originCityId, destinationCityId } = req.body
+    const { originCityId, destinationCityId, nameTrail } = req.body
 
     try {
 
@@ -21,6 +21,7 @@ const createTrail = async(req = request, res = response) => {
         }
         
         const trail = Trail.build({
+            nameTrail,
             originCityId,
             destinationCityId
         })
@@ -40,14 +41,14 @@ const createTrail = async(req = request, res = response) => {
 const assignCarrierToTrail = async( req = request, res = response ) => {
     
     const { carriers } = req.body
-    const { id } = req.params
+    const { trailId } = req.params
 
     for (const carrierId of carriers) {
 
         const carrier = await Carrier.findByPk(carrierId)
         
         await TrailCarrier.create({
-            trailId: id,
+            trailId,
             carrierId
         })
 
@@ -61,7 +62,34 @@ const assignCarrierToTrail = async( req = request, res = response ) => {
     })
 }
 
+const deleteCarrierToTrail = async( req = request, res = response ) => {
+    
+    const { carriers } = req.body
+    const { trailId } = req.params
+
+    for (const carrierId of carriers) {
+
+        const carrier = await Carrier.findByPk(carrierId)
+        
+        await TrailCarrier.destroy({
+            where: {
+                trailId,
+                carrierId
+            }
+        })
+
+        await carrier.update({
+            available: true
+        })
+    }
+
+    res.status(201).json({
+        msg: "Sacaste al transportista de esta ruta"
+    })
+}
+
 module.exports = {
     createTrail,
-    assignCarrierToTrail
+    assignCarrierToTrail,
+    deleteCarrierToTrail
 }

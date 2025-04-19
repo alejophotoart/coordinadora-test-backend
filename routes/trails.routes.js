@@ -7,7 +7,7 @@ const validateFields = require('../middlewares/validate-fields');
 const { isCityExists, isCarriersExists } = require('../helpers/db-validators');
 const { validateJwt } = require('../middlewares/validate-jwt');
 const { isAdminRole } = require('../middlewares/validate-role');
-const { createTrail, assignCarrierToTrail } = require('../controllers/trails.controller');
+const { createTrail, assignCarrierToTrail, deleteCarrierToTrail } = require('../controllers/trails.controller');
 
 // Se llama el controlador de las rutas
 
@@ -21,12 +21,18 @@ router.post('/', [
     validateFields
 ], createTrail)
 
-router.post('/assing-carrier/:id', [
+router.post('/assing-carrier/:trailId', [
     validateJwt,
     isAdminRole,
     check('carriers', 'Los transportista no estan siendo enviados de forma correcta').isArray(),
-    check('carriers').custom(isCarriersExists),
+    check('carriers').custom((carriers, { req } ) => isCarriersExists( carriers, req )),
     validateFields
 ], assignCarrierToTrail)
+
+router.delete('/carrier-trail/:trailId', [
+    validateJwt,
+    isAdminRole,
+    check('carriers', 'Los transportista no estan siendo enviados de forma correcta').isArray(),
+], deleteCarrierToTrail)
 
 module.exports = router
