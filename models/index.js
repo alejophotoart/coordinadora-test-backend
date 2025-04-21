@@ -39,10 +39,10 @@ Order.belongsTo(OrderStatus, { foreignKey: 'orderStatusId' });
 Order.belongsTo(Carrier, { foreignKey: 'carrierId', as: 'carrier' })
 
 // Relacion con countries a states
-State.belongsTo(Country, { foreignKey: 'countryId' });
+State.belongsTo(Country, { foreignKey: 'countryId', as: 'country' });
 
 // Relacion con states a cities
-City.belongsTo(State, { foreignKey: 'stateId' });
+City.belongsTo(State, { foreignKey: 'stateId', as:"state"  });
 
 // Relacion con document type a Senders
 Sender.belongsTo(DocumentType, { foreignKey: 'documentTypeId' });
