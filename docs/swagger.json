@@ -16,32 +16,34 @@
     ],
     "tags": [
         {
-            "name": "Users",
-            "description": "Listar, crear, Actualizar y eliminar usuarios"
-        },
-        {
             "name": "Authentication",
             "description": "Iniciar sesion te devolvera un JWT que te servira para hacer consultas mas avanzadas"
-        },
-        {
-            "name": "Routes",
-            "description": "Podras hacer todo sobre las rutas de los envios... Crear, asignar transportista a dicha ruta y eliminar transportista de rutas"
         },
         {
             "name": "Carriers",
             "description": "Podras crear al transportista y crear a su vez el vehiculo con el que trabajarà"
         },
         {
+            "name": "Cities",
+            "description": "Ciudades - busca ciudades especificas u obtiene un listado de estas paginado"
+        },
+        {
             "name": "Orders",
             "description": "Podras crear ordenes, asignarles la ruta, cambiar su estado y realizar el seguimiento de esta"
+        },
+        {
+            "name": "Routes",
+            "description": "Podras hacer todo sobre las rutas de los envios... Crear, asignar transportista a dicha ruta y eliminar transportista de rutas"
+        },
+        {
+            "name": "Users",
+            "description": "Listar, crear, Actualizar y eliminar usuarios"
         }
     ],
     "paths": {
         "/api/users": {
             "get": {
-                "tags": [
-                    "Users"
-                ],
+                "tags": [ "Users" ],
                 "summary": "Obtener usuarios activos",
                 "parameters": [
                     {
@@ -51,7 +53,8 @@
                         "required": false,
                         "schema": {
                             "type": "integer",
-                            "default": 0
+                            "default": 0,
+                            "example": 0
                         }
                     },
                     {
@@ -61,7 +64,8 @@
                         "required": false,
                         "schema": {
                             "type": "integer",
-                            "default": 100
+                            "default": 100,
+                            "example": 100
                         }                        
                     }
                 ],
@@ -82,9 +86,7 @@
                 }
             },
             "post": {
-                "tags": [
-                    "Users"
-                ],
+                "tags": [ "Users" ],
                 "summary": "Crear usuario rol usuario",
                 "requestBody": {
                     "$ref": "#/components/requestBodies/User"
@@ -111,18 +113,30 @@
         },
         "/api/users/{id}": {
             "put": {
-                "tags": [
-                    "Users"
-                ],
+                "tags": [ "Users" ],
                 "summary": "Actualizar usuario (Actualizar perfil)",
                 "parameters": [
                     {
                         "name": "id",
-                        "in": "query",
+                        "in": "path",
                         "description": "Id del usuario que se actualizara",
-                        "required": true
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "format": "uuid",
+                            "example": "014eb5b7-22e6-4aa1-9aa3-347816df4d82"
+                        }
                     }
                 ],
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/UserUpdate"
+                            }
+                        }
+                    }
+                },
                 "security": [
                     {
                         "JWT": []
@@ -152,16 +166,19 @@
                 }
             },
             "delete": {
-                "tags": [
-                    "Users"
-                ],
+                "tags": [ "Users" ],
                 "summary": "Eliminar usuario",
                 "parameters": [
                     {
                         "name": "id",
-                        "in": "query",
+                        "in": "path",
                         "description": "Id del usuario que se eliminara",
-                        "required": true
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "format": "uuid",
+                            "example": "014eb5b7-22e6-4aa1-9aa3-347816df4d82"
+                        }
                     }
                 ],
                 "security": [
@@ -215,9 +232,7 @@
         },
         "/api/auth": {
             "post": {
-                "tags": [
-                    "Authentication"
-                ],
+                "tags": [ "Authentication" ],
                 "summary": "Iniciar sesion y obtener token para consultas",
                 "description": "Para obtener el JWT para las consultas deber primero iniciar sesion aqui",
                 "requestBody": {
@@ -249,9 +264,7 @@
         },
         "/api/trails": {
             "get": {
-                "tags": [
-                    "Routes"
-                ],
+                "tags": [ "Routes" ],
                 "summary": "Obtener rutas",
                 "description": "Traer todas las rutas disponibles con sus ciudades asignadas",
                 "parameters": [
@@ -262,7 +275,8 @@
                         "required": false,
                         "schema": {
                             "type": "integer",
-                            "default": 0
+                            "default": 0,
+                            "example": 0
                         }
                     },
                     {
@@ -272,7 +286,8 @@
                         "required": false,
                         "schema": {
                             "type": "integer",
-                            "default": 100
+                            "default": 100,
+                            "example": 100
                         }                        
                     }
                 ],
@@ -290,9 +305,7 @@
                 }
             },
             "post": {
-                "tags": [
-                    "Routes"
-                ],
+                "tags": [ "Routes" ],
                 "summary": "Crear rutas para los envio u ordenes",
                 "description": "Para cada orden si no existe la ruta, debes crearle primero la ruta... aqui lo puedes hacer",
                 "requestBody": {
@@ -319,20 +332,19 @@
         },
         "/api/trails/assing-carrier/{trailId}": {
             "post": {
-                "tags": [
-                    "Routes"
-                ],
+                "tags": [ "Routes" ],
                 "summary": "Asignar a las Rutas los transportistas",
                 "description": "Asigna la cantidad de transportistas que desees a las rutas - la unica condicion es que esten disponibles",
                 "parameters": [
                     {
                         "name": "trailId",
-                        "in": "query",
+                        "in": "path",
                         "description": "Id de la ruta a agregar transportista",
                         "required": true,
                         "schema": {
                             "type": "integer",
-                            "default": 0
+                            "default": 0,
+                            "example": 4
                         }
                     }
                 ],
@@ -388,14 +400,14 @@
         },
         "/api/trails/carrier-trail/{trailId}": {
             "delete": {
-                "tags": [
-                    "Routes"
-                ],
+                "tags": [ "Routes" ],
+                "summary":"Quitar transportista de la ruta",
+                "description": "Se quitaran los transportistas con los ids que envies en el array",
                 "parameters": [
                     {
                         "name": "trailId",
-                        "in": "query",
-                        "description": "Id de la ruta a agregar transportista",
+                        "in": "path",
+                        "description": "Id de la ruta transportista",
                         "required": true,
                         "schema": {
                             "type": "integer",
@@ -455,9 +467,7 @@
         },
         "/api/carriers": {
             "get": {
-                "tags": [
-                    "Carriers"
-                ],
+                "tags": [ "Carriers" ],
                 "summary": "Obtener los Transportistas disponibles",
                 "description": "Transportistas disponibles para asignarles rutas y ordenes",
                 "responses": {
@@ -475,9 +485,7 @@
                 }
             },
             "post": {
-                "tags": [
-                    "Carriers"
-                ],
+                "tags": [ "Carriers" ],
                 "summary": "Crear transportista y su vehiculo",
                 "description": "Crear transportista y vehiculos a su vez para que esten disponibles para las rutas",
                 "requestBody": {
@@ -514,20 +522,19 @@
         },
         "/api/orders/{guide}": {
             "get": {
-                "tags": [
-                    "Orders"
-                ],
+                "tags": [ "Orders" ],
                 "summary": "Seguimiento de la orden",
                 "description": "Seguimiento de la orden para saber en que estado se encuentra",
                 "parameters": [
                     {
                         "name": "guide",
-                        "in": "query",
+                        "in": "path",
                         "description": "Numero de guia de la orden para el seguimiento",
                         "required": true,
                         "schema": {
                             "type": "string",
-                            "default": "135424523453432"
+                            "default": "135424523453432",
+                            "example": "135424523453432"
                         }
                     }
                 ],
@@ -579,9 +586,7 @@
         },
         "/api/orders": {
             "post": {
-                "tags": [
-                    "Orders"
-                ],
+                "tags": [ "Orders" ],
                 "summary": "Crear Orden o Envio",
                 "description": "Crear orden, asignar ruta y transportista",
                 "requestBody": {
@@ -619,20 +624,19 @@
         },
         "/api/orders/assign-trail/{order}": {
             "put": {
-                "tags": [
-                    "Orders"
-                ],
+                "tags": [ "Orders" ],
                 "summary": "Asignar ruta a la orden",
                 "description": "Asignar ruta y repartidor al pedido",
                 "parameters": [
                     {
                         "name": "order",
-                        "in": "query",
+                        "in": "path",
                         "description": "Numero de ID de la orden que se le asignara la ruta",
                         "required": true,
                         "schema": {
                             "type": "integer",
-                            "default": 2
+                            "default": 2,
+                            "example": 2
                         }
                     }
                 ],
@@ -685,16 +689,14 @@
         },
         "/api/orders/change-state-order/{orderId}": {
             "put": {
-                "tags": [
-                    "Orders"
-                ],
+                "tags": [ "Orders" ],
                 "summary": "Cambiar estado al pedido",
                 "description": "Cambiar el estado del pedido a En espera -> En transito -> Entregado",
                 "parameters": [
                     {
                         "name": "order",
-                        "in": "query",
-                        "description": "Numero de ID de la orden que se le asignara la ruta",
+                        "in": "path",
+                        "description": "Numero de ID de la orden",
                         "required": true,
                         "schema": {
                             "type": "integer",
@@ -734,6 +736,100 @@
                                         "msg": {
                                             "type": "string",
                                             "example": "No se encontro una orden con ese Id"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/cities": {
+            "get": {
+                "tags": [ "Cities" ],
+                "summary": "Listado de ciudades",
+                "description": "Listadp de ciudades paginado con su respectivo departamento y pais",
+                "parameters": [
+                    {
+                        "name": "since",
+                        "in": "query",
+                        "description": "Numero desde donde quieres que se pagine Ej: 5 desde el registro 5 en adelante",
+                        "required": false,
+                        "schema": {
+                            "type": "integer",
+                            "default": 0,
+                            "example": 5
+                        }
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "Numero hasta donde quieres que se pagine Ej: 100 desde el parametro since hasta el 100",
+                        "required": false,
+                        "schema": {
+                            "type": "integer",
+                            "default": 100,
+                            "example": 50
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Lista de ciudades paginadas",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "cities": {
+                                            "type": "array",
+                                            "items": {
+                                            "$ref": "#/components/schemas/City"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }     
+                }
+            }
+        },
+        "/api/cities/{city}": {
+            "get": {
+                "tags": [ "Cities" ],
+                "summary": "Buscar ciudad por palabra",
+                "description": "Busca una ciudad en especifico de acuerdo a su nombre y obten un listado con todas las coincidencias",
+                "parameters": [
+                    {
+                        "name": "city",
+                        "in": "path",
+                        "description": "nombre de la ciudad",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "example": "bog"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Lista de ciudades encontradas",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "total": {
+                                            "type": "integer",
+                                            "example": 3
+                                        },
+                                        "cities": {
+                                            "type": "array",
+                                            "items": {
+                                                "$ref": "#/components/schemas/City"
+                                            }
                                         }
                                     }
                                 }
@@ -796,6 +892,25 @@
                         "type": "string",
                         "format": "email",
                         "example": "test1@test.com"
+                    },
+                    "password": {
+                        "type": "string",
+                        "example": "123456"
+                    },
+                    "roleId": {
+                        "type": "integer",
+                        "description": "Este si no lo mandas por defecto es 3(User)",
+                        "example": 3
+                    }
+                }
+            },
+            "UserUpdate": {
+                "type": "object",
+                "required": ["name", "password"],
+                "properties": {
+                    "name": {
+                        "type":"string",
+                        "example": "Jose Alejandro"
                     },
                     "password": {
                         "type": "string",
@@ -1048,8 +1163,35 @@
             "Recipient": {
                 "$ref": "#/components/schemas/Sender"
             },
-
-
+            "City": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "integer",
+                        "example": 1
+                    },
+                    "name": {
+                        "type": "string",
+                        "example": "BOGOTÁ"
+                    },
+                    "state": {
+                        "$ref": "#/components/schemas/State"
+                    }
+                }
+            },
+            "State": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "integer",
+                        "example": 1
+                    },
+                    "name": {
+                        "type": "string",
+                        "example": "Cundinamarca"
+                    }
+                }
+            },
             "OnlyMessage": {
                 "type": "string",
                 "properties": {
