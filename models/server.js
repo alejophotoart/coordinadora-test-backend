@@ -15,11 +15,12 @@ class Server {
         this.port = process.env.PORT;
         
         this.routePaths = {
-            auth:  '/api/auth',
-            orders: '/api/orders',
-            users: '/api/users',
-            trails: '/api/trails',
+            auth:     '/api/auth',
             carriers: '/api/carriers',
+            cities:   '/api/cities',
+            orders:   '/api/orders',
+            trails:   '/api/trails',
+            users:    '/api/users',
         }
         
         // Conexion a la DB
@@ -48,11 +49,12 @@ class Server {
     }
 
     routes() {
-        this.app.use(this.routePaths.auth, require('../routes/auth.routes'));
-        this.app.use(this.routePaths.orders, require('../routes/orders.routes'));
-        this.app.use(this.routePaths.users, require('../routes/users.routes'));
-        this.app.use(this.routePaths.trails, require('../routes/trails.routes'));
-        this.app.use(this.routePaths.carriers, require('../routes/carriers.routes'));
+        this.app.use(this.routePaths.auth,      require('../routes/auth.routes'));
+        this.app.use(this.routePaths.carriers,  require('../routes/carriers.routes'));
+        this.app.use(this.routePaths.cities,    require('../routes/cities.route'));
+        this.app.use(this.routePaths.orders,    require('../routes/orders.routes'));
+        this.app.use(this.routePaths.trails,    require('../routes/trails.routes'));
+        this.app.use(this.routePaths.users,     require('../routes/users.routes'));
     }
 
     swagger() {

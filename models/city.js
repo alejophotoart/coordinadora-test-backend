@@ -26,4 +26,9 @@ const City = sequelize.define('City', {
     paranoid: true,
 })
 
+City.prototype.toJSON = function () {
+    let { stateId, createdAt, updatedAt, deletedAt, ...city } = this.get();
+    return city;
+};
+
 module.exports = City;
