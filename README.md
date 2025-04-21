@@ -37,3 +37,14 @@ Para continuar con la pruebas del backend, hay ciertas herramientas a tener en c
     * `node seeders/states.js`
     
 6.  Luego de crear las tabla y sus seeders, ejecutar `nodemon app`
+
+# Adicionales.
+
+Hola como habia dicho, en caso de que no les funcione la api con Swagger.
+Por aca dejo un link propio de postman donde podran probarla y miran detalladamente los endpoint
+Link documentacion 2: **https://documenter.getpostman.com/view/18095859/2sB2iwEtpW**
+
+Muchas gracias,
+Espero pueda volver a saber muy pronto de ustedes y gracias por tomarse el tiempo de leer hasta aca
+
+Saludos!
