@@ -122,7 +122,7 @@ const getOrderState = async(req = request, res = response) => {
         })
     }
     
-    await redisClient.set(cacheKey, JSON.stringify(order), {EX: 120}); // Expira en 60s
+    await redisClient.set(cacheKey, JSON.stringify(order), {EX: 120});
 
     const { orderStatusId, StatusOrder } = JSON.parse(await redisClient.get(cacheKey));
 

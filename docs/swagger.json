@@ -1,0 +1,1149 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Backend Coordinadora API",
+        "description": "Aplicacion backend para la creacion de envios, asignacion de rutas, creacion de usuarios y trasportistas y seguimiento de envios",
+        "contact": {
+            "email": "alejandronba98@gmail.com"
+        },
+        "version": "1.0.0"
+    },
+    "servers": [
+        {
+            "url": "http://localhost:3200",
+            "description": "Url local para todas las consultas"
+        }
+    ],
+    "tags": [
+        {
+            "name": "Users",
+            "description": "Listar, crear, Actualizar y eliminar usuarios"
+        },
+        {
+            "name": "Authentication",
+            "description": "Iniciar sesion te devolvera un JWT que te servira para hacer consultas mas avanzadas"
+        },
+        {
+            "name": "Routes",
+            "description": "Podras hacer todo sobre las rutas de los envios... Crear, asignar transportista a dicha ruta y eliminar transportista de rutas"
+        },
+        {
+            "name": "Carriers",
+            "description": "Podras crear al transportista y crear a su vez el vehiculo con el que trabajarà"
+        },
+        {
+            "name": "Orders",
+            "description": "Podras crear ordenes, asignarles la ruta, cambiar su estado y realizar el seguimiento de esta"
+        }
+    ],
+    "paths": {
+        "/api/users": {
+            "get": {
+                "tags": [
+                    "Users"
+                ],
+                "summary": "Obtener usuarios activos",
+                "parameters": [
+                    {
+                        "name": "since",
+                        "in": "query",
+                        "description": "Desde que registro quiere que se muestra",
+                        "required": false,
+                        "schema": {
+                            "type": "integer",
+                            "default": 0
+                        }
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "La cantidad que se va a mostrar desde el registro indicado",
+                        "required": false,
+                        "schema": {
+                            "type": "integer",
+                            "default": 100
+                        }                        
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Listado de usuarios activos en la app - Los eliminados no se tienen en cuenta",
+                        "content":{
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/User"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "Users"
+                ],
+                "summary": "Crear usuario rol usuario",
+                "requestBody": {
+                    "$ref": "#/components/requestBodies/User"
+                },
+                "responses": {
+                    "201": {
+                        "description": "Usuario creado exitosamente",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/UserCreateResponse"
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Validaciones de ruta"
+                    },
+                    "500": {
+                        "description": "Error inesperado en el server"
+                    }
+                }
+            }
+        },
+        "/api/users/{id}": {
+            "put": {
+                "tags": [
+                    "Users"
+                ],
+                "summary": "Actualizar usuario (Actualizar perfil)",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "query",
+                        "description": "Id del usuario que se actualizara",
+                        "required": true
+                    }
+                ],
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ],
+                "responses":{
+                    "201": {
+                        "description": "Actualizacion existosa",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Message"
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Validaciones de ruta",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Message"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "delete": {
+                "tags": [
+                    "Users"
+                ],
+                "summary": "Eliminar usuario",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "query",
+                        "description": "Id del usuario que se eliminara",
+                        "required": true
+                    }
+                ],
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ],
+                "responses":{
+                    "200": {
+                        "description": "Actualizacion existosa",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Message"
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Validaciones de ruta",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Message"
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "description": "No autorizado para realizar esta accion",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Message"
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Usuario no encontrado",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Message"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/auth": {
+            "post": {
+                "tags": [
+                    "Authentication"
+                ],
+                "summary": "Iniciar sesion y obtener token para consultas",
+                "description": "Para obtener el JWT para las consultas deber primero iniciar sesion aqui",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/requestBodies/Auth"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "successful operation",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/AuthResponse"
+                                },
+                                "token": {
+                                    "type":"string"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/trails": {
+            "get": {
+                "tags": [
+                    "Routes"
+                ],
+                "summary": "Obtener rutas",
+                "description": "Traer todas las rutas disponibles con sus ciudades asignadas",
+                "parameters": [
+                    {
+                        "name": "since",
+                        "in": "query",
+                        "description": "Desde que registro quiere que se muestra",
+                        "required": false,
+                        "schema": {
+                            "type": "integer",
+                            "default": 0
+                        }
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "La cantidad que se va a mostrar desde el registro indicado",
+                        "required": false,
+                        "schema": {
+                            "type": "integer",
+                            "default": 100
+                        }                        
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Listado de rutas con sus ciudades",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                "$ref": "#/components/schemas/TrailsResponse"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "Routes"
+                ],
+                "summary": "Crear rutas para los envio u ordenes",
+                "description": "Para cada orden si no existe la ruta, debes crearle primero la ruta... aqui lo puedes hacer",
+                "requestBody": {
+                    "$ref": "#/components/requestBodies/Route"       
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "Ruta creada exitosamente",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Message"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/trails/assing-carrier/{trailId}": {
+            "post": {
+                "tags": [
+                    "Routes"
+                ],
+                "summary": "Asignar a las Rutas los transportistas",
+                "description": "Asigna la cantidad de transportistas que desees a las rutas - la unica condicion es que esten disponibles",
+                "parameters": [
+                    {
+                        "name": "trailId",
+                        "in": "query",
+                        "description": "Id de la ruta a agregar transportista",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "default": 0
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "carriers": {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "integer",
+                                            "description": "El id de cada transportista que asignaras a la ruta"
+                                        },
+                                        "example": [4,3,5]
+                                    }
+                                },
+                                "required": ["carriers"]                                
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "Transportistas asignados correctarmente a la ruta",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Message"
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "description": "No autorizado para realizar esta accion",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Message"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        },
+        "/api/trails/carrier-trail/{trailId}": {
+            "delete": {
+                "tags": [
+                    "Routes"
+                ],
+                "parameters": [
+                    {
+                        "name": "trailId",
+                        "in": "query",
+                        "description": "Id de la ruta a agregar transportista",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "default": 0
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "carriers": {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "integer",
+                                            "description": "El id de cada transportista que eliminaras de la ruta"
+                                        },
+                                        "example": [4,3,5]
+                                    }
+                                },
+                                "required": ["carriers"]                                
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "Transportistas eliminado de la ruta",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Message"
+                                }
+                            }
+                        }
+                    },
+                    "401": {
+                        "description": "No se pudo sacar al transportista por alguna razon",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Message"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        },
+        "/api/carriers": {
+            "get": {
+                "tags": [
+                    "Carriers"
+                ],
+                "summary": "Obtener los Transportistas disponibles",
+                "description": "Transportistas disponibles para asignarles rutas y ordenes",
+                "responses": {
+                    "200": {
+                        "description": "No se pudo sacar al transportista por alguna razon",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+
+                                    "$ref": "#/components/schemas/AvailableCarries"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "Carriers"
+                ],
+                "summary": "Crear transportista y su vehiculo",
+                "description": "Crear transportista y vehiculos a su vez para que esten disponibles para las rutas",
+                "requestBody": {
+                    "$ref": "#/components/requestBodies/Carrier"
+                },
+                "responses": {
+                    "201": {
+                        "description": "Transportista y vehiculo creado exitosamente",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Message"
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "La informacion del vehiculo no debe llegar vacia",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Message"
+                                }
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ]
+            }
+        },
+        "/api/orders/{guide}": {
+            "get": {
+                "tags": [
+                    "Orders"
+                ],
+                "summary": "Seguimiento de la orden",
+                "description": "Seguimiento de la orden para saber en que estado se encuentra",
+                "parameters": [
+                    {
+                        "name": "guide",
+                        "in": "query",
+                        "description": "Numero de guia de la orden para el seguimiento",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "default": "135424523453432"
+                        }
+                    }
+                ],
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Informacion del estado en que se encuentra la orden",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "orderStatusId": {
+                                            "type": "integer",
+                                            "example": 1
+                                        },
+                                        "StatusOrder": {
+                                            "type": "string",
+                                            "example": "En espera",
+                                            "description": "Estado de la orden"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "No se encontro la orden por el numero de guia",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "msg": {
+                                            "type": "string",
+                                            "example": "Numero de guia no encontrado"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/orders": {
+            "post": {
+                "tags": [
+                    "Orders"
+                ],
+                "summary": "Crear Orden o Envio",
+                "description": "Crear orden, asignar ruta y transportista",
+                "requestBody": {
+                    "$ref": "#/components/requestBodies/Order"
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "La informacion del vehiculo no debe llegar vacia",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "msg": {
+                                            "type": "string",
+                                            "example": "Orden creada exitosamente! ✅"
+                                        },
+                                        "guide": {
+                                            "type": "string",
+                                            "example": "134234534523453",
+                                            "description": "Numero de guia para seguimiento"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/orders/assign-trail/{order}": {
+            "put": {
+                "tags": [
+                    "Orders"
+                ],
+                "summary": "Asignar ruta a la orden",
+                "description": "Asignar ruta y repartidor al pedido",
+                "parameters": [
+                    {
+                        "name": "order",
+                        "in": "query",
+                        "description": "Numero de ID de la orden que se le asignara la ruta",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "default": 2
+                        }
+                    }
+                ],
+                "requestBody" : {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "trailId": {
+                                        "type": "integer",
+                                        "example": 3,
+                                        "description": "Id de la ruta que se le asigna al pedido"
+                                    },
+                                    "carrierId": {
+                                        "type": "integer",
+                                        "example": 4,
+                                        "description": "Id del repartidor que entregara el pedido"
+                                    }
+                                }                                
+                            }
+                        }
+                    }
+                },
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "Asignar ruta a la orden response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "msg": {
+                                            "type": "string",
+                                            "example": "Ruta asignada a la Orden"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/orders/change-state-order/{orderId}": {
+            "put": {
+                "tags": [
+                    "Orders"
+                ],
+                "summary": "Cambiar estado al pedido",
+                "description": "Cambiar el estado del pedido a En espera -> En transito -> Entregado",
+                "parameters": [
+                    {
+                        "name": "order",
+                        "in": "query",
+                        "description": "Numero de ID de la orden que se le asignara la ruta",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "default": 2
+                        }
+                    }
+                ],
+                "security": [
+                    {
+                        "JWT": []
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "Cambio de estado exitoso de la orden",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "msg": {
+                                            "type": "string",
+                                            "example": "Estado de orden actualizado"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "No se encontro el estado de la orden",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "msg": {
+                                            "type": "string",
+                                            "example": "No se encontro una orden con ese Id"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "User": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string",
+                        "format": "uuid",
+                        "description": "Lo crea automaticamente"
+                    },
+                    "name": {
+                        "type": "string"
+                    },
+                    "email": {
+                        "type": "string"
+                    },
+                    "password": {
+                        "type": "string"
+                    },
+                    "roleId": {
+                        "type": "integer",
+                        "description": "Es opcional, por predeterminado crea un usuario con rol 3 (user)"
+                    },
+                    "createdAt": {
+                        "type": "string",
+                        "description": "Fecha de creacion",
+                        "format": "date-time"
+                    },
+                    "updatedAt": {
+                        "type": "string",
+                        "description": "Fecha de actualiacion",
+                        "format": "date-time"
+                    },
+                    "deletedAt": {
+                        "type": "string",
+                        "description": "Fecha de eliminacion",
+                        "format": "date-time"
+                    }
+                }
+            },
+            "UserCreate": {
+                "type": "object",
+                "required": ["name", "email", "password"],
+                "properties": {
+                    "name": {
+                        "type":"string",
+                        "example": "Jose Alejandro"
+                    },
+                    "email": {
+                        "type": "string",
+                        "format": "email",
+                        "example": "test1@test.com"
+                    },
+                    "password": {
+                        "type": "string",
+                        "example": "123456"
+                    },
+                    "roleId": {
+                        "type": "integer",
+                        "description": "Este si no lo mandas por defecto es 3(User)",
+                        "example": 3
+                    }
+                }
+            },
+            "UserCreateResponse":{
+                "type": "object",
+                "properties": {
+                    "msg": {
+                        "$ref": "#/components/schemas/OnlyMessage"
+                    },
+                    "token": {
+                        "$ref": "#/components/schemas/Token"
+                    }
+                }
+            },
+            "AuthResponse": {
+                "type": "object",
+                "properties": {
+                    "user": {
+                        "$ref": "#/components/schemas/User"
+                    },
+                    "token": {
+                        "$ref": "#/components/schemas/Token"
+                    }
+                }
+            },
+            "RouteCreate": {
+                "type": "object",
+                "properties": {
+                    "nameTrail": {
+                        "type": "string",
+                        "example": "pueblo - pueblo"
+                    },
+                    "originCityId": {
+                        "type": "integer",
+                        "example": 215
+                    },
+                    "destinationCityId": {
+                        "type": "integer",
+                        "example": 175
+                    }                    
+                }
+            },
+            "Routes": {
+                "type": "object",
+                "properties": {
+                    "id": { "type": "integer" },
+                    "nameTrail": { "type": "string" },
+                    "originCityId": { "type": "integer" },
+                    "destinationCityId": { "type": "integer" },
+                    "createdAt": { 
+                        "type": "string", 
+                        "format": "date-time" 
+                    },
+                    "updatedAt": { 
+                        "type": "string", 
+                        "format": "date-time" 
+                    },
+                    "deletedAt": { 
+                        "type": "string", 
+                        "format": "date-time", 
+                        "nullable": true 
+                    },
+                    "originCity": {
+                        "type": "object",
+                        "properties": {
+                            "name": { "type": "string" }
+                        }
+                    },
+                    "destinationCity": {
+                        "type": "object",
+                        "properties": {
+                            "name": { "type": "string" }
+                        }
+                    }
+                }
+            },
+            "TrailsResponse": {
+                "type": "object",
+                "properties": {
+                    "total": {
+                        "type": "integer",
+                        "example": 5
+                    },
+                    "trails": {
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/Routes"
+                        }
+                    }
+                }
+            },
+            "CarrierCreate": {
+                "type": "object",
+                "properties": {
+                    "fullName": {
+                        "type": "string",
+                        "example": "Bryan Garcia"
+                    },
+                    "vehicle": {
+                        "$ref": "#components/schemas/Vehicle"
+                    }
+                },
+                "required": ["fullName", "vehicle"]
+            },
+            "AvailableCarries": {
+                "type": "object",
+                "properties": {
+                    "availableCarriers": {
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/Carrier"
+                        }
+                    }
+                }
+            },
+            "Carrier": {
+                "type": "object",
+                "properties": {
+                    "id": { "type": "integer" },
+                    "fullName": { "type": "string" },
+                    "available": { "type": "string" },
+                    "vehicleId": { "type": "string" },
+                    "vehicle": {
+                        "$ref": "#components/schemas/Vehicle"
+                    }
+                }
+            },
+            "Order": {
+                "type": "object",
+                "properties": {
+                    "sender": {
+                        "$ref": "#/components/schemas/Sender"
+                    },
+                    "recipient": {
+                        "$ref": "#/components/schemas/Recipient"
+                    },
+                    "priceDelivery": {
+                        "type": "integer",
+                        "example": 10000
+                    },
+                    "estimatedDate": {
+                        "type": "string",
+                        "example": ""
+                    },
+                    "originCityId": {
+                        "type": "integer",
+                        "example": 654
+                    },
+                    "destinationCityId": {
+                        "type": "integer",
+                        "example": 777
+                    },
+                    "address": {
+                        "type": "string",
+                        "example": "Cra 10 #9-85"
+                    },
+                    "addressDetail": {
+                        "type": "string",
+                        "example": "Por alla bien lejos"
+                    },
+                    "packages": {
+                        "$ref": "#/components/schemas/Packages"
+                    }
+                }
+            },
+            "Packages": {
+                "type": "array",
+                "items": {
+                    "$ref": "#/components/schemas/Package"
+                }
+            },
+            "Package": {
+                "type": "object",
+                "properties": {
+                    "weight": {
+                        "type": "integer",
+                        "example": 15
+                    },
+                    "height": {
+                        "type": "integer",
+                        "example": 85
+                    },
+                    "width": {
+                        "type": "integer",
+                        "example": 10
+                    },
+                    "depth": {
+                        "type": "integer",
+                        "example": 15
+                    },
+                    "package_type": {
+                        "type": "string",
+                        "example": "implementos de ejercicios"
+                    },
+                    "description": {
+                        "type": "string",
+                        "example": ""
+                    },
+                    "fragile": {
+                        "type": "integer",
+                        "description": "Se envio valor tipo boolean",
+                        "example": 0
+                    },
+                    "estimated_price": {
+                        "type": "integer",
+                        "example": 35000
+                    }
+                }
+            },
+            "Vehicle": {
+                "type": "object",
+                "properties": {
+                    "id": { "type": "integer" },
+                    "brand": { "type": "string" },
+                    "reference": { "type": "string" },
+                    "vehicleType": { "type": "string" },
+                    "vehicleIdentification": { "type": "string" }
+                }
+            },
+            "Sender": {
+                "type": "object",
+                "properties": {
+                    "fullName": {
+                        "type": "string",
+                        "example": "Cristiano Ronaldo"
+                    },
+                    "documentTypeId": {
+                        "type": "string",
+                        "example":  1
+                    },
+                    "documentNumber": {
+                        "type": "string",
+                        "example": "7513516848"
+                    },
+                    "phone": {
+                        "type": "string",
+                        "example": "18132186"
+                    }
+                }
+            },
+            "Recipient": {
+                "$ref": "#/components/schemas/Sender"
+            },
+
+
+            "OnlyMessage": {
+                "type": "string",
+                "properties": {
+                    "msg": {
+                        "type": "string",
+                        "description": "mensaje de respuesta",
+                        "example": "Accion ejecutada exitosamente"
+                    }
+                }
+            },
+            "Message": {
+                "type": "object",
+                "properties": {
+                    "msg": {
+                        "type": "string",
+                        "description": "mensaje de respuesta",
+                        "example": "Accion ejecutada"
+                    }
+                }
+            },
+            "Token": {
+                "type": "string",
+                "properties": {
+                    "token": {
+                        "type": "string",
+                        "description": "JWT para autenticacion y consultas",
+                        "example": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJiMWY1MjMxNS03MjM5LTRkYWMtYmU4My01NTM0Mjc3..."
+                    }
+                }
+            }
+        },
+        "requestBodies": {
+            "User": {
+                "description": "El objeto de usuario necesita esto para ser creado",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "#/components/schemas/UserCreate"
+                        }
+                    }
+                },
+                "required": true
+            },
+            "Auth": {
+                "type": "object",
+                "properties": {
+                    "email": {
+                        "type": "string",
+                        "example": "test1@gmail.com"
+                    },
+                    "password": {
+                        "type": "string",
+                        "example": "123456"
+                    }
+                }
+            },
+            "Route": {
+                "description": "",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "#/components/schemas/RouteCreate"
+                        }
+                    }
+                },
+                "required": true
+            },
+            "Carrier": {
+                "description": "",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "#/components/schemas/CarrierCreate"
+                        }
+                    }
+                }
+            },
+            "Order": {
+                "description": "",
+                "content": {
+                    "application/json": {
+                        "schema": {
+                            "$ref": "#/components/schemas/Order"
+                        }
+                    }
+                }
+            }
+        },
+        "securitySchemes": {
+            "JWT": {
+                "type": "apiKey",
+                "in": "header",
+                "name": "x-token"
+            }
+        }
+    }
+}

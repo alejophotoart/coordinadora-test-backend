@@ -10,4 +10,6 @@ const validateFields = ( req, res, next ) => {
     next();
 }
 
-module.exports = validateFields
+module.exports = {
+    validateFields
+}

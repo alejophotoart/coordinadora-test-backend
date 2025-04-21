@@ -2,17 +2,15 @@ const { Router } = require('express');
 const { check } = require('express-validator');
 
 // Se llama el middleware para las rutas
-const validateFields = require('../middlewares/validate-fields');
+const { validateFields, validateJwt, isAdminRole } = require('../middlewares');
 
-const { validateJwt } = require('../middlewares/validate-jwt');
-const { isAdminRole } = require('../middlewares/validate-role');
 const { createCarrier, carriersAvailables } = require('../controllers/carriers.controller');
 
 // Se llama el controlador de las rutas
 
 const router = Router();
 
-router.get('/carriers-availables', carriersAvailables)
+router.get('/', carriersAvailables)
 
 router.post('/', [
     validateJwt,

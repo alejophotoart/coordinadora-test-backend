@@ -2,18 +2,19 @@ const { Router } = require('express');
 const { check } = require('express-validator');
 
 // Se llama el middleware para las rutas
-const validateFields = require('../middlewares/validate-fields');
+const { validateFields, validateJwt, isAdminRole } = require('../middlewares');
 
 const { isCityExists, isCarriersExists } = require('../helpers/db-validators');
-const { validateJwt } = require('../middlewares/validate-jwt');
-const { isAdminRole } = require('../middlewares/validate-role');
-const { createTrail, assignCarrierToTrail, deleteCarrierToTrail } = require('../controllers/trails.controller');
+
+const { trails, createTrail, assignCarrierToTrail, deleteCarrierToTrail } = require('../controllers/trails.controller');
 
 // Se llama el controlador de las rutas
 
 const router = Router();
 
-router.post('/', [
+router.get('/', trails)
+
+router.post('/', [ //Crear rutas
     validateJwt,
     isAdminRole,
     check('originCityId').custom(isCityExists),
@@ -21,7 +22,7 @@ router.post('/', [
     validateFields
 ], createTrail)
 
-router.post('/assing-carrier/:trailId', [
+router.post('/assing-carrier/:trailId', [ //Asignar transportista a la ruta
     validateJwt,
     isAdminRole,
     check('carriers', 'Los transportista no estan siendo enviados de forma correcta').isArray(),
@@ -29,7 +30,7 @@ router.post('/assing-carrier/:trailId', [
     validateFields
 ], assignCarrierToTrail)
 
-router.delete('/carrier-trail/:trailId', [
+router.delete('/carrier-trail/:trailId', [ //Eliminar transportista de ruta
     validateJwt,
     isAdminRole,
     check('carriers', 'Los transportista no estan siendo enviados de forma correcta').isArray(),
