@@ -7,6 +7,10 @@ const Trail = sequelize.define('Trail', {
         autoIncrement: true,
         primaryKey: true,
     },
+    nameTrail: {
+        type: DataTypes.STRING,
+        allowNull: false
+    },
     originCityId: {
         type: DataTypes.INTEGER,
         allowNull: false,
