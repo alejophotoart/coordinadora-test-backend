@@ -1,5 +1,38 @@
 const { request, response } = require("express");
-const { Trail, TrailCarrier, Carrier } = require("../models");
+const { Trail, TrailCarrier, Carrier, City, Order } = require("../models");
+const { Op } = require("sequelize");
+
+const trails = async (req = request, res = response) => {
+    
+    const { limit = 5, since = 0 } = req.query
+    
+    // Ejecutar peticiones a DB de manera simultanea
+    const [ total, trails ] = await Promise.all([
+        Trail.count(),
+        Trail.findAll({
+            offset: Number(since), // Desde que registro quiere que se muestra
+            limit: Number(limit), // La cantidad que se va a mostrar desde el registro indicado
+            order: [['createdAt', 'DESC']], // Ordenar por orden de creacion
+            include: [
+                {
+                    model: City,
+                    as: "originCity",
+                    attributes: ['name']
+                },
+                {
+                    model: City,
+                    as: "destinationCity",
+                    attributes: ['name']
+                }
+            ]
+        }) 
+    ])
+
+    res.status(200).json({
+        total,
+        trails
+    })
+}
 
 const createTrail = async(req = request, res = response) => {
 
@@ -70,6 +103,29 @@ const deleteCarrierToTrail = async( req = request, res = response ) => {
     for (const carrierId of carriers) {
 
         const carrier = await Carrier.findByPk(carrierId)
+
+        /**
+         * Se procede a buscar ese Transportista en dicha ruta en la tabla de ordenes
+         * para saber si ya las termino de entregarlas todas y asi sacarlo de esa ruta
+         * 
+         * Si la respuesta es vacia, significa que ya las entrego todas en esa ruta y se puede sacar de la ruta
+         */
+
+        const orders = await Order.findAll({
+            where: {
+                trailId,
+                carrierId,
+                orderStatusId: {
+                    [Op.ne]: 3
+                }
+            }
+        })
+
+        if (orders) {            
+            return res.status(401).json({
+                msg: `El transportista ${ carrier.fullName } tiene aun ordenes pendientes, no puedes sacarlo de esta ruta`
+            })
+        }
         
         await TrailCarrier.destroy({
             where: {
@@ -89,6 +145,7 @@ const deleteCarrierToTrail = async( req = request, res = response ) => {
 }
 
 module.exports = {
+    trails,
     createTrail,
     assignCarrierToTrail,
     deleteCarrierToTrail

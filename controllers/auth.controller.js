@@ -40,6 +40,20 @@ const login = async( req = request, res = response ) => {
     }
 }
 
+const renovateJwt = async (req = request, res = response) => {
+    
+    const { user } = req
+
+    // Generar JWT
+    const token = await generateJwt(user.id)
+    
+    return res.status(200).json({
+        user,
+        token
+    })
+}
+
 module.exports = {
-    login
+    login,
+    renovateJwt
 }

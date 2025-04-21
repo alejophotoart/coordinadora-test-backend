@@ -1,11 +1,8 @@
 const { Router } = require('express');
 const { check } = require('express-validator');
 
-// Se llama el middleware para las rutas
-const validateFields = require('../middlewares/validate-fields');
-
 // Validar JWT para la creacion de ordenes
-const { validateJwt } = require('../middlewares/validate-jwt');
+const { validateJwt, isAdminRole, validateFields } = require('../middlewares');
 
 const { isCityExists, checkTrailToOrdeCities } = require('../helpers/db-validators');
 
@@ -18,13 +15,12 @@ const { createOrder,
 const { isPackageValid,
         senderValidation,
         recipientValidation } = require('../helpers/validate-orders');
-const { isAdminRole } = require('../middlewares/validate-role');
 
 const router = Router();
 
-router.get('/:guide', [ validateJwt ], getOrderState)
+router.get('/:guide', [ validateJwt ], getOrderState) //Realizar seguimiento de orden
 
-router.post('/', [
+router.post('/', [ //Crear orden
     validateJwt,
     check('address', 'La direccion es obligatoria').not().isEmpty(),
     check('packages', "El paquete no esta siendo enviendo de la forma correcta").isArray().custom(p => isPackageValid(p)),
@@ -36,7 +32,7 @@ router.post('/', [
     // check('estimatedDate', "Debes enviar una fecha estimada de llegada").not().isEmpty(),
 ], createOrder)
 
-router.put('/assign-trail/:order', [
+router.put('/assign-trail/:order', [ //Asignar ruta a la order
     validateJwt,
     isAdminRole,
     check('trailId', "La ruta es obligatoria").not().isEmpty(),
@@ -45,7 +41,7 @@ router.put('/assign-trail/:order', [
     validateFields
 ], assignTrailToOrder)
 
-router.put('/change-state-order/:orderId', [
+router.put('/change-state-order/:orderId', [ //Cambiar estado de la orden
     validateJwt,
     isAdminRole,
     validateFields

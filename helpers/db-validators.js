@@ -5,7 +5,7 @@ const isEmailUsed = async (email) => {
     
     const emailExists = await User.findOne({ where: { email } })
     if (emailExists) {
-        throw new Error(`El correo ${ email } ya se encuentra en uso`)
+        throw new Error(`El correo ${ email } ya se encuentra en uso 🚨`)
     } 
 }
 

@@ -3,8 +3,11 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 
+// Documentacion Swagger
+const swaggerUi = require('swagger-ui-express');
+const swaggerDocument = require('../docs/swagger.json')
+
 const dbConnection = require('../database/config.db');
-const sequelize = require('../database/sequelize');
 class Server {
 
     constructor() {
@@ -27,6 +30,8 @@ class Server {
 
         // Rutas de mi API
         this.routes()
+
+        this.swagger()
     }
 
     async connectDB() {
@@ -48,6 +53,11 @@ class Server {
         this.app.use(this.routePaths.users, require('../routes/users.routes'));
         this.app.use(this.routePaths.trails, require('../routes/trails.routes'));
         this.app.use(this.routePaths.carriers, require('../routes/carriers.routes'));
+    }
+
+    swagger() {
+        this.app.use('/api-docs', swaggerUi.serve);
+        this.app.get('/api-docs', swaggerUi.setup( swaggerDocument ))
     }
 
     listen() {

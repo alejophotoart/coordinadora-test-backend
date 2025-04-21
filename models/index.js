@@ -36,6 +36,8 @@ Order.belongsTo(City, { foreignKey: 'destinationCityId' });
 // Relacion con status order
 Order.belongsTo(OrderStatus, { foreignKey: 'orderStatusId' });
 
+Order.belongsTo(Carrier, { foreignKey: 'carrierId', as: 'carrier' })
+
 // Relacion con countries a states
 State.belongsTo(Country, { foreignKey: 'countryId' });
 
@@ -51,14 +53,18 @@ Recipient.belongsTo(DocumentType, { foreignKey: 'documentTypeId' });
 
 //Relacion de trails con carriers asignados 
 Trail.belongsToMany(Carrier, {
-    through: 'TrailCarrier',
-    foreignKey: 'trailId',
-    otherKey: 'carrierId',
-    as: 'carriers'
-  });
+  through: 'TrailCarrier',
+  foreignKey: 'trailId',
+  otherKey: 'carrierId',
+  as: 'carriers'
+});
+
+// Relacion de trails con cities
+Trail.belongsTo(City, { foreignKey: 'originCityId', as: "originCity" })
+Trail.belongsTo(City, { foreignKey: 'destinationCityId', as: "destinationCity" })
 
 // Relacion de carrier con vehicle
-Carrier.belongsTo(Vehicle, {foreignKey: 'vehicleId'});
+Carrier.belongsTo(Vehicle, {foreignKey: 'vehicleId', as: 'vehicle'});
 
 module.exports = {
     Carrier,
