@@ -25,18 +25,43 @@ Para continuar con la pruebas del backend, hay ciertas herramientas a tener en c
 # Acontinuacion dejare los comandos iniciales para que esta Api funcione
 
 1.  Ir al repositorio en GitHub: *https://github.com/alejophotoart/coordinadora-test-backend.git*
-2.  Descargar el codigo o hacer `git clone ${link del repositorio}`
-3.  Ir a la carpeta del proyecto y en consola ejecutar la creacion de las dependencias `npm instal o npm i`
-4.  Luego ejecutar en consola la creacion de las tablas: `node scripts/sync-tables.js`
+2.  Descargar el codigo o hacer:
+ ```bash 
+ git clone ${link del repositorio}
+ ```
+3.  Ir a la carpeta del proyecto y en consola ejecutar la creacion de las dependencias: 
+```bash 
+npm install o npm i
+```
+4.  Luego ejecutar en consola la creacion de las tablas: 
+```bash 
+node scripts/sync-tables.js
+```
+
 5.  **IMPORTANTE** ejecutar los siguientes comandas para llenar con datos predeterminados las tablas:
-    * `node seeders/cities.js`
-    * `node seeders/countries.js`
-    * `node seeders/document-types.js`
-    * `node seeders/order-status.js`
-    * `node seeders/roles.js`
-    * `node seeders/states.js`
+```bash 
+node seeders/cities.js
+```
+```bash 
+node seeders/countries.js
+```
+```bash
+node seeders/document-types.js
+```
+```bash 
+node seeders/order-status.js
+```
+```bash 
+node seeders/roles.js
+```
+```bash 
+node seeders/states.js
+```
     
-6.  Luego de crear las tabla y sus seeders, ejecutar `nodemon app`
+6.  Luego de crear las tabla y sus seeders, ejecutar:
+```bash 
+nodemon app
+```
 
 # Adicionales.
 
